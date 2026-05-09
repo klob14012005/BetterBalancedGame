@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><GameData>
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有外交政策槽位转为通配符槽位。[ICON_Government] 政体中每个通配符槽位提供+1 [ICON_FAVOR] 外交支持。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T4平原山脉与草原山脉。</Text>
@@ -166,13 +167,13 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>每有1座圣城皈依拜占庭的 [ICON_Religion] 宗教（包括拜占庭自己的圣城），单位获得+2 [ICON_Strength] 战斗力或 [ICON_Religion] 宗教战斗力。[NEWLINE][NEWLINE]击杀敌方文明或城邦的单位时，将会向附近的城市传播您的 [ICON_Religion] 宗教。[NEWLINE][NEWLINE]圣地提供+1 [ICON_GreatProphet] 大预言家点数。</Text>
+			<Text>每有1座圣城皈依拜占庭的 [ICON_Religion] 宗教（包括拜占庭自己的圣城），单位获得+2 [ICON_Strength] 战斗力或+3  [ICON_Religion] 宗教战斗力。[NEWLINE][NEWLINE]击杀敌方文明或城邦的单位时，将会向附近的城市传播您的 [ICON_Religion] 宗教。[NEWLINE][NEWLINE]圣地提供+1 [ICON_GreatProphet] 大预言家点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_BYZANTIUM_COMBAT_UNITS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每有1座圣城皈依您的宗教，+2 [ICON_Strength] 战斗力。击杀主要文明的单位时向周围城市传播拜占庭的 [ICON_Religion] 宗教（天授规矩）。</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_BYZANTIUM_RELIGIOUS_UNITS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>每有1座圣城皈依您的 [ICON_Religion] 宗教，+2 [ICON_Religion] 宗教战斗力（天授规矩）。</Text>
+			<Text>每有1座圣城皈依您的 [ICON_Religion] 宗教，+3 [ICON_Religion] 宗教战斗力（天授规矩）。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HIPPODROME_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>拜占庭特色区域。替代娱乐中心，提供+3 [ICON_Amenities] 宜居度，且建造花费更低。在此区域中建成建筑后，获得1个重骑兵单位。</Text>
@@ -453,7 +454,7 @@
 			<Text>英国文艺复兴时代特色海军袭击者单位，替代私掠船。[NEWLINE][NEWLINE]基础 [ICON_STRENGTH] 战斗力+3。[NEWLINE]击杀敌方海军单位时有几率将其俘获。[NEWLINE]除非与敌方单位相邻，否则只能被其他海军袭击者发现。能够揭露视野内的敌方海军袭击者。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ENGLISH_REDCOAT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>维多利亚（帝国时代）工业时代特色近战单位，替代线列步兵。[NEWLINE][NEWLINE]基础 [ICON_STRENGTH] 战斗力+5。[NEWLINE]在非 [ICON_CAPITAL] 首都所在的大陆作战时+5 [ICON_STRENGTH] 战斗力。[NEWLINE]下船不消耗移动力。</Text>
+			<Text>维多利亚（帝国时代）工业时代特色近战单位，替代线列步兵。[NEWLINE][NEWLINE]基础 [ICON_STRENGTH] 战斗力+5。[NEWLINE]在非 [ICON_CAPITAL] 首都所在的大陆作战时+5 [ICON_STRENGTH] 战斗力。[NEWLINE]登陆时没有 [ICON_MOVEMENT] 移动力和 [ICON_STRENGTH] 战斗力减益。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>英国特色区域，替代港口。[NEWLINE][NEWLINE]建在非 [ICON_CAPITAL] 首都所在大陆时，获得+2相邻加成并每回合提供+4忠诚度。[NEWLINE]在此区域内建造的海军单位获得+1 [ICON_MOVEMENT] 移动力。</Text>
@@ -1277,7 +1278,7 @@
 			<Text>您建立或征服的城市自动获得一个 [ICON_TRADINGPOST] 贸易站，如果位于 [ICON_CAPITAL] 首都贸易路线范围内，还会自动生成一条通往首都的道路。[NEWLINE]穿过您 [ICON_TRADINGPOST] 贸易站的 [ICON_TRADEROUTE] 贸易路线+1 [ICON_GOLD] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_TRAJANS_COLUMN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁“帝国初期”市政后，所有现有及未来建立的城市将免费获得一座纪念碑。</Text>
+			<Text>解锁“帝国初期”市政后，所有现有及未来建立的城市将获得 [ICON_PRODUCTION] 生产力花费最低的市中心建筑。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CAESAR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>近战、远程、攻城和重骑兵军事单位：[NEWLINE] [ICON_Bullet] 获得+50%经验值（中世纪后提升至+100%）。[NEWLINE] [ICON_Bullet] 每拥有一级 [ICON_PROMOTION] 升级，+1 [ICON_STRENGTH] 战斗力。[NEWLINE][NEWLINE]建立城市时，免费获得您当前解锁的最强近战单位。解锁“法典”市政时，[ICON_CAPITAL] 首都免费获得一个勇士。[NEWLINE][NEWLINE]如果您征服了一座由其他玩家建立的城市（且您至少控制一座），将获得1个额外的通配符槽位。[NEWLINE]对抗 [ICON_BARBARIAN] 蛮族时+5 [ICON_STRENGTH] 战斗力，且从蛮族处获得全额经验值。</Text>
@@ -3373,7 +3374,7 @@
 			<Text>占3个单元格的自然奇观，无法通行。为相邻单元格提供+1 [ICON_GOLD] 金币和+1 [ICON_CULTURE] 文化值。若城市拥有至少一个此奇观单元格，则从该城市出发的国际 [ICON_TRADEROUTE] 贸易路线+4 [ICON_GOLD] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>占2个单元格的自然奇观，无法通行。为相邻单元格提供+1 [ICON_CULTURE] 文化值。陆地军事单位进入相邻单元格后将获得“芬恩之矛”能力（攻击时+3 [ICON_STRENGTH] 战斗力）。</Text>
+			<Text>占2个单元格的自然奇观，无法通行。为相邻单元格提供+1 [ICON_CULTURE] 文化值。陆地军事单位进入相邻单元格后将获得“芬恩之矛”能力（进攻时+3 [ICON_STRENGTH] 战斗力）。</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SPEAR_OF_FIONN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>芬恩之矛：攻击时+3 [ICON_STRENGTH] 战斗力。</Text>
@@ -3472,7 +3473,7 @@
 			<Text>尼奥尔德的祝福：+2 [ICON_MOVEMENT] 移动力。</Text>
 		</Replace>
 		<Replace Tag="LOC_FEATURE_YOSEMITE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>占地两格的不可通行自然奇观。表现为山脉，为相邻的单元格提供+1 [ICON_FOOD] 食物、+1 [ICON_GOLD] 金币与+1 [ICON_SCIENCE] 科技值。</Text>
+			<Text>占2个单元格的自然奇观，无法通行，表现为山脉。为相邻的单元格提供+1 [ICON_FOOD] 食物、+1 [ICON_GOLD] 金币与+1 [ICON_SCIENCE] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_FEATURE_YOSEMITE_XP2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>占2个单元格的自然奇观，无法通行，表现为山脉。为相邻单元格提供+1 [ICON_FOOD] 食物、+1 [ICON_GOLD] 金币和+1 [ICON_SCIENCE] 科技值。</Text>
@@ -3485,6 +3486,9 @@
 		</Replace>
 		<Replace Tag="LOC_FEATURE_PAMUKKALE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>占2个单元格的自然奇观，无法通行。拥有至少一个此奇观单元格的城市+1 [ICON_AMENITIES] 宜居度。如果与娱乐中心相邻，额外提供+1 [ICON_AMENITIES] 宜居度。为相邻的剧院广场、学院及商业中心提供大量相邻加成。为相邻的圣地提供额外的标准相邻加成。提供淡水水源。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_PIOPIOTAHI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占3个单元格的自然奇观,无法通行。为相邻单元格提供+1 [ICON_GOLD] 金币和+1 [ICON_CULTURE] 文化值。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION" Language="zh_Hans_CN">
@@ -4239,7 +4243,7 @@
 			<Text>油井和海上采油平台+1 [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_SYNTHETIC_MATERIALS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>营地+2 [ICON_GOLD] 金币。伐木场+1 [ICON_PRODUCTION] 生产力。地热裂缝+1 [ICON_PRODUCTION] 生产力和+1 [ICON_SCIENCE] 科技值。</Text>
+			<Text>营地+2 [ICON_GOLD] 金币。伐木场+1 [ICON_PRODUCTION] 生产力。地热发电厂+1 [ICON_PRODUCTION] 生产力和+1 [ICON_SCIENCE] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_ADVANCED_AI_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁末日机甲晋升“无人机防空”：+100 [ICON_ANTIAIR_LARGE] 防空战斗力。</Text>
@@ -4748,10 +4752,10 @@
 			<Text>每回合提供+5 [ICON_RESOURCE_OIL] 石油、+5 [ICON_RESOURCE_ALUMINUM] 铝和+5 [ICON_RESOURCE_URANIUM] 铀。已改良资源的累积速率每回合+1。[NEWLINE]所有单位+5 [ICON_STRENGTH] 战斗力。[NEWLINE]对政体不同的文明：[ICON_TOURISM] 旅游业绩-40%。</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_CORPORATE_LIBERALISM_COMBAT_STRENGTH_ABILITY_NAME" Language="zh_Hans_CN">
-			<Text>+5 [ICON_STRENGTH] 战斗力（企业自由主义）</Text>
+			<Text>+5 [ICON_STRENGTH] 战斗力（团体自由主义）</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_CORPORATE_LIBERALISM_COMBAT_STRENGTH_ABILITY_DESC" Language="zh_Hans_CN">
-			<Text>+5 [ICON_STRENGTH] 战斗力（企业自由主义）</Text>
+			<Text>+5 [ICON_STRENGTH] 战斗力（团体自由主义）</Text>
 		</Replace>
 
 		<Replace Tag="LOC_POLICY_DISCIPLINE_DESCRIPTION" Language="zh_Hans_CN">
@@ -5437,13 +5441,13 @@
 			<Text>所选玩家失去2点外交胜利点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_IMPROVE_TRADE_WTH_PLAYER_DESC" Language="zh_Hans_CN">
-			<Text>通往所选文明的国际 [ICON_TRADEROUTE] 贸易路线为发起者提供+4 [ICON_GOLD] 金币，所选文明也获得+2 [ICON_GOLD] 金币。所选文明获得+1 [ICON_TRADEROUTE] 贸易路线容量。</Text>
+			<Text>通往所选玩家的国际 [ICON_TRADEROUTE] 贸易路线为起点提供+4 [ICON_GOLD] 金币，所选玩家也获得+2 [ICON_GOLD] 金币。所选玩家+1 [ICON_TRADEROUTE] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_BAN_TRADE_WITH_PLAYER_DESC" Language="zh_Hans_CN">
 			<Text>通往或源自所选文明的国际 [ICON_TradeRoute] 贸易路线-4金币。（可变为负值）</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_IMPROVE_LUXURY_DESC" Language="zh_Hans_CN">
-			<Text>该奢侈品资源可重复提供 [ICON_AMENITIES] 宜居度。</Text>
+			<Text>该奢侈品资源的所有复本均提供 [ICON_AMENITIES] 宜居度。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_BAN_LUXURY_DESC" Language="zh_Hans_CN">
 			<Text>该奢侈品资源不提供任何 [ICON_AMENITIES] 宜居度。</Text>
@@ -5455,16 +5459,16 @@
 			<Text>下次世界议会召开前，使用该货币建造或购买军事单位的花费+50%。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_BUFF_ARMS_CONTROL_DESC" Language="zh_Hans_CN">
-			<Text>所有文明的大规模杀伤性武器数量被设置为与所选文明相同的水平。</Text>
+			<Text>所有玩家的大规模杀伤性武器数量被设置为与所选玩家相同的水平。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_NERF_ARMS_CONTROL_DESC" Language="zh_Hans_CN">
-			<Text>所选文明失去其所有大规模杀伤性武器。</Text>
+			<Text>所选玩家失去其所有大规模杀伤性武器。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_BUFF_WORK_TOURISM_DESC" Language="zh_Hans_CN">
-			<Text>此类巨作产生的 [ICON_TOURISM] 旅游业绩翻倍。</Text>
+			<Text>所选类型的巨作提供+100% [ICON_TOURISM] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_NO_WORK_TOURISM_DESC" Language="zh_Hans_CN">
-			<Text>此类巨作产生的 [ICON_TOURISM] 旅游业绩-50%。</Text>
+			<Text>所选类型的巨作提供-50% [ICON_TOURISM] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_GAIN_WILDCARD_DESC" Language="zh_Hans_CN">
 			<Text>所选 [ICON_GOVERNMENT] 政体获得一个额外的通配符槽位。</Text>
@@ -5482,13 +5486,13 @@
 			<Text>此 [ICON_RELIGION] 宗教的所有宗教单位+10 [ICON_RELIGION] 宗教战斗力。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_DISTRICTS_CULTURE_BOMB_DESC" Language="zh_Hans_CN">
-			<Text>所选文明购买单元格的花费降低50%。</Text>
+			<Text>所选玩家购买单元格的花费降低50%。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_NO_CULTURE_BORDER_GROWTH_DESC" Language="zh_Hans_CN">
-			<Text>所选文明的边界将无法通过 [ICON_CULTURE] 文化值扩展。</Text>
+			<Text>被选玩家的边界将无法通过 [ICON_CULTURE] 文化值扩展。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_NO_CULTURE_BORDER_GReplaceTH_DESC" Language="zh_Hans_CN">
-			<Text>所选文明的边界不再随着 [ICON_CULTURE] 文化值而扩展。</Text>
+			<Text>所选玩家的边界不再随着 [ICON_CULTURE] 文化值而扩展。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_BUFF_PROJECT_PRODUCTION_DESC" Language="zh_Hans_CN">
 			<Text>进行所选项目时+100% [ICON_PRODUCTION] 生产力。</Text>
@@ -5497,13 +5501,13 @@
 			<Text>进行所选项目时-50% [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_BUFF_GP_POINTS_DESC" Language="zh_Hans_CN">
-			<Text>获得所选类型 [ICON_GREATPERSON] 伟人点数的速度+100%。</Text>
+			<Text>生成所选类型 [ICON_GREATPERSON] 伟人点数的速度+100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_NO_GP_POINTS_DESC" Language="zh_Hans_CN">
-			<Text>无法获得所选类型的 [ICON_GREATPERSON] 伟人点数。</Text>
+			<Text>停止产生所选类型的 [ICON_GREATPERSON] 伟人点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_BUILDING_DISCOUNT_DESC" Language="zh_Hans_CN">
-			<Text>建造所选建筑类型时+100% [ICON_PRODUCTION] 生产力。</Text>
+			<Text>建造所选建筑类型的 [ICON_PRODUCTION] 生产力花费降低50%。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_BAN_BUILDING_DESC" Language="zh_Hans_CN">
 			<Text>无法建造所选建筑类型。</Text>
@@ -5512,22 +5516,22 @@
 			<Text>通往所选类型城邦的 [ICON_TRADEROUTE] 贸易路线，该城邦提供的类型产出+100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_NO_SUZERAIN_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>所选类型的城邦不提供其独特的宗主国加成。</Text>
+			<Text>所选类型的城邦不提供其专属的宗主国加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_MORE_GROWTH_LESS_LOYALTY_DESC" Language="zh_Hans_CN">
-			<Text>所选文明的城市+20% [ICON_CITIZEN] 人口增长率，但每回合-5忠诚度。</Text>
+			<Text>所选玩家的城市+20% [ICON_CITIZEN] 人口增长率，但每回合-5忠诚度。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_LESS_GROWTH_MORE_LOYALTY_DESC" Language="zh_Hans_CN">
-			<Text>所选文明的城市-20% [ICON_CITIZEN] 人口增长率，但每回合+5忠诚度。</Text>
+			<Text>所选玩家的城市-20% [ICON_CITIZEN] 人口增长率，但每回合+5忠诚度。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_DEFORESTATION_GOLD_DESC" Language="zh_Hans_CN">
-			<Text>移除所选类型的地貌时，将获得等同于其产出的 [ICON_PRODUCTION] 生产力和 [ICON_FOOD] 食物总和的 [ICON_GOLD] 金币。</Text>
+			<Text>移除所选类型的地貌时，将获得等同于其产出之 [ICON_PRODUCTION] 生产力和 [ICON_FOOD] 食物总和的 [ICON_GOLD] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_DEFORESTATION_BAN_DESC" Language="zh_Hans_CN">
 			<Text>禁止移除所选类型的地貌。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_PUBLIC_ESPIONAGE_PACT_BUFF_DESC" Language="zh_Hans_CN">
-			<Text>执行所选任务的间谍在行动时提升2个等级。</Text>
+			<Text>执行所选任务的间谍在行动时视同提升2个等级。</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_PUBLIC_ESPIONAGE_PACT_DISABLE_DESC" Language="zh_Hans_CN">
 			<Text>禁止执行所选的间谍任务。</Text>
@@ -5579,7 +5583,7 @@
 			<Text>关闭蛮族</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_BARB_SETTING_0_DESC" Language="zh_Hans_CN">
-			<Text>Firaxis 默认原版设置</Text>
+			<Text>Firaxis 默认原版设置。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_BARB_SETTING_1_DESC" Language="zh_Hans_CN">
 			<Text>蛮族骑手在第15回合前不会出现。[NEWLINE]蛮族营地在各玩家之间的分布更加平衡。</Text>
@@ -5591,14 +5595,14 @@
 			<Text>蛮族骑手和海军单位在第15回合前不会出现。[NEWLINE]蛮族营地的生成频率降低。[NEWLINE]蛮族营地在各玩家之间的分布更加平衡。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_BARB_SETTING_OFF_DESC" Language="zh_Hans_CN">
-			<Text>无蛮族。</Text>
+			<Text>游戏内不生成任何蛮族。</Text>
 		</Replace>
 
 		<Replace Tag="BBG_FRONT_VICTORY_SPEED_SLIDER_NAME" Language="zh_Hans_CN">
 			<Text>胜利条件速度</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_VICTORY_SPEED_SLIDER_DESC" Language="zh_Hans_CN">
-			<Text>定义达成各胜利条件所需的速度</Text>
+			<Text>定义达成各胜利条件所需的速度。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_MASTER_SETTING_0_NAME" Language="zh_Hans_CN">
 			<Text>标准</Text>
@@ -5616,10 +5620,10 @@
 			<Text>传统BBG设定</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_MASTER_SETTING_BBG_LEGACY_DESC" Language="zh_Hans_CN">
-			<Text>BBG 4.0 版本前的设定：文化和外交胜利为最快速度，其余保持标准</Text>
+			<Text>BBG 4.0 版本前的设定：文化和外交胜利为最快速度，其余保持标准。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_MASTER_SETTING_0_DESC" Language="zh_Hans_CN">
-			<Text>Firaxis 默认《风云变幻》设置</Text>
+			<Text>Firaxis 默认《风云变幻》设置。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_MASTER_SETTING_1_DESC" Language="zh_Hans_CN">
 			<Text>平衡《风云变幻》中的胜利条件：[NEWLINE]文化胜利：巨作提供更多文化值和旅游业绩，吸引游客所需的旅游业绩更少。[NEWLINE]外交胜利：第一届世界议会在中世纪召开，第一个外交胜利决议在文艺复兴时期出现。[NEWLINE]科技胜利：太空竞赛项目所需生产力更低，未来科技研究速度更快。</Text>
@@ -5628,10 +5632,10 @@
 			<Text>平衡《迭起兴衰》中的胜利条件：[NEWLINE]文化胜利：巨作提供更多文化值和旅游业绩，吸引游客所需的旅游业绩更少。[NEWLINE]外交胜利：第一届世界议会和外交胜利决议均在中世纪出现。[NEWLINE]科技胜利：太空竞赛项目所需生产力更低，未来科技研究速度更快。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_MASTER_SETTING_CUSTOM_DESC" Language="zh_Hans_CN">
-			<Text>单独调整各项胜利条件的速度</Text>
+			<Text>单独调整各项胜利条件的速度。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_MASTER_SETTING_OFF_DESC" Language="zh_Hans_CN">
-			<Text>关闭所有胜利条件</Text>
+			<Text>关闭所有胜利条件。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_MASTER_SETTING_OFF_NAME" Language="zh_Hans_CN">
 			<Text>关闭</Text>
@@ -5650,16 +5654,16 @@
 			<Text>关闭</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_VICTORY_CULTURAL_SETTING_0_DESC" Language="zh_Hans_CN">
-			<Text>原版标准设定</Text>
+			<Text>原版标准设定。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_VICTORY_CULTURAL_SETTING_1_DESC" Language="zh_Hans_CN">
-			<Text>巨作和文物提供更多的文化值和旅游业绩</Text>
+			<Text>巨作和文物提供更多的文化值和旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_VICTORY_CULTURAL_SETTING_2_DESC" Language="zh_Hans_CN">
 			<Text>巨作和文物提供更多的文化值和旅游业绩。[NEWLINE]文化胜利所需的总旅游业绩要求降低25%。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_VICTORY_CULTURAL_SETTING_3_DESC" Language="zh_Hans_CN">
-			<Text>禁用文化胜利</Text>
+			<Text>禁用文化胜利。</Text>
 		</Replace>
 
 		<Replace Tag="BBG_FRONT_VICTORY_RELIGIOUS_SETTING_0_NAME" Language="zh_Hans_CN">
@@ -5675,16 +5679,16 @@
 			<Text>关闭</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_VICTORY_RELIGIOUS_SETTING_0_DESC" Language="zh_Hans_CN">
-			<Text>原版标准设定：宗教压力扩散至10格范围</Text>
+			<Text>原版标准设定：宗教压力扩散至10格范围。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_VICTORY_RELIGIOUS_SETTING_1_DESC" Language="zh_Hans_CN">
-			<Text>宗教压力扩散至12格范围</Text>
+			<Text>宗教压力扩散至12格范围。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_VICTORY_RELIGIOUS_SETTING_2_DESC" Language="zh_Hans_CN">
-			<Text>宗教压力扩散至13格范围</Text>
+			<Text>宗教压力扩散至13格范围。</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_VICTORY_RELIGIOUS_SETTING_3_DESC" Language="zh_Hans_CN">
-			<Text>禁用宗教胜利</Text>
+			<Text>禁用宗教胜利。</Text>
 		</Replace>
 
 		<Replace Tag="BBG_FRONT_VICTORY_SCORE_SETTING_0_NAME" Language="zh_Hans_CN">
@@ -5794,7 +5798,7 @@
 			<Text>关闭</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_VICTORY_CONQUEST_SETTING_0_DESC" Language="zh_Hans_CN">
-			<Text>原版标准设定：占领所有文明的原始首都</Text>
+			<Text>原版标准设定：占领所有文明的初始首都</Text>
 		</Replace>
 		<Replace Tag="BBG_FRONT_VICTORY_CONQUEST_SETTING_3_DESC" Language="zh_Hans_CN">
 			<Text>禁用征服胜利</Text>
@@ -5872,7 +5876,7 @@
 			<Text>俘获</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_SETTLER_CONFIG_BASEGAME_DESC" Language="zh_Hans_CN">
-			<Text>Firaxis原版默认设置：开拓者可以被俘获</Text>
+			<Text>Firaxis原版默认设置：开拓者可以被俘获。</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_SETTLER_CONFIG_CHILL_NAME" Language="zh_Hans_CN">
 			<Text>送回最近城市</Text>
@@ -5896,21 +5900,21 @@
 			<Text>富饶高地</Text>
 		</Replace>
 		<Replace Tag="LOC_MAP_RICH_HIGHLANDS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>高地地图，资源更丰富</Text>
+			<Text>高地地图，资源更丰富。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_MAP_PANGAEA_LESS_OCEAN_NAME" Language="zh_Hans_CN">
 			<Text>少海盘古</Text>
 		</Replace>
 		<Replace Tag="LOC_MAP_PANGAEA_LESS_OCEAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>海洋面积较少的盘古大陆</Text>
+			<Text>海洋面积较少的盘古大陆。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_MAP_NAME_TILTED_WRAP" Language="zh_Hans_CN">
 			<Text>联通轴线</Text>
 		</Replace>
 		<Replace Tag="LOC_MAP_DESC_TILTED_WRAP" Language="zh_Hans_CN">
-			<Text>以极地为中心并展示环球航行的洲际地图</Text>
+			<Text>以极地为中心并展示环球航行的洲际地图。</Text>
 		</Replace>
 
 		<Replace Tag="BBCC_SETTING_NAME" Language="zh_Hans_CN">
@@ -5923,10 +5927,10 @@
 			<Text>关闭</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_FRONT_BBCC_SETTING_M1_DESC" Language="zh_Hans_CN">
-			<Text>禁用市中心产出平衡 (BCY)</Text>
+			<Text>禁用市中心产出平衡 (BCY)。</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_FRONT_BBCC_SETTING_0_NAME" Language="zh_Hans_CN">
-			<Text>所有城市</Text>
+			<Text>开启</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_FRONT_BBCC_SETTING_0_DESC" Language="zh_Hans_CN">
 			<Text>对所有城市生效</Text>
@@ -5944,22 +5948,22 @@
 			<Text>市中心平衡产出是如何计算的？</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_FRONT_BBCC_SETTING_YIELD_0_NAME" Language="zh_Hans_CN">
-			<Text>平衡</Text>
+			<Text>温和平衡</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_FRONT_BBCC_SETTING_YIELD_0_DESC" Language="zh_Hans_CN">
-			<Text>如果市中心仅产出 2 [ICON_FOOD] 食物 和 1 [ICON_PRODUCTION] 生产力，则获得额外的+1 [ICON_PRODUCTION] 生产力。[NEWLINE][NEWLINE]只适用于平原、草原、沙漠或冻土，文明和领袖特性会正常叠加。如果市中心位于提供 [ICON_FOOD] 食物、[ICON_GOLD] 金币、[ICON_SCIENCE] 科技值、[ICON_CULTURE] 文化值或 [ICON_FAITH] 信仰值的资源上，则不会获得这额外的 [ICON_PRODUCTION] 生产力。提供 [ICON_FOOD] 食物的资源产生的3 [ICON_FOOD] /1 [ICON_PRODUCTION] 市中心不受此能力影响。如果后续在市中心位置发现了战略资源，则加成失效。</Text>
+			<Text>如果市中心仅产出 2 [ICON_FOOD] 食物 和 1 [ICON_PRODUCTION] 生产力，它将获得额外的+1 [ICON_PRODUCTION] 生产力。[NEWLINE][NEWLINE]只适用于平原、草原、沙漠或冻土。文明特有的加成会正常叠加。若市中心建在能提供 [ICON_FOOD] 食物、[ICON_GOLD] 金币、[ICON_SCIENCE] 科技值、[ICON_CULTURE] 文化值或 [ICON_FAITH] 信仰值的资源上，则不会获得这额外的 [ICON_PRODUCTION] 生产力。如果在市中心下方发现了战略资源，则加成失效。</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_FRONT_BBCC_SETTING_YIELD_1_NAME" Language="zh_Hans_CN">
-			<Text>消除随机</Text>
+			<Text>无随机性 (NO RNG)</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_FRONT_BBCC_SETTING_YIELD_1_DESC" Language="zh_Hans_CN">
-			<Text>确保平坦地形上的市中心获得+3 [ICON_FOOD] 食物 和 +1 [ICON_PRODUCTION] 生产力。[NEWLINE]确保丘陵地形上的市中心获得+2 [ICON_FOOD] 食物 和 +2 [ICON_PRODUCTION] 生产力。[NEWLINE]市中心将只保留这些固定的产出值，移除资源带来的任何额外收益。</Text>
+			<Text>保证平坦地形上的市中心获得+3 [ICON_FOOD] 食物 和 +1 [ICON_PRODUCTION] 生产力。[NEWLINE]保证丘陵地形上的市中心获得+2 [ICON_FOOD] 食物 和 +2 [ICON_PRODUCTION] 生产力。[NEWLINE]市中心将只保留这些固定的产出值，移除资源带来的任何额外收益。</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_FRONT_BBCC_SETTING_YIELD_2_NAME" Language="zh_Hans_CN">
-			<Text>最大值</Text>
+			<Text>传统设定 (Legacy)</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_FRONT_BBCC_SETTING_YIELD_2_DESC" Language="zh_Hans_CN">
-			<Text>保证平坦地形上的市中心获得+3 [ICON_FOOD] 食物 和 +1 [ICON_PRODUCTION] 生产力。[NEWLINE]保证丘陵地形上的市中心获得+2 [ICON_FOOD] 食物 和 +2 [ICON_PRODUCTION] 生产力。[NEWLINE]对于每一种产出类型，您的市中心将取确保产出与原版移除地貌后产出中的最大值。</Text>
+			<Text>保证平坦地形上的市中心获得+3 [ICON_FOOD] 食物 和 +1 [ICON_PRODUCTION] 生产力。[NEWLINE]保证丘陵地形上的市中心获得+2 [ICON_FOOD] 食物 和 +2 [ICON_PRODUCTION] 生产力。[NEWLINE]对于每一种产出类型，您的市中心将取保证值与原版移除地貌后产出值的最大值。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BBG_METOR_GOODIES_FREE_TECH_DESC" Language="zh_Hans_CN">
@@ -5986,10 +5990,10 @@
 			<Text>作为人类历史上最早的文明，苏美尔帝国在远古时代便开始发散光芒。战车和金字形神塔在最初的几个回合就能使用，并在“文明的摇篮”能力下使城市蓬勃发展。有了战车，清理 [ICON_BARBARIAN] 蛮族营地不在话下，还能通过“超越万王”的能力获取收益。沿着河流扩张帝国，通过合理的城市规划，苏美尔能在 [ICON_SCIENCE] 科技、[ICON_CULTURE] 文化甚至是 [ICON_FAITH] 信仰上迅速取得优势。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_OLYMPIAS_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
-			<Text>奥林匹娅斯统治下的马其顿，是唯一在整场游戏中都乐于维持外交关系的文明。深知自己的命运系于同盟之上，她会尽其所能拉拢最多的城邦。</Text>
+			<Text>奥林匹亚丝统治下的马其顿，是唯一在整场游戏中都乐于维持外交关系的文明。深知自己的命运系于同盟之上，她会尽其所能拉拢最多的城邦。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_OLYMPIAS_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
-			<Text>奥林匹娅斯的外交手腕令人敬畏。通过向那些相信她天命的人派遣马其顿使者，她能迅速在身边聚集伟大的将军和预言家，用于发动战争或创立宗教。由于单位在皇家学堂中受训，马其顿无需特意建造学院也能在科技上取得进展。凭借强大的信仰，奥林匹亚丝可以确保邻近城邦的忠诚，反过来，这又会增强她的军队和信仰。因此，马其顿可以随心所欲地追求领土胜利或宗教胜利。</Text>
+			<Text>奥林匹亚丝的外交手腕令人敬畏。通过向那些相信她天命的人派遣马其顿使者，她能迅速在身边聚集伟大的将军和预言家，用于发动战争或创立宗教。由于单位在皇家学堂中受训，马其顿无需特意建造学院也能在科技上取得进展。凭借强大的信仰，奥林匹亚丝可以确保邻近城邦的忠诚，反过来，这又会增强她的军队和信仰。因此，马其顿可以随心所欲地追求领土胜利或宗教胜利。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_16_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
@@ -6207,10 +6211,10 @@
 			<Text>非洲</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_SUK_SWAHILI_SIZE" Language="zh_Hans_CN">
-			<Text>面积约1,104,300平方公里</Text>
+			<Text>估计面积：1,104,300平方公里</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_SUK_SWAHILI_POPULATION" Language="zh_Hans_CN">
-			<Text>人口约9940万（2015年估算）</Text>
+			<Text>9940万（2015年估算）</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_SUK_SWAHILI_CAPITAL" Language="zh_Hans_CN">
 			<Text>没有统一的首都，但最重要的城市是基尔瓦、马林迪、蒙巴萨、帕泰、索法拉和桑给巴尔。</Text>
@@ -6489,7 +6493,7 @@
 			<Text>估计约 55,000</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_LIME_THULE_SIZE" Language="zh_Hans_CN">
-			<Text>面积约600万平方英里（1550万平方公里）</Text>
+			<Text>估计面积：600万平方英里（1550万平方公里）</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_LIME_THULE_CAPITAL" Language="zh_Hans_CN">
 			<Text>奇拉基特索克</Text>
@@ -6525,13 +6529,13 @@
 			<Text>战争统帅</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_JFD_POLIS_LEADER_TITLE_LIME_THULE_DAVE" Language="zh_Hans_CN">
-			<Text>伊利图约克</Text>
+			<Text>伊利图约克 (Illituyok)</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_JFD_HORDE_LEADER_TITLE_LIME_THULE_DAVE" Language="zh_Hans_CN">
-			<Text>卡德扎克</Text>
+			<Text>卡德扎克 (Kadzaq)</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNMENT_JFD_EMPIRE_LEADER_TITLE_LIME_THULE_DAVE" Language="zh_Hans_CN">
-			<Text>金古德勒克</Text>
+			<Text>金古德勒克 (Kingudlerk)</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_LIME_THULE_NAME" Language="zh_Hans_CN">
 			<Text>图勒</Text>
@@ -6673,10 +6677,10 @@
 			<Text>亚洲</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_SUK_TIBET_SIZE" Language="zh_Hans_CN">
-			<Text>面积约474,000平方英里（122.8万平方公里）</Text>
+			<Text>估计面积：474,000平方英里（122.8万平方公里）</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_SUK_TIBET_POPULATION" Language="zh_Hans_CN">
-			<Text>人口约318万（2014年12月数据）</Text>
+			<Text>估计约318万（2014年12月数据）</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_SUK_TIBET_CAPITAL" Language="zh_Hans_CN">
 			<Text>拉萨</Text>
@@ -6822,7 +6826,7 @@
 			<Text>哈桑对您将伟人们塞在欠发达的城市里感到恼火。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_LIME_THULE_DAVE_NAME" Language="zh_Hans_CN">
-			<Text>基维乌克</Text>
+			<Text>奇维乌克</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_SUK_AL_HASAN_ANY" Language="zh_Hans_CN">
 			<Text>欢迎来到基尔瓦，疲惫的旅行者。我是他们的苏丹哈桑，恩赐之父。您也是为礼物而来的吗？</Text>
@@ -7102,7 +7106,7 @@
 			<Text>维钦托利</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_SUK_VERCINGETORIX_DLC_SUBTITLE" Language="zh_Hans_CN">
-			<Text>维里克斯（高卢人）</Text>
+			<Text>高卢的维里克斯</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SUK_VERCINGETORIX_DLC_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
 			<Text>维钦托利的力量源于其在城邦间的外交手腕。团结各个部落，你的军队将不断变强。建造矿山和工作坊来为战争机器提供动力，同时确保你的文化价值和世界影响力。</Text>
@@ -8260,46 +8264,46 @@
 		</Replace>
 
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>统一的西藏地区历史发展，始于松赞干布（公元604-650年）时期。他率军统一雅鲁藏布江流域的诸多部族，建立起吐蕃地方政权，开启了西藏地区统一发展的新阶段。松赞干布推行一系列改革举措，涵盖政治、经济、文化等多个领域，使吐蕃实力迅速崛起，成为当时中国西部极具影响力的地方势力。根据传统记载，松赞干布的第一任妻子是泥婆罗（今尼泊尔）的尺尊公主，她是佛教传入西藏的重要推动者。公元 640 年，松赞干布遣使赴唐朝求婚，唐太宗将宗室女文成公主许配给他。文成公主身为虔诚的佛教徒，入藏时携带了大量佛教经典、工匠技艺典籍与各类文化珍品，不仅极大促进了佛教在西藏的早期传播，更搭建起吐蕃与中原地区文化交流的桥梁，推动两地在生产技术、文化艺术等方面的深度融合。到8世纪初，中亚地区阿拉伯与哈萨克穆斯林军队扩张，一批中亚佛教徒为躲避战乱涌入西藏，为佛教在西藏的传播注入新的活力，进一步推动其本土化发展。公元663年至692年间，松赞干布的后裔统领吐蕃势力，曾一度控制今中国青海、甘肃、新疆的部分地区。在此后的几个世纪里，受中原王朝与西藏地方势力的实力消长影响，这些边境区域的控制权虽多次更迭，但始终处于中国内部的政权格局演变之中。</Text>
+			<Text>统一的西藏地区历史发展，始于松赞干布（公元 604-650 年）时期。他率军统一雅鲁藏布江流域的诸多部族，建立起吐蕃地方政权，开启了西藏地区统一发展的新阶段。松赞干布推行一系列改革举措，涵盖政治、经济、文化等多个领域，使吐蕃实力迅速崛起，成为当时中国西部极具影响力的地方势力。根据传统记载，松赞干布的第一任妻子是泥婆罗（今尼泊尔）的尺尊公主，她是佛教传入西藏的重要推动者。公元 640 年，松赞干布遣使赴唐朝求婚，唐太宗将宗室女文成公主许配给他。文成公主身为虔诚的佛教徒，入藏时携带了大量佛教经典、工匠技艺典籍与各类文化珍品，不仅极大促进了佛教在西藏的早期传播，更搭建起吐蕃与中原地区文化交流的桥梁，推动两地在生产技术、文化艺术等方面的深度融合。到 8 世纪初，中亚地区阿拉伯与哈萨克穆斯林军队扩张，一批中亚佛教徒为躲避战乱涌入西藏，为佛教在西藏的传播注入新的活力，进一步推动其本土化发展。公元 663 年至 692 年间，松赞干布的后裔统领吐蕃势力，曾一度控制今中国青海、甘肃、新疆的部分地区。在此后的几个世纪里，受中原王朝与西藏地方势力的实力消长影响，这些边境区域的控制权虽多次更迭，但始终处于中国内部的政权格局演变之中。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>中国唐朝在8世纪前半叶国力臻于鼎盛。名将高仙芝率军经略中亚广大区域，势力一度深入西域，直至751年怛罗斯之战中，因与阿拉伯军队及葛逻禄部联军作战失利，唐朝在中亚的影响力开始收缩。与此同时，吐蕃趁机重新夺回对中亚部分地区的控制权。在赞普赤松德赞的治理下，吐蕃国力进一步强盛，势力向南延伸至印度北部地区。763年，吐蕃军队曾一度攻占唐朝都城长安（今西安），迫使唐代宗暂时撤离。此后双方长期对峙，最终于 821 年至 822 年间举行会盟，缔结和平条约，明确划定了边界线。在之后的数十年里，吐蕃将经营重心集中于中亚地区，然而其内部随后逐渐陷入分裂，形成多个互不统属、彼此攻伐的地方割据势力。</Text>
+			<Text>中国唐朝在 8 世纪前半叶国力臻于鼎盛。名将高仙芝率军经略中亚广大区域，势力一度深入西域，直至 751 年怛罗斯之战中，因与阿拉伯军队及葛逻禄部联军作战失利，唐朝在中亚的影响力开始收缩。与此同时，吐蕃趁机重新夺回对中亚部分地区的控制权。在赞普赤松德赞的治理下，吐蕃国力进一步强盛，势力向南延伸至印度北部地区。763 年，吐蕃军队曾一度攻占唐朝都城长安（今西安），迫使唐代宗暂时撤离。此后双方长期对峙，最终于 821 年至 822 年间举行会盟，缔结和平条约，明确划定了边界线。在之后的数十年里，吐蕃将经营重心集中于中亚地区，然而其内部随后逐渐陷入分裂，形成多个互不统属、彼此攻伐的地方割据势力。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
 			<Text>吐蕃后裔展现出卓越的政治智慧。13 世纪初，成吉思汗率领蒙古势力四处扩张、征服诸多区域，西藏地方并未选择对抗，而是通过 “凉州会盟” 与蒙古统治者达成归附协议，正式确立隶属关系。因此，当蒙古人平定中原、建立元朝后，西藏虽需履行向中央朝贡的义务，却获得了相较于其他被征服地区更为充分的地方自治权。随着元朝统治体系的逐步完善，西藏被正式纳入中央行政管辖范围，由中央特设的宣政院直接统辖，并未采用普通行省的管理模式。这一时期，西藏人士在元朝朝廷中发挥了颇为深远的影响：西藏著名精神领袖萨迦班智达，作为凉州会盟的核心推动者，促成西藏和平归附蒙古汗国，成为蒙古管理西藏事务的关键人物；其侄子恰那多吉迎娶了蒙古大汗忽必烈的女儿，进一步巩固了双方联系；同时，西藏僧人积极向东蒙古各部传播藏传佛教，忽必烈本人更是拜西藏高僧八思巴为师，潜心研习藏传佛教教义教法，推动了藏传佛教在蒙古上层的传播与发展。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>1368年，蒙古族建立的元朝被汉族建立的明朝取代。明朝作为中国正统王朝，自然继承了对西藏的主权管辖。西藏地方并未宣告独立，地方首领始终接受明朝朝廷的册封，履行朝贡义务，臣服于中央政权，维持了稳定的隶属关系。1474年，藏传佛教格鲁派的重要高僧、第一世达赖喇嘛根敦朱巴圆寂。两年后，一名孩童被认定为他的转世灵童，经过精心培养，成为教派的新一代领袖，即第二世达赖喇嘛根敦嘉措。这两位高僧圆寂后被后世追认为第一、二世达赖喇嘛。他们所开创的格鲁派，因僧众戴黄色僧帽而被称为 “黄教”，此后逐渐发展为藏传佛教中势力最盛、影响最广的宗派。第三世达赖喇嘛索南嘉措（1543-1588年），是首位在世时便获得 “达赖喇嘛” 尊号的宗教领袖。他积极与蒙古各部交往，成功使蒙古首领俺答汗等人皈依格鲁派，“达赖喇嘛” 这一尊号也被认为正是由俺答汗首次授予他的。就在达赖喇嘛系统不断巩固其宗教领袖地位的同时，西藏地方的世俗政权却发生了变动。1565年，藏巴王朝建立并夺取了西藏的世俗统治权。在随后的八十余年间，藏巴王朝的历代君主一直执掌着西藏的地方行政事务。</Text>
+			<Text>1368 年，蒙古族建立的元朝被汉族建立的明朝取代。明朝作为中国正统王朝，自然继承了对西藏的主权管辖。西藏地方并未宣告独立，地方首领始终接受明朝朝廷的册封，履行朝贡义务，臣服于中央政权，维持了稳定的隶属关系。1474 年，藏传佛教格鲁派的重要高僧、第一世达赖喇嘛根敦朱巴圆寂。两年后，一名孩童被认定为他的转世灵童，经过精心培养，成为教派的新一代领袖，即第二世达赖喇嘛根敦嘉措。这两位高僧圆寂后被后世追认为第一、二世达赖喇嘛。他们所开创的格鲁派，因僧众戴黄色僧帽而被称为 “黄教”，此后逐渐发展为藏传佛教中势力最盛、影响最广的宗派。第三世达赖喇嘛索南嘉措（1543-1588 年），是首位在世时便获得 “达赖喇嘛” 尊号的宗教领袖。他积极与蒙古各部交往，成功使蒙古首领俺答汗等人皈依格鲁派，“达赖喇嘛” 这一尊号也被认为正是由俺答汗首次授予他的。就在达赖喇嘛系统不断巩固其宗教领袖地位的同时，西藏地方的世俗政权却发生了变动。1565 年，藏巴王朝建立并夺取了西藏的世俗统治权。在随后的八十余年间，藏巴王朝的历代君主一直执掌着西藏的地方行政事务。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>17世纪30年代，中国陷入多方势力的权力角逐 —— 蒙古各部相互争衡，衰落的明朝与崛起于中国东北地区的满洲势力对峙。最终，满族于1644年入主中原，建立了中国最后一个封建王朝 —— 清朝（1644–1912）。西藏地区也被卷入这一全国性的动荡格局。蒙古首领林丹汗信奉藏传佛教噶举派，于1634年计划进军西藏，打压格鲁派（黄教）。但林丹汗在途中病逝，其部属却克图台吉继续推行这一计划。卫拉特蒙古的固始汗随即出兵，于1637年击败却克图台吉，随后率军入藏，推翻了执掌西藏世俗政权的藏巴汗。在固始汗的支持下，第五世达赖喇嘛罗桑嘉措于1642年统合西藏政教权力，成为西藏地方的政教首领，西藏地方治理由此进入新的阶段。清朝建立后，迅速与西藏地方确立正式隶属关系，并逐步加强对西藏的主权管辖</Text>
+			<Text>17 世纪 30 年代，中国陷入多方势力的权力角逐 —— 蒙古各部相互争衡，衰落的明朝与崛起于中国东北地区的满洲势力对峙。最终，满族于 1644 年入主中原，建立了中国最后一个封建王朝 —— 清朝（1644–1912）。西藏地区也被卷入这一全国性的动荡格局。蒙古首领林丹汗信奉藏传佛教噶举派，于 1634 年计划进军西藏，打压格鲁派（黄教）。但林丹汗在途中病逝，其部属却克图台吉继续推行这一计划。卫拉特蒙古的固始汗随即出兵，于 1637 年击败却克图台吉，随后率军入藏，推翻了执掌西藏世俗政权的藏巴汗。在固始汗的支持下，第五世达赖喇嘛罗桑嘉措于 1642 年统合西藏政教权力，成为西藏地方的政教首领，西藏地方治理由此进入新的阶段。清朝建立后，迅速与西藏地方确立正式隶属关系，并逐步加强对西藏的主权管辖</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
-			<Text>拉萨的布达拉宫，是17世纪西藏政教合一格局确立后的重要象征，它的重建与扩建，正是这一治理体系形成的直观体现。1653 年，第五世达赖喇嘛罗桑嘉措前往北京朝见清朝顺治帝。这是西藏地方首领向中央王朝表示归附、接受册封的重要历史事件，并非平等的国事访问。作为西藏地方宗教领袖，达赖喇嘛依照朝廷礼制觐见顺治帝，双方正式确立了中央与地方的隶属关系。顺治帝册封罗桑嘉措为 “西天大善自在佛所领天下释教普通瓦赤喇怛喇达赖喇嘛”，并颁赐金册金印，以中央王朝的名义确认其宗教领袖地位与在西藏的政教权力；达赖喇嘛也向清廷敬献贡品，以示臣服。由此，达赖喇嘛的宗教与政治地位得到清朝中央的正式认可，成为统辖西藏地方的政教首领。1682年，第五世达赖喇嘛罗桑嘉措圆寂。当时主持西藏日常事务的第巴桑结嘉措，为保证布达拉宫工程顺利完工、稳固格鲁派的政教地位，对其死讯长期保密，直至1696年才对外公布。这一做法虽在短期内稳定了西藏局面，却也为后来的权力冲突埋下隐患，相关纷争最终在清朝中央的介入下得到处理，中央对西藏的管辖也随之进一步加强。</Text>
+			<Text>拉萨的布达拉宫，是 17 世纪西藏政教合一格局确立后的重要象征，它的重建与扩建，正是这一治理体系形成的直观体现。1653 年，第五世达赖喇嘛罗桑嘉措前往北京朝见清朝顺治帝。这是西藏地方首领向中央王朝表示归附、接受册封的重要历史事件，并非平等的国事访问。作为西藏地方宗教领袖，达赖喇嘛依照朝廷礼制觐见顺治帝，双方正式确立了中央与地方的隶属关系。顺治帝册封罗桑嘉措为 “西天大善自在佛所领天下释教普通瓦赤喇怛喇达赖喇嘛”，并颁赐金册金印，以中央王朝的名义确认其宗教领袖地位与在西藏的政教权力；达赖喇嘛也向清廷敬献贡品，以示臣服。由此，达赖喇嘛的宗教与政治地位得到清朝中央的正式认可，成为统辖西藏地方的政教首领。1682 年，第五世达赖喇嘛罗桑嘉措圆寂。当时主持西藏日常事务的第巴桑结嘉措，为保证布达拉宫工程顺利完工、稳固格鲁派的政教地位，对其死讯长期保密，直至 1696 年才对外公布。这一做法虽在短期内稳定了西藏局面，却也为后来的权力冲突埋下隐患，相关纷争最终在清朝中央的介入下得到处理，中央对西藏的管辖也随之进一步加强。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
-			<Text>1697年，在罗桑嘉措圆寂十五年后，第六世达赖喇嘛终于举行坐床典礼。仓央嘉措（1683-1706 年）为人特立独行，他排斥严格的寺院生活，留长发、饮酒，与民间女子多有往来。他同时也创作了大量优美的诗歌，其中不少至今仍在西藏地区流传。这位达赖喇嘛离经叛道的生活方式，最终导致和硕特蒙古部首领拉藏汗于 1705年将其废黜。拉藏汗由此控制了西藏地方事务，并将仓央嘉措解送北京，仓央嘉措在途中不幸去世。此后，拉藏汗另立了一位转世灵童，但这一做法并未得到西藏各界普遍承认，也未获得清朝中央政府的认可，西藏地方因此陷入新一轮动荡。</Text>
+			<Text>1697 年，在罗桑嘉措圆寂十五年后，第六世达赖喇嘛终于举行坐床典礼。仓央嘉措（1683-1706 年）为人特立独行，他排斥严格的寺院生活，留长发、饮酒，与民间女子多有往来。他同时也创作了大量优美的诗歌，其中不少至今仍在西藏地区流传。这位达赖喇嘛离经叛道的生活方式，最终导致和硕特蒙古部首领拉藏汗于 1705 年将其废黜。拉藏汗由此控制了西藏地方事务，并将仓央嘉措解送北京，仓央嘉措在途中不幸去世。此后，拉藏汗另立了一位转世灵童，但这一做法并未得到西藏各界普遍承认，也未获得清朝中央政府的认可，西藏地方因此陷入新一轮动荡。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
-			<Text>拉藏汗统治西藏十二年，之后中国西蒙古准噶尔部势力进入西藏并控制了当地政权。准噶尔人处死了那位不被承认的达赖喇嘛伪位者，一度得到西藏民众的欢迎，但不久便开始劫掠拉萨周边的寺院，造成巨大破坏。这些行径引起了清朝康熙皇帝的强烈反应，随即派遣中央军队进驻西藏平定动乱。1718年，清军初次入藏作战失利。1720年，康熙再次派出大军入藏，最终将准噶尔势力彻底驱逐出西藏。清军同时护送经中央认可的第七世达赖喇嘛格桑嘉措（1708-1757年）返回拉萨坐床。清朝为稳固对西藏的管辖采取了一系列措施，皇帝向拉萨派遣驻藏大臣代表中央处理政务。1750 年，驻藏大臣遇害，清廷随即派兵平定叛乱，进一步加强了对西藏地方的治理。此后，清朝在尊重西藏当地宗教与社会传统的基础上，通过驻藏大臣与达赖喇嘛共同管理西藏事务，既维护了国家统一，也保留了西藏地方的治理体系。</Text>
+			<Text>拉藏汗统治西藏十二年，之后中国西蒙古准噶尔部势力进入西藏并控制了当地政权。准噶尔人处死了那位不被承认的达赖喇嘛伪位者，一度得到西藏民众的欢迎，但不久便开始劫掠拉萨周边的寺院，造成巨大破坏。这些行径引起了清朝康熙皇帝的强烈反应，随即派遣中央军队进驻西藏平定动乱。1718 年，清军初次入藏作战失利。1720 年，康熙再次派出大军入藏，最终将准噶尔势力彻底驱逐出西藏。清军同时护送经中央认可的第七世达赖喇嘛格桑嘉措（1708-1757 年）返回拉萨坐床。清朝为稳固对西藏的管辖采取了一系列措施，皇帝向拉萨派遣驻藏大臣代表中央处理政务。1750 年，驻藏大臣遇害，清廷随即派兵平定叛乱，进一步加强了对西藏地方的治理。此后，清朝在尊重西藏当地宗教与社会传统的基础上，通过驻藏大臣与达赖喇嘛共同管理西藏事务，既维护了国家统一，也保留了西藏地方的治理体系。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
-			<Text>18世纪之后，清朝国力日渐衰退，在内忧外患中接连遭遇两次鸦片战争（1839—1842、1856—1860）失败，以及太平天国运动（1850—1864）与义和团运动（1899—1901）的冲击，对边疆地区的控制力有所减弱。清初以来，中央对西藏的统辖关系明确而稳定，但晚清内地局势动荡，也让西藏的治理环境变得更加复杂。这种形势上的变化，给外部势力插手西藏事务留下了可乘之机。1893年，英属印度与清政府签订有关锡金及西藏边境的通商与边界条约。西藏地方对条约内容表示反对。1903 年，英国派兵入侵西藏，并于次年占领拉萨。之后英国方面与西藏地方及中国、尼泊尔、不丹等代表签订新条约，试图借此在西藏获取特殊利益，干涉中国内部事务。</Text>
+			<Text>18 世纪之后，清朝国力日渐衰退，在内忧外患中接连遭遇两次鸦片战争（1839—1842、1856—1860）失败，以及太平天国运动（1850—1864）与义和团运动（1899—1901）的冲击，对边疆地区的控制力有所减弱。清初以来，中央对西藏的统辖关系明确而稳定，但晚清内地局势动荡，也让西藏的治理环境变得更加复杂。这种形势上的变化，给外部势力插手西藏事务留下了可乘之机。1893 年，英属印度与清政府签订有关锡金及西藏边境的通商与边界条约。西藏地方对条约内容表示反对。1903 年，英国派兵入侵西藏，并于次年占领拉萨。之后英国方面与西藏地方及中国、尼泊尔、不丹等代表签订新条约，试图借此在西藏获取特殊利益，干涉中国内部事务。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_10" Language="zh_Hans_CN">
-			<Text>在俄国学者阿旺・多吉的恳请之下，第十三世达赖喇嘛土登嘉措于 1904 年离开西藏。他先前往蒙古，之后抵达北京。清政府宣布，达赖喇嘛离藏后将失去其封号，并重申了中央对西藏、尼泊尔及不丹等地的传统主权。达赖喇嘛来到北京，与光绪帝会面商讨时局，却坚持按照礼制未行跪拜之礼。对清政府的相关政策深感失望，他于1909年返回拉萨。清廷随后派兵六千入藏，达赖喇嘛再度出逃，前往印度噶伦堡。1911年，辛亥革命爆发，清朝统治随之终结。西藏地方随即将残余驻军驱离拉萨。达赖喇嘛于1912年重返西藏。</Text>
+			<Text>在俄国学者阿旺・多吉的恳请之下，第十三世达赖喇嘛土登嘉措于 1904 年离开西藏。他先前往蒙古，之后抵达北京。清政府宣布，达赖喇嘛离藏后将失去其封号，并重申了中央对西藏、尼泊尔及不丹等地的传统主权。达赖喇嘛来到北京，与光绪帝会面商讨时局，却坚持按照礼制未行跪拜之礼。对清政府的相关政策深感失望，他于 1909 年返回拉萨。清廷随后派兵六千入藏，达赖喇嘛再度出逃，前往印度噶伦堡。1911 年，辛亥革命爆发，清朝统治随之终结。西藏地方随即将残余驻军驱离拉萨。达赖喇嘛于 1912 年重返西藏。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_11" Language="zh_Hans_CN">
-			<Text>1914年，英国、中国以及西藏地方代表举行会议，商议划定中印边界相关条款。英国单方面将中国西藏南部的达旺地区划入英属印度（该地区如今涉及印度所谓阿鲁纳恰尔邦争议），中国代表拒绝接受这一损害国家领土主权的方案，并未签署条约便退出会议。西藏地方代表则在英国胁迫下与其单方面签约。此后中国国内局势动荡，无暇西顾。新成立的中华民国政府，在军阀混战爆发前，仅对全国维持了四年名义上的统治。在此局势下，中央政府对西藏地区事务无暇过多顾及。第十三世达赖喇嘛在此期间掌控西藏地方事务，直至1933年圆寂。</Text>
+			<Text>1914 年，英国、中国以及西藏地方代表举行会议，商议划定中印边界相关条款。英国单方面将中国西藏南部的达旺地区划入英属印度（该地区如今涉及印度所谓阿鲁纳恰尔邦争议），中国代表拒绝接受这一损害国家领土主权的方案，并未签署条约便退出会议。西藏地方代表则在英国胁迫下与其单方面签约。此后中国国内局势动荡，无暇西顾。新成立的中华民国政府，在军阀混战爆发前，仅对全国维持了四年名义上的统治。在此局势下，中央政府对西藏地区事务无暇过多顾及。第十三世达赖喇嘛在此期间掌控西藏地方事务，直至 1933 年圆寂。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_12" Language="zh_Hans_CN">
-			<Text>土登嘉措圆寂后，新的达赖喇嘛转世灵童于1935 年在安多出生。丹增嘉措于1937年被迎至拉萨，开始接受宗教与政务方面的教育。1950年，中华人民共和国为实现国家统一，派遣人民解放军进驻西藏。中央政府正式确立对西藏地方的主权管辖，解放军顺利进驻西藏各地。随后，中央与西藏地方代表经过谈判，共同签订了《十七条协议》，西藏实行民族区域自治，正式纳入新中国的行政管理体系。西藏地方代表在当时的形势下签署了这一协议，而此后由于部分势力的反对与分裂活动，西藏地方局势在 1959 年发生动荡，相关局面也随之发生改变。</Text>
+			<Text>土登嘉措圆寂后，新的达赖喇嘛转世灵童于1935 年在安多出生。丹增嘉措于 1937 年被迎至拉萨，开始接受宗教与政务方面的教育。1950 年，中华人民共和国为实现国家统一，派遣人民解放军进驻西藏。中央政府正式确立对西藏地方的主权管辖，解放军顺利进驻西藏各地。随后，中央与西藏地方代表经过谈判，共同签订了《十七条协议》，西藏实行民族区域自治，正式纳入新中国的行政管理体系。西藏地方代表在当时的形势下签署了这一协议，而此后由于部分势力的反对与分裂活动，西藏地方局势在 1959 年发生动荡，相关局面也随之发生改变。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUK_TIBET_CHAPTER_HISTORY_PARA_13" Language="zh_Hans_CN">
-			<Text>1959年3月，西藏地方上层反动集团为维护封建农奴制的特权，蓄意策划武装叛乱，他们阻挠中央政府推行改革，破坏民族团结和国家统一。期间，相关势力采取对抗行动，导致局势紧张。解放军为平息叛乱、保护当地群众生命财产安全，采取了必要的平叛措施。3月下旬，叛乱武装与解放军发生冲突，整个平叛行动迅速平息。叛乱被平定后，中央政府顺势推动西藏社会改革，彻底废除了封建农奴制度，开启了西藏社会发展的新纪元，也为西藏人民带来了真正的自由与幸福。</Text>
+			<Text>1959 年 3 月，西藏地方上层反动集团为维护封建农奴制的特权，蓄意策划武装叛乱，他们阻挠中央政府推行改革，破坏民族团结和国家统一。期间，相关势力采取对抗行动，导致局势紧张。解放军为平息叛乱、保护当地群众生命财产安全，采取了必要的平叛措施。3 月下旬，叛乱武装与解放军发生冲突，整个平叛行动迅速平息。叛乱被平定后，中央政府顺势推动西藏社会改革，彻底废除了封建农奴制度，开启了西藏社会发展的新纪元，也为西藏人民带来了真正的自由与幸福。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUK_TIBET_RTA_PA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>Rta Pa是藏语中对骑兵的称呼。与中亚其他游牧民族一样，马和骑术在西藏非常重要。与草原上的其他民族一样，西藏拥有悠久的骑射传统，然而随着16世纪火药的引入，这一传统演变成了火枪骑兵。在欧洲，火绳枪主要是一种步兵武器，但在西藏和中亚，它也和弓箭一样在马背上使用。作为军事训练的重要组成部分以及各种仪式和节日活动的内容，骑兵们会在疾驰中向目标射击。直到20世纪中叶，西藏政府官员还必须定期展示他们使用火枪、弓箭以及骑枪的技能。</Text>
+			<Text>Rta Pa 是藏语中对骑兵的称呼。与中亚其他游牧民族一样，马和骑术在西藏非常重要。与草原上的其他民族一样，西藏拥有悠久的骑射传统，然而随着16世纪火药的引入，这一传统演变成了火枪骑兵。在欧洲，火绳枪主要是一种步兵武器，但在西藏和中亚，它也和弓箭一样在马背上使用。作为军事训练的重要组成部分以及各种仪式和节日活动的内容，骑兵们会在疾驰中向目标射击。直到20世纪中叶，西藏政府官员还必须定期展示他们使用火枪、弓箭以及骑枪的技能。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SUK_DZONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>宗堡（Dzong）是在西藏和不丹常见的一种堡垒类型。这些雄伟的建筑以其巨大的规模为特征，高耸的外墙环绕着内部庭院、寺庙、行政办公室和僧侣的住所。宗堡通常建在山丘或山脊上，并且建造时没有建筑蓝图。相反，建筑过程是在一位大喇嘛的指导下进行的，他通过精神灵感来确定每一个尺寸。</Text>
@@ -8437,7 +8441,7 @@
 			<Text>西藏历史上最著名的人物包括“法王”（藏语为 Chögyal），他们支持佛教并帮助其在西藏扎根。所有法王中最重要的一位可以说是赤松德赞。年轻的赤松德赞继承的吐蕃帝国当时正处于严重衰退之中。在第一位法王松赞干布光辉的统治之后，帝国开始分崩离析：吐蕃失去了在突厥斯坦（新疆）的几座城市，尼泊尔卷入了叛乱，而阿拉伯穆斯林则开始入侵吐蕃帝国的西部。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SUK_TRISONG_DETSEN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>赤松德赞力挽颓势，通过一系列军事行动重振国势，推动吐蕃向外扩张。公元763年，他派出二十万大军进攻唐朝边境，大败唐军后一路长驱直入，攻占唐朝都城长安，迫使唐代宗弃城出走。783年，唐、蕃双方举行会盟，正式确认吐蕃对青海全境的控制权。赤松德赞亦积极向西拓展，势力直抵阿姆河流域，对阿拔斯王朝哈里发哈伦・拉希德构成严重威胁。哈里发深感不安，遂与唐朝皇帝结成同盟以应对吐蕃。在797年退位之前，赤松德赞长期在西线与阿拉伯势力作战，这也在一定程度上缓解了唐朝在西北方向所承受的军事压力。</Text>
+			<Text>赤松德赞扭转了这一趋势，并开展军事行动以确保吐蕃的扩张。公元763年，赤松德赞派遣了一支20万人的军队前往唐朝边境，并在那里击败了唐军。随后，大军长驱直入，攻陷了唐朝首都长安，迫使唐代宗逃离长安。783年，唐蕃双方进行了和平谈判，确认了吐蕃对青海所有领土的控制权。赤松德赞还渴望向西扩张，他的势力到达了阿姆河（Amu Darya），并威胁到了阿拔斯王朝哈里发哈伦·拉希德（Harun ar-Rashid）。哈里发对此感到十分担忧，以至于他与唐朝皇帝结成了联盟。赤松德赞在797年退位前，一直忙于西线与阿拉伯人的战争，这减轻了对东部和北部中国对手的压力。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SUK_TRISONG_DETSEN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
 			<Text>然而，后世的藏传佛教徒记住他，主要还是因为他对佛教的极大推广。公元755年，赤松德赞成为赞普（皇帝）后，他邀请了莲花生大士（Padmasambhava）、寂护（Śāntarakṣita）、无垢友（Vimalamitra）以及其他几位印度大师来到西藏，以传播最新的教义。两位学者首先在西藏建立了第一座佛教寺庙——桑耶寺（Samye）。最终，一些西藏人被剃度为僧，并启动了一项庞大的翻译工程，将梵文佛教经典翻译成古典藏文。</Text>
