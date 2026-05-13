@@ -551,7 +551,7 @@
         </Replace>
         <!-- = leader ability = -->
         <Replace Tag="LOC_TRAIT_LEADER_AMBIORIX_DESCRIPTION" Language="ko_KR">
-            <Text>인접한 지상 전투 유닛마다 근접, 대기병 유닛이 [ICON_Strength] 전투력 +1을 얻습니다. 광산 건설 시 주인이 없는 영토에 문화 폭탄을 제공합니다.</Text>
+            <Text>청동 기술을 보유하면 비민간인을 훈련할 때마다 문명이 해당 유닛 비용의 25%에 준하는 [ICON_CULTURE] 문화를 얻습니다. 인접한 지상 전투 유닛마다 근접, 대기병 유닛이 [ICON_Strength] 전투력 +1을 얻습니다. 광산 건설 시 주인이 없는 영토에 문화 폭탄을 제공합니다. </Text>
         </Replace>
         <Replace Tag="LOC_ABILITY_AMBIORIX_NEIGHBOR_COMBAT_BONUS_DESCRIPTION" Language="ko_KR">
             <Text>인접한 지상 전투 유닛마다 [ICON_Strength] 전투력 +1을 제공합니다(에부로네스의 왕).</Text>
@@ -599,7 +599,7 @@
         </Replace>
         <!-- = leader ability (Frederick Barbarossa) = -->
         <Replace Tag="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION" Language="ko_KR">
-            <Text>모든 [ICON_Government] 정부에 군사 정책 슬롯 하나가 추가됩니다. 도시 국가 공격 시 [ICON_Strength] 전투력 +7을 획득합니다. [NEWLINE][NEWLINE](BBG Expanded 한정)내연 기관 기술을 연구하면 특유 유닛인 티거 전차를 생산할 수 있습니다.</Text>
+            <Text>모든 [ICON_Government] 정부에 군사 정책 슬롯 하나가 추가됩니다. 도시 국가 공격 시 [ICON_Strength] 전투력 +7을 획득합니다. 한자 특수지구는 주둔지 특수지구에서 [ICON_Production] 생산력 +2의 인접 보너스를 획득합니다. [NEWLINE][NEWLINE](BBG Expanded 한정)내연 기관 기술을 연구하면 특유 유닛인 티거 전차를 생산할 수 있습니다.</Text>
         </Replace>
         <Replace Tag="LOC_UNIT_GERMAN_PANZER_NAME" Language="ko_KR">
             <Text>티거 전차</Text>
@@ -641,7 +641,7 @@
         </Row>
         <!-- = leader ability (Pericles) = -->
         <Replace Tag="LOC_TRAIT_LEADER_SURROUNDED_BY_GLORY_DESCRIPTION" Language="ko_KR">
-            <Text>플레이어가 종주국인 도시 국가 당 [ICON_Culture] 문화 +5%, [Icon_Tourism] 관광 +5%를 제공합니다.[NEWLINE]아크로폴리스 특수지구는 인접한 각 불가사의 및 특수지구마다 [ICON_Production] 생산력 +1을 추가로 획득합니다.[NEWLINE]원형 극장 건물이 건설되면 [ICON_Envoy] 사절 1명을 획득합니다.</Text>
+            <Text>플레이어가 종주국인 도시 국가 당 [ICON_Culture] 문화 +5%, [Icon_Tourism] 관광 +5%를 제공합니다.[NEWLINE]아크로폴리스 특수지구는 인접한 각 불가사의에서 [ICON_Production] 생산력 +1을, 각 특수지구에서 [ICON_Production] 생산력 +0.5를 추가로 획득합니다.[NEWLINE]원형 극장 건물이 건설되면 [ICON_Envoy] 사절 1명을 획득합니다.</Text>
         </Replace>
         <Row Tag="LOC_BBG_PERICLES_ACROPOLIS_WONDER_PROD_DESC" Language="ko_KR">
             <Text>인접한 {1_Num : plural 1?불가사의; other?불가사의;}에서 [ICON_Production] 생산력 +{1_num}.</Text>
@@ -843,7 +843,7 @@
         </Replace>
         <!-- = leader ability (Mvemba a Nzinga) = -->
         <Replace Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_DESCRIPTION" Language="ko_KR">
-            <Text>병영 또는 마굿간 건물에서 [ICON_GreatGeneral] 위대한 장군 점수를 +1만큼 추가로 받습니다. 성지 특수지구를 건설할 수 없고 위대한 선지자를 영입할 수 없으며 종교를 창시할 수 없습니다. 아무 종교를 믿는 신자 1명마다 [ICON_GOLD] 금 +1, [ICON_Culture] 문화 +0.2를 제공합니다. 음반자 또는 극장가 특수지구를 완료할 때마다 도시 내 대중 종교의 사도 유닛 1개를 얻습니다.[NEWLINE]숲 및 열대우림이 주둔지 특수지구에 인접한 경우 [ICON_Production] 생산력 +1을, 음반자 특수지구에 인접한 경우 [ICON_FOOD] 식량 +1을 제공합니다.[NEWLINE][NEWLINE]보유한 가장 앞선 기술 또는 사회제도의 시대가 고전 시대 이상일 시 모든 지상 전투 유닛 및 [ICON_GREATGENERAL] 위대한 장군이 숲 및 열대우림 지형에서 [ICON_Movement] 이동력 페널티를 무시합니다.</Text>
+            <Text>병영 또는 마굿간 건물에서 [ICON_GreatGeneral] 위대한 장군 점수를 +1만큼 추가로 받습니다. 성지 특수지구를 건설할 수 없고 위대한 선지자를 영입할 수 없으며 종교를 창시할 수 없습니다. 아무 종교를 믿는 신자 1명마다 [ICON_GOLD] 금 +1, [ICON_Culture] 문화 +0.2를 제공합니다. 음반자 또는 극장가 특수지구를 완료할 때마다 도시 내 대중 종교의 사도 유닛 1개를 얻습니다.[NEWLINE]숲 및 열대우림이 주둔지 특수지구에 인접한 경우 [ICON_Production] 생산력 +1을 제공하며, 도시가 음반자 특수지구를 보유한 경우 해당 타일에 [ICON_FOOD] 식량 +1을 추가 제공합니다.[NEWLINE][NEWLINE]보유한 가장 앞선 기술 또는 사회제도의 시대가 고전 시대 이상일 시 모든 지상 전투 유닛 및 [ICON_GREATGENERAL] 위대한 장군이 숲 및 열대우림 지형에서 [ICON_Movement] 이동력 페널티를 무시합니다.</Text>
         </Replace>
         <Row Tag="LOC_BBG_IGNORE_WOODS_ABILITY_DESCRIPTION" Language="ko_KR">
             <Text>숲 및 열대우림 지형에서 [ICON_Movement] 이동력 페널티를 무시합니다.</Text>
@@ -1451,17 +1451,17 @@
         
         <!-- = unique improvement = -->
         <Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="ko_KR">
-            <Text>수메르 특유의 지구라트를 지을 수 있는 건설자의 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_Science] 과학 +2를 제공합니다. 강 옆에 지으면 [ICON_Culture] 문화 +1을 제공합니다. 초기 제국 사회 제도를 획득하면 인접한 특수지구마다 [ICON_Faith] 신앙 +1, 인접한 농장 2개마다 [ICON_Faith] 신앙 +1을 제공합니다. 외교부 사회 제도를 획득하면 [ICON_CULTURE] 문화 +1을 추가 제공하며, 계몽주의 사회 제도를 획득하면 [ICON_CULTURE] 문화 +1과 [ICON_Science] 과학 +1을 추가 제공합니다. 언덕에 지을 수 없습니다.</Text>
+            <Text>수메르 특유의 지구라트를 지을 수 있는 건설자의 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_Science] 과학 +2를 제공합니다. 강 옆에 지으면 [ICON_Culture] 문화 +1을 제공합니다. 초기 제국 사회 제도를 획득하면 인접한 특수지구마다 [ICON_Faith] 신앙 +1, 인접한 농장 2개마다 [ICON_Faith] 신앙 +1을 제공합니다. 언덕에 지을 수 없습니다.</Text>
         </Replace>
 
         <!-- == SWEDEN == -->
         <!-- = civilization ability = -->
         <Replace Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION" Language="ko_KR">
-            <Text>스웨덴이 [ICON_GreatPerson] 위인을 영입하면 [ICON_Favor] 외교적 환심 5를 얻습니다(온라인 속도 기준). [NEWLINE]스웨덴이 공장에서 [ICON_GreatEngineer] 위대한 기술자 점수 +1을, 대학교에서 [ICON_GreatScientist] 위대한 과학자 점수 +1을 얻습니다. 도서관, 작업장, 공장, 대학교 및 정부 청사 특수지구 내 건물을 건설할 때 [ICON_PRODUCTION] 생산력 +50%를 제공합니다. [NEWLINE][NEWLINE]게임에 스웨덴이 있으면 르네상스 시대부터 3개의 특유한 세계 의회 경쟁이 추가됩니다.[NEWLINE][NEWLINE][ICON_BULLET]시작지점: 툰드라 근처 선호.</Text>
+            <Text>스웨덴이 [ICON_GreatPerson] 위인을 영입하면 [ICON_Favor] 외교적 환심 10을 얻습니다(온라인 속도 기준). [NEWLINE]공장에서 [ICON_GreatEngineer] 위대한 기술자 점수 +1을, 대학교에서 [ICON_GreatScientist] 위대한 과학자 점수 +1을 얻으며, 정부 청사 특수지구 내 건물의 단계별로 [ICON_GreatEngineer] 기술자와 [ICON_GreatScientist] 과학자 점수(매 단계) 및 [ICON_GreatWriter] 작가(1단계), [ICON_GreatArtist] 예술가(2단계), [ICON_GreatMusician] 음악가(3단계) 점수를 +2만큼 받습니다. [NEWLINE]도서관, 작업장, 공장, 대학교 및 정부 청사 특수지구 내 건물을 건설할 때 [ICON_PRODUCTION] 생산력 +50%를 제공합니다. [NEWLINE][NEWLINE]게임에 스웨덴이 있으면 르네상스 시대부터 3개의 특유한 세계 의회 경쟁이 추가됩니다.[NEWLINE][NEWLINE][ICON_BULLET]시작지점: 툰드라 근처 선호.</Text>
         </Replace>
         <!-- = leader ability = -->
         <Replace Tag="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_DESCRIPTION" Language="ko_KR">
-            <Text>3개 이상의 걸작 슬롯이 있는 건물과 2개 이상의 걸작 슬롯이 있는 불가사의는 모든 슬롯을 채웠을 때 테마가 자동으로 지정됩니다. 정부 청사 특수지구 내 건물의 단계별로  [ICON_GreatEngineer] 기술자와 [ICON_GreatScientist] 과학자 점수(매 단계) 및 [ICON_GreatWriter] 작가(1단계), [ICON_GreatArtist] 예술가(2단계), [ICON_GreatMusician] 음악가(3단계) 점수를 +2만큼 받습니다. 정부 청사에 퀸즈 도서관을 건설할 수 있습니다.</Text>
+            <Text>3개 이상의 걸작 슬롯이 있는 건물과 2개 이상의 걸작 슬롯이 있는 불가사의는 모든 슬롯을 채웠을 때 테마가 자동으로 지정됩니다. 정부 청사에 퀸즈 도서관을 건설할 수 있습니다.</Text>
         </Replace>
         <!-- = unique building = -->
         <Replace Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_DESCRIPTION" Language="ko_KR">
@@ -3902,6 +3902,9 @@
         <Replace Tag="LOC_IMPROVEMENT_ROMAN_FORT_DESCRIPTION" Language="ko_KR"> <!-- kr add -->
             <Text>로마 특유의 로마 요새를 지을 수 있는 로마 군단병의 능력을 잠금 해제합니다.[NEWLINE][NEWLINE]점유 유닛의 시야가 +1 증가하며, [ICON_Strength] 방어력 +4를 획득하고, 자동으로 방어 태세를 얻습니다.</Text>
         </Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_CAMPUS_HOUSING" Language="ko_KR"> <!-- kr add -->
+			<Text>선택된 캠퍼스가 [ICON_Housing] 주거공간 2와 [ICON_AMENITIES] 쾌적도 1을 얻습니다. 제국의 [ICON_Food] 식량을 제외한 모든 만족도 산출량 증가 효과가 40% 상승합니다.</Text>
+		</Replace>
 
 
 
@@ -3993,7 +3996,7 @@
         </Replace>
         <!-- = unique building = -->
         <Replace Tag="LOC_LEADER_BUILDING_LIME_PHOE_AHIRAM_TOMB_DESCRIPTION" Language="ko_KR">
-            <Text>도서관을 대체하며 유지비가 없습니다. 플레이어가 모집한 위대한 제독 1명당 [Icon_Science] 과학 +1을 제공합니다.</Text>
+            <Text>도서관을 대체하며 유지비가 없습니다. 기본으로 제공하는 과학력이 없으며, 보유한 도시가 건설 혹은 정복된 뒤 플레이어가 모집한 위대한 제독 1명당 [Icon_Science] 과학 +1을 제공합니다.</Text>
         </Replace>
         <Replace Tag="LOC_LEADER_BUILDING_LIME_PHOE_AHIRAM_TOMB_NAME" Language="ko_KR">
             <Text>왕릉</Text>
@@ -4040,10 +4043,10 @@
             <Text>기둥 무덤</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_SUK_PILLAR_TOMB_DESCRIPTION" Language="ko_KR">
-            <Text>스와힐리 특유 건물입니다. 기념비를 대체하고 더 저렴합니다. [ICON_Culture] 문화 +2를 획득합니다. 이 도시에서 출발하는 국제 [ICON_TradeRoute] 교역로마다 [ICON_Culture] 문화 +1, [ICON_Gold] 금 +2를 이 도심부의 2타일 이내의 특수지구 2개마다 부여합니다(최대 4개).</Text>
+            <Text>스와힐리 특유 건물입니다. [ICON_Culture] 문화 +2를 제공합니다. 이 도시에서 출발하는 국제 [ICON_TradeRoute] 교역로마다 [ICON_Culture] 문화 +1, [ICON_Gold] 금 +2를 이 도심부의 2타일 이내의 특수지구 2개마다 부여합니다(최대 6개).</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_SUK_PILLAR_TOMB_XP1_DESCRIPTION" Language="ko_KR">
-            <Text>스와힐리 특유 건물입니다. 기념비를 대체하고 더 저렴합니다. [ICON_Culture] 문화 +2를 획득합니다. 이 도시에서 출발하는 국제 [ICON_TradeRoute] 교역로마다 [ICON_Culture] 문화 +1, [ICON_Gold] 금 +2를 이 도심부의 2타일 이내의 특수지구 2개마다 부여합니다(최대 4개).</Text>
+            <Text>스와힐리 특유 건물입니다. [ICON_Culture] 문화 +1을 제공합니다. 이 도시에서 턴당 충성심 +1을 제공합니다. 도시의 충성심이 최대치에 도달한 경우에는 [ICON_Culture] 문화 +1을 추가로 제공합니다. 이 도시에서 출발하는 국제 [ICON_TradeRoute] 교역로마다 [ICON_Culture] 문화 +1, [ICON_Gold] 금 +2를 이 도심부의 2타일 이내의 특수지구 2개마다 부여합니다(최대 6개).</Text>
         </Replace>
 
 
@@ -4240,7 +4243,7 @@
             <Text>포치테카 거주지</Text>
         </Replace>
         <Replace Tag="LOC_DISTRICT_LIME_TEO_TOLLAN_DESC" Language="ko_KR">
-            <Text>정치 철학에서 잠금 해제되며, 외교 지구를 대체합니다. [NEWLINE]시민 [ICON_CITIZEN] 인구에 따른 전문 특수지구 제한에 포함되지 않으며 내부 [ICON_TRADEROUTE] 교역로에서 산출량을 추가 제공하지 않습니다.</Text>
+            <Text>국가 노동력 사회 제도로 잠금 해제되며, 외교 지구를 대체합니다. 이 특수 지구를 처음 건설할 때 무료로 [Icon_Governor] 총독 타이틀 1개를 받습니다. [NEWLINE]시민 [ICON_CITIZEN] 인구에 따른 전문 특수지구 제한에 포함되지 않으며 내부 [ICON_TRADEROUTE] 교역로에서 산출량을 추가 제공하지 않습니다.</Text>
         </Replace>
 
         <!-- == FIRE IS BORN == -->
@@ -4265,7 +4268,7 @@
         </Replace> 
 
         <Replace Tag="LOC_GOV_PROMO_LIME_TEO_OWL_EMISSARY_OUTPOST_DESC" Language="ko_KR"> 
-            <Text>이 도시 국가에 보낸 한 명 사절이 두 명의 [ICON_Envoy] 사절로 계산됩니다. 어느 도시 국가든 사절을 배치할 경우, 해당 도시 국가로 향하는 [ICON_TradeRoute] 교역로를 보유하였다면, 보낸 한 명 사절이 두 명의 [ICON_Envoy] 사절로 계산됩니다. 15타일 이내에서 상업 중심지 및 항만 특수지구 건설 시 [ICON_PRODUCTION] 생산력 +25%를 획득합니다.</Text>
+            <Text>어느 도시 국가든 사절을 배치할 경우, 해당 도시 국가로 향하는 [ICON_TradeRoute] 교역로를 보유하였다면, 보낸 한 명 사절이 두 명의 [ICON_Envoy] 사절로 계산됩니다. 15타일 이내에서 상업 중심지 및 항만 특수지구 건설 시 [ICON_PRODUCTION] 생산력 +25%를 획득합니다.</Text>
         </Replace>
         <Replace Tag="LOC_GOV_PROMO_LIME_TEO_OWL_EMISSARY_FALL_NAME" Language="ko_KR"> 
             <Text>재규어 발의 몰락</Text>
@@ -4408,7 +4411,7 @@
             <Text>북극고래 사냥</Text>
         </Replace>
         <Replace Tag="LOC_TRAIT_CIVILIZATION_LIME_THULE_HUNTING_BOWHEAD_DESCRIPTION" Language="ko_KR">
-            <Text>고래뼈 집은 항해 기술 연구 시 인접한 툰드라 타일에 [ICON_FOOD] 식량 +1(설원일 경우 2배), 야영지와 어선 타일에 [ICON_FOOD] 식량 +1, [ICON_PRODUCTION] 생산력 +1을 제공합니다.[NEWLINE]건설자의 [ICON_Charges] 건설 횟수와 [ICON_CITIZEN] 시민 1명을 소진하여 해안 타일에 [ICON_RESOURCE_WHALES] 고래 자원을 생성할 수 있습니다.[NEWLINE][NEWLINE][ICON_BULLET]시작지점: 1순위 툰드라, 2순위 해안가.</Text>
+            <Text>고래뼈 집은 인접한 도심부 타일에 [ICON_FOOD] 식량 +1, 항해 기술 연구 시 도심부를 제외한 인접한 툰드라 타일에 [ICON_FOOD] 식량 +1(설원일 경우 2배), 야영지와 어선 타일에 [ICON_FOOD] 식량 +1, [ICON_PRODUCTION] 생산력 +1을 제공합니다.[NEWLINE]건설자의 [ICON_Charges] 건설 횟수와 [ICON_CITIZEN] 시민 1명을 소진하여 해안 타일에 [ICON_RESOURCE_WHALES] 고래 자원을 생성할 수 있습니다.[NEWLINE][NEWLINE][ICON_BULLET]시작지점: 1순위 툰드라, 2순위 해안가.</Text>
         </Replace>
         <!-- = Leader ability = -->
         <Replace Tag="LOC_TRAIT_LEADER_LIME_THULE_DAVE_HEART_NOT_STONE_NAME" Language="ko_KR">
@@ -4438,7 +4441,7 @@
             <Text>고래뼈 집</Text>
         </Replace>
         <Replace Tag="LOC_IMPROVEMENT_LIME_THULE_WBH_DESCRIPTION" Language="ko_KR">
-            <Text>항해에서 해제되는 툴레의 고유 시설입니다.[NEWLINE][NEWLINE] 인접 중복하여 배치할 수 없습니다. 툰드라 타일 위에서 건설되면 [ICON_FOOD] 식량 +1 (설원에서 두배), 외국 무역 사회 제도 보유 시 인접 해양자원과 야영지에 [ICON_CULTURE] 문화 +1 및 [ICON_FAITH] 신앙 +1을 제공합니다.[NEWLINE]자원 타일에 인접하여 건설해야 합니다. 숲 위에 배치할 수 있습니다.</Text>
+            <Text>항해에서 해제되는 툴레의 고유 시설입니다.[NEWLINE][NEWLINE] 툰드라 타일 위에서 건설되면 [ICON_FOOD] 식량 +1 (설원에서 두배), 외국 무역 사회 제도 보유 시 인접 해양자원과 야영지에 [ICON_CULTURE] 문화 +1 및 [ICON_FAITH] 신앙 +1을 제공합니다.[NEWLINE]자원 타일에 인접하여 건설해야 합니다. 다른 고래뼈 집 옆에 지을 수 없습니다. 숲 위에 배치할 수 있습니다.</Text>
         </Replace>
 
         <Replace Tag="LOC_CITY_NAME_LIME_THULE_DAVE_QILAKITSOQ" Language="ko_KR">
