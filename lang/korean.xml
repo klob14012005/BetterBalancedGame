@@ -1728,7 +1728,7 @@
             <Text>건축 붐</Text>
         </Replace>
         <Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION" Language="ko_KR">
-            <Text>이 도시의 [ICON_DISTRICT] 특수지구 및 [ICON_DISTRICT_WONDER] 불가사의마다 [ICON_HOUSING] 주거공간 +1, [ICON_Amenities] 쾌적도 +1을 얻습니다.</Text>
+            <Text>이 도시의 [ICON_DISTRICT] 특수지구 및 [ICON_DISTRICT_WONDER] 불가사의(완성되지 않은 경우 포함)마다 [ICON_HOUSING] 주거공간 +1, [ICON_Amenities] 쾌적도 +1을 얻습니다.</Text>
         </Replace>
         <Replace Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION" Language="ko_KR">
             <Text>[ICON_Governor] 총독 특유 시설로 공원 및 휴가 진급을 보유한 측량사 총독이 있는 도시 안에 건설할 수 있습니다. 도시당 하나만 건설 가능합니다. [ICON_SCIENCE] 과학 +3, [ICON_Culture] 문화 +2, [ICON_HOUSING] 주거 +2, [ICON_Amenities] 쾌적도 +1과 매력도 +2를 제공합니다.</Text>
@@ -2421,7 +2421,7 @@
         <Text>록밴드 2명을 부여합니다.[NEWLINE][NEWLINE]항만 특수지구와 육지 옆 해안에 지어야 합니다.</Text>
     </Replace>
     <Replace Tag="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION" Language="ko_KR">
-      <Text>플레이어 문명의 모든 타일에 매력도 +2를 제공합니다. 다른 플레이어가 당신의 문명을 상대로 받는 [Icon_Tourism] 관광 수입이 25% 감소합니다. 도심부 옆 평지에 지어야 합니다.</Text>
+      <Text>플레이어 문명의 모든 타일에 매력도 +2를 제공합니다. 도심부 옆 평지에 지어야 합니다.</Text> <!-- 다른 플레이어가 당신의 문명을 상대로 받는 [Icon_Tourism] 관광 수입이 25% 감소합니다. -->
     </Replace>
     <Replace Tag="LOC_BUILDING_OXFORD_UNIVERSITY_DESCRIPTION" Language="ko_KR">
       <Text>완공되면 이 도시에 [ICON_Science] 과학 +20%를 제공합니다. 보상으로 무작위로 선택된 무료 기술 2가지를 부여합니다. 대학교가 있는 캠퍼스 특수지구 옆 평지에 지어야 합니다.</Text>
