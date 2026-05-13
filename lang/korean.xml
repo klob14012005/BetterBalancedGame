@@ -601,6 +601,9 @@
         <Replace Tag="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION" Language="ko_KR">
             <Text>모든 [ICON_Government] 정부에 군사 정책 슬롯 하나가 추가됩니다. 도시 국가 공격 시 [ICON_Strength] 전투력 +7을 획득합니다. 한자 특수지구는 주둔지 특수지구에서 [ICON_Production] 생산력 +2의 인접 보너스를 획득합니다. [NEWLINE][NEWLINE](BBG Expanded 한정)내연 기관 기술을 연구하면 특유 유닛인 티거 전차를 생산할 수 있습니다.</Text>
         </Replace>
+		<Replace Tag="LOC_BBG_BARBAROSSA_HANSA_ENCAMPMENT_PROD_DESC" Language="ko_KR">
+			<Text>인접한 주둔지 특수지구에서 [ICON_PRODUCTION] 생산력 +{1_num}</Text>
+		</Replace>
         <Replace Tag="LOC_UNIT_GERMAN_PANZER_NAME" Language="ko_KR">
             <Text>티거 전차</Text>
         </Replace>
