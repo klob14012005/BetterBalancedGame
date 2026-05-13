@@ -1871,7 +1871,7 @@
             <Text>[ICON_RESOURCE_CATTLE] 소, [ICON_RESOURCE_RICE] 쌀 및 [ICON_RESOURCE_WHEAT] 밀 자원에서 [ICON_FOOD] 식량 +1을 제공합니다. 도시가 담수로 인한 주거 효과를 받지 못하는 경우 [ICON_Housing] 주거 공간 +2를 받습니다.</Text>
         </Replace>
         <Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="ko_KR">
-            <Text>[ICON_RESOURCE_CATTLE] 소, [ICON_RESOURCE_RICE] 쌀, [ICON_RESOURCE_WHEAT] 밀 및 [ICON_RESOURCE_MAIZE] 옥수수 자원에서 [ICON_FOOD] 식량 +1을 제공합니다.</Text>
+            <Text>[ICON_RESOURCE_CATTLE] 소, [ICON_RESOURCE_RICE] 쌀, [ICON_RESOURCE_WHEAT] 밀 및 [ICON_RESOURCE_MAIZE] 옥수수 자원에서 [ICON_FOOD] 식량 +1을 제공합니다. 도시가 담수로 인한 주거 효과를 받지 못하는 경우 [ICON_Housing] 주거 공간 +2를 받습니다.</Text>
         </Replace>
         <Replace Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_EXPANSION2_DESCRIPTION" Language="ko_KR">
             <Text>개발된 전략 자원에서 [ICON_Production] 생산력 +1 및 [ICON_Faith] 신앙 +1을 제공하고, 턴당 자원 +1을 추가 축적합니다.</Text>
