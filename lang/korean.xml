@@ -551,7 +551,7 @@
         </Replace>
         <!-- = leader ability = -->
         <Replace Tag="LOC_TRAIT_LEADER_AMBIORIX_DESCRIPTION" Language="ko_KR">
-            <Text>청동 기술을 보유하면 비민간인을 훈련할 때마다 문명이 해당 유닛 비용의 25%에 준하는 [ICON_CULTURE] 문화를 얻습니다. 인접한 지상 전투 유닛마다 근접, 대기병 유닛이 [ICON_Strength] 전투력 +1을 얻습니다. 광산 건설 시 주인이 없는 영토에 문화 폭탄을 제공합니다. </Text>
+            <Text>청동 기술을 보유하면 비민간 유닛을 훈련할 때마다 문명이 해당 유닛 비용의 25%에 준하는 [ICON_CULTURE] 문화를 얻습니다. 인접한 지상 전투 유닛마다 근접, 대기병 유닛이 [ICON_Strength] 전투력 +1을 얻습니다. 광산 건설 시 주인이 없는 영토에 문화 폭탄을 제공합니다. </Text>
         </Replace>
         <Replace Tag="LOC_ABILITY_AMBIORIX_NEIGHBOR_COMBAT_BONUS_DESCRIPTION" Language="ko_KR">
             <Text>인접한 지상 전투 유닛마다 [ICON_Strength] 전투력 +1을 제공합니다(에부로네스의 왕).</Text>
@@ -1013,7 +1013,7 @@
         </Replace>
         <!-- = leader ability = -->
         <Replace Tag="LOC_TRAIT_LEADER_LAUTARO_ABILITY_DESCRIPTION_ALT" Language="ko_KR">
-            <Text> 자유 도시 및 [ICON_GLORY_GOLDEN_AGE] 황금기 또는 [ICON_GLORY_SUPER_GOLDEN_AGE] 영웅기의 문명을 상대로 전투 시 [ICON_Strength] 전투력 +3을 얻습니다. 적 도시의 영토 내에서 적 유닛을 처치하면 해당 도시가 15의 충성심을 잃습니다. 해당 문명이 [ICON_GLORY_GOLDEN_AGE] 황금기 또는 [ICON_GLORY_SUPER_GOLDEN_AGE] 영웅기에 있는 경우 해당 도시는 30의 충성심을 잃습니다.[NEWLINE][NEWLINE]주둔지 특수지구와 제재소에서 매력도 +1을 제공합니다.</Text>
+            <Text> 자유 도시 및 [ICON_GLORY_GOLDEN_AGE] 황금기 또는 [ICON_GLORY_SUPER_GOLDEN_AGE] 영웅기의 문명을 상대로 전투 시 [ICON_Strength] 전투력 +3을 얻습니다. 적 도시의 영토 내에서 적 유닛을 처치하면 해당 도시가 15의 충성심을 잃습니다. 해당 문명이 [ICON_GLORY_GOLDEN_AGE] 황금기 또는 [ICON_GLORY_SUPER_GOLDEN_AGE] 영웅기에 있는 경우 해당 도시는 30의 충성심을 잃습니다.[NEWLINE][NEWLINE]주둔지 특수지구를 보유한 도시의 모든 타일에 매력도 +1을 제공합니다.</Text>
         </Replace>
         <Row Tag="LOC_PREVIEW_MAPUCHE_COMBAT_BONUS_TOQUI_VS_GOLDEN_AGE_CIV" Language="ko_KR">
             <Text>자유 도시 및 황금기/영웅기에 진입한 다른 문명 상대 시 [ICON_Strength] 전투력 +{1_num}.</Text>
@@ -4046,10 +4046,10 @@
             <Text>기둥 무덤</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_SUK_PILLAR_TOMB_DESCRIPTION" Language="ko_KR">
-            <Text>스와힐리 특유 건물입니다. [ICON_Culture] 문화 +2를 제공합니다. 이 도시에서 출발하는 국제 [ICON_TradeRoute] 교역로마다 [ICON_Culture] 문화 +1, [ICON_Gold] 금 +2를 이 도심부의 2타일 이내의 특수지구 2개마다 부여합니다(최대 6개).</Text>
+            <Text>스와힐리 특유 건물입니다. [ICON_Culture] 문화 +2를 제공합니다. 이 도시에서 출발하는 국제 [ICON_TradeRoute] 교역로마다 [ICON_Science] 과학 +1, [ICON_Gold] 금 +2를 이 도심부의 2타일 이내의 특수지구 2개마다 부여합니다(최대 6개).</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_SUK_PILLAR_TOMB_XP1_DESCRIPTION" Language="ko_KR">
-            <Text>스와힐리 특유 건물입니다. [ICON_Culture] 문화 +1을 제공합니다. 이 도시에서 턴당 충성심 +1을 제공합니다. 도시의 충성심이 최대치에 도달한 경우에는 [ICON_Culture] 문화 +1을 추가로 제공합니다. 이 도시에서 출발하는 국제 [ICON_TradeRoute] 교역로마다 [ICON_Culture] 문화 +1, [ICON_Gold] 금 +2를 이 도심부의 2타일 이내의 특수지구 2개마다 부여합니다(최대 6개).</Text>
+            <Text>스와힐리 특유 건물입니다. [ICON_Culture] 문화 +1을 제공합니다. 이 도시에서 턴당 충성심 +1을 제공합니다. 도시의 충성심이 최대치에 도달한 경우에는 [ICON_Culture] 문화 +1을 추가로 제공합니다. 이 도시에서 출발하는 국제 [ICON_TradeRoute] 교역로마다 [ICON_Science] 과학 +1, [ICON_Gold] 금 +2를 이 도심부의 2타일 이내의 특수지구 2개마다 부여합니다(최대 6개).</Text>
         </Replace>
 
 
@@ -4444,7 +4444,7 @@
             <Text>고래뼈 집</Text>
         </Replace>
         <Replace Tag="LOC_IMPROVEMENT_LIME_THULE_WBH_DESCRIPTION" Language="ko_KR">
-            <Text>항해에서 해제되는 툴레의 고유 시설입니다.[NEWLINE][NEWLINE] 툰드라 타일 위에서 건설되면 [ICON_FOOD] 식량 +1 (설원에서 두배), 외국 무역 사회 제도 보유 시 인접 해양자원과 야영지에 [ICON_CULTURE] 문화 +1 및 [ICON_FAITH] 신앙 +1을 제공합니다.[NEWLINE]자원 타일에 인접하여 건설해야 합니다. 다른 고래뼈 집 옆에 지을 수 없습니다. 숲 위에 배치할 수 있습니다.</Text>
+            <Text>툴레 특유의 고래뼈 집을 지을 수 있는 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE] 툰드라에 건설 시 [ICON_FOOD] 식량 +1 (설원에서 두배), 외국 무역 사회 제도 보유 시 인접한 해양자원과 야영지마다 [ICON_CULTURE] 문화 +1 및 [ICON_FAITH] 신앙 +1을 획득합니다.[NEWLINE]자원 타일에 인접하여 건설해야 합니다. 다른 고래뼈 집 옆에 지을 수 없습니다. 숲 위에 배치할 수 있습니다.</Text>
         </Replace>
 
         <Replace Tag="LOC_CITY_NAME_LIME_THULE_DAVE_QILAKITSOQ" Language="ko_KR">
