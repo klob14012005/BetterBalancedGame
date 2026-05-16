@@ -166,6 +166,78 @@
         <Replace Tag="LOC_IMPROVEMENT_OUTBACK_STATION_DESCRIPTION" Language="ru_RU">
             <Text>После открытия социального института "Гильдии" позволяет рабочим строить Скотоводческую Ферму, уникальное улучшение Австралии.[NEWLINE][NEWLINE]+1 [ICON_FOOD] пищи и +1 [ICON_PRODUCTION] Производства. +1 престижа всем соседним клеткам.[NEWLINE][NEWLINE]+1 [ICON_Food] пищи за каждое соседнее пастбище. +1 [ICON_PRODUCTION] производство за каждые 2 соседние скотоводческие фермы после открытия технологии "Индустриализация". +1 [ICON_FOOD] пищи за каждую соседнюю скотоводческую ферму после открытия социального института "Быстрое развертывание".[NEWLINE][NEWLINE]Может быть построена только на клетках пустыни, лугов или равнин.</Text>
         </Replace>
+        
+        <!-- AUSTRIA - Австрия-->
+        <Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_NAME" Language="ru_RU">
+			<Text>Дипломатический брак</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_DESCRIPTION" Language="ru_RU">
+			<Text>[ICON_Governor] Назначенные в города губернаторы приносят +1 ед. [ICON_InfluencePerTurn] влияния за ход и дают +20% к [ICON_Production] производству районов в своём городе. Специализированные районы дают +1 ед. [ICON_Housing] жилья, если район этого типа уже существует в [ICON_Capital] столице.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_DESCRIPTION" Language="ru_RU">
+			<Text>Получайте уникального Великого дипломата при строительстве зданий правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_MER_GRENZER_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный австрийский юнит индустриальной эпохи, заменяющий рейнджера. Обладает усиленной [ICON_Ranged] дальнобойной атакой. Получает +5 ед. [ICON_Strength] боевой мощи в пределах 3 клеток от границ дружественной территории. Имеет зону контроля.</Text>
+		</Replace>
+
+		<Row Tag="LOC_GREAT_PERSON_CLASS_AUSTRIAN_DIPLOMAT_NAME" Language="ru_RU">
+			<Text>Великий дипломат</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GREAT_DIPLOMAT_NAME" Language="ru_RU">
+			<Text>Великий дипломат</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GREAT_DIPLOMAT_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный для Австрии великий человек, получаемый при постройке зданий в правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
+		</Row>
+        <Row Tag="LOC_GREAT_PERSON_CLASS_AUSTRIAN_DIPLOMAT_NAME" Language="ru_RU">
+			<Text>Великий дипломат</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GREAT_DIPLOMAT_NAME" Language="ru_RU">
+			<Text>Великий дипломат</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GREAT_DIPLOMAT_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный для Австрии великий человек, получаемый при постройке зданий в правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_1_NAME" Language="ru_RU">
+			<Text>Томас Эбендорфер</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_2_NAME" Language="ru_RU">
+			<Text>Джулио Висконти Борромео Аресе</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_3_NAME" Language="ru_RU">
+			<Text>Игнац фон Штюрмер</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_4_NAME" Language="ru_RU">
+			<Text>Фридрих Фердинанд фон Бёйст</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_5_NAME" Language="ru_RU">
+			<Text>Рудольф Антон Буоль</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_6_NAME" Language="ru_RU">
+			<Text>Иоанн Виктрингский</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_7_NAME" Language="ru_RU">
+			<Text>Людвиг фон Кобенцль</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_8_NAME" Language="ru_RU">
+			<Text>Алоиз фон Кауниц-Ритберг</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_9_NAME" Language="ru_RU">
+			<Text>Людвиг фон Паар</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_10_NAME" Language="ru_RU">
+			<Text>Бартоломеус фон Штюрмер</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_11_NAME" Language="ru_RU">
+			<Text>Иоганн Амадей фон Тугут</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_12_NAME" Language="ru_RU">
+			<Text>Иоганн Георг фон Хан</Text>
+		</Row>
 
         <!-- == AZTECS - Ацтеки == -->
         <!-- = civilization ability = -->
@@ -750,6 +822,18 @@
             <Text>+1 [Icon_Production] производства за каждое соседнее чудо света.</Text>
         </Replace>
 
+        <!-- GOTHS - Готы -->
+        <Replace Tag="LOC_UNIT_MER_MILITOND_DESCRIPTION" Language="ru_RU">
+			<Text>Заменяет мечника.[NEWLINE]Не требует железа. Получает бесплатное [ICON_Promotion] повышение при постройке, покупке или улучшении из более раннего юнита. Получает +5 ед. [ICON_Strength] боевой мощи против укрепленых районов, а так же против юнитов стоящих на районе.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_MER_GADRAUHT_DESCRIPTION" Language="ru_RU">
+			<Text>Заменяет пикинёра.[NEWLINE]Обладает более высокой боевой мощью (+3 ед. [ICON_Strength]) и значительно дешевле в производстве. Победы в бою приносят [ICON_Culture] культуру, равную 50% от базовой боевой мощи побеждённого юнита. Можно производиьт только в городах с [ICON_Citizen] населением 2 и более. При создании уменьшает [ICON_Citizen] население города на 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MER_GOTHIC_MIGRATION_DESCRIPTION" Language="ru_RU">
+			<Text>При основании или первом захвате города все готские города в пределах 6 клеток получают +1 ед. [ICON_Citizen] населения, если в них есть хотя бы 1 свободная единица [ICON_Housing] жилья.</Text>
+		</Replace>
+
         <!-- == HUNGARY - Венгрия == -->
         <!-- = civilization ability = -->
         <Replace Tag="LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_DESCRIPTION" Language="ru_RU">
@@ -1324,6 +1408,11 @@
         </Replace>
 
         <!-- == POLAND Польша == -->
+        <!-- Stanislav II - Станислав II -->
+         <Replace Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_DESCRIPTION" Language="ru_RU">
+			<Text>Военные лагеря и здания в нем дают дополнительный доход соседним улучшенным клеткам и ресурсам (не складывается): [NEWLINE][icon_bullet] Военный лагерь: +1 [ICON_FOOD] еды [NEWLINE][icon_bullet] Казармы и конюшня: +1 [ICON_Culture] культуры [NEWLINE][icon_bullet] Оружейная: +1 [ICON_SCIENCE] науки [NEWLINE][icon_bullet] Военная академия: +1 [ICON_PRODUCTION] производства.[NEWLINE][NEWLINE]Игра начинается с ускорением технологии «Обработка бронзы».[NEWLINE]Получает уникальный юнит Улан при изучении технологии «Литьё».</Text>
+		</Replace>
+        <!-- Jadwiga - Ядвига -->
         <!-- = civilization ability = -->
         <Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_LIBERTY_DESCRIPTION" Language="ru_RU"><!-- government icon -->
             <Text>Производит культурный захват соседних клеток после строительства военного лагеря или форта на своей территории. [NEWLINE][NEWLINE]Одна ячейка военного курса при текущей форме [ICON_Government] правления превращается в универсальную ячейку.[NEWLINE][ICON_BULLET]Привязка: отсутствует.</Text>
@@ -1615,11 +1704,40 @@
             <Text>Столбчатая гробница</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_SUK_PILLAR_TOMB_DESCRIPTION" Language="ru_RU">
-            <Text>+1 [ICON_CULTURE] культуры, +1 лояльности. Если лояльность города уже на максимуме, то даёт дополнительно +1 [ICON_CULTURE] культуры.[NEWLINE][NEWLINE]Каждый международный [ICON_TRADEROUTE] торговый путь из этого города получает +2 [ICON_GOLD] золота и +1 [ICON_SCIENCE] науки за каждые два [ICON_DISTRICT] района находящиеся в пределах 2 клеток от центра города (максимум для 4 [ICON_DISTRICT] районов).</Text>
+            <Text>+1 [ICON_CULTURE] культуры, +1 лояльности. Если лояльность города уже на максимуме, то дает +1 [icon_culture] культуры.[NEWLINE][NEWLINE]Каждый международный [ICON_TRADEROUTE] торговый путь из этого города получает +2 [ICON_GOLD] золота и +1 [ICON_SCIENCE] науки за каждые два [ICON_DISTRICT] района находящиеся в пределах 2 клеток от центра города (максимум для 4 [ICON_DISTRICT] районов).</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_SUK_PILLAR_TOMB_XP1_DESCRIPTION" Language="ru_RU">
-            <Text>+1 [ICON_CULTURE] культуры, +1 лояльности. Если лояльность города уже на максимуме, то даёт дополнительно +1 [ICON_CULTURE] культуры.[NEWLINE][NEWLINE]Каждый международный [ICON_TRADEROUTE] торговый путь из этого города получает +2 [ICON_GOLD] золота и +1 [ICON_SCIENCE] науки за каждые два [ICON_DISTRICT] района находящиеся в пределах 2 клеток от центра города (максимум для 4 [ICON_DISTRICT] районов).</Text>
+            <Text>+1 [ICON_CULTURE] культуры, +1 лояльности. Если лояльность города уже на максимуме, то дает +1 [icon_culture] культуры.[NEWLINE][NEWLINE]Каждый международный [ICON_TRADEROUTE] торговый путь из этого города получает +2 [ICON_GOLD] золота и +1 [ICON_SCIENCE] науки за каждые два [ICON_DISTRICT] района находящиеся в пределах 2 клеток от центра города (максимум для 4 [ICON_DISTRICT] районов).</Text>
         </Replace>
+
+        <!-- TAINO - Таино -->
+        <!-- Anacaona - Анакаона -->
+        <Replace Tag="LOC_TRAIT_CIVILIZATION_CVS_TAINO_UA_DESCRIPTION" Language="ru_RU">
+			<Text>Политические курсы, дающие очки великих людей, дают +3 ед. [ICON_FOOD] пищи за ход в городах с районом, соответствующим типу Великого человека. Каждый дипломатичесикй курс даёт +1 ед. [ICON_AMENITIES] довольства в городе с батеем.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_CVS_ANACAONA_UA_DESCRIPTION" Language="ru_RU">
+			<Text>После открытия политической философии получает слот правительства в зависимости от выбранного устремления века:[NEWLINE][icon_bullet]Слот военной политики, если выбрано устремление: Барабаны войны, К оружию или Война роботов.[NEWLINE][icon_bullet]Экономический слот, если выбрано устремление: Вольнодумство, Реформа денежного обращения, или Небо и звезды.[NEWLINE][icon_bullet]Дипломатический слот, если выбрано устремление: Перо, кисть и голос, Здесь живут драконы, Под охраной лжи. [NEWLINE][icon_bullet]Уникальный политический слот, если выбрано устремление: Монументальность, Пульс паровой машины, Жаль что тебя здесь нет.[NEWLINE]+5% [ICON_GOLD] золота в счастливых городах, +10% в восторженных городах и +15% в эйфоричных городах.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CVS_TAINO_UI_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальная замена развлекательного комплекса для Таино. Здания внутри этого района дают +1 ед. [ICON_AMENITIES] довольства. Позволяет городу запускать городской проект «Церемония Арейто», который даёт [ICON_FAITH] веру во время выполнения и очки [ICON_GREATPERSON] великих людей для великих [ICON_GreatWriter] писателей, [ICON_GreatArtist] художников и [ICON_GreatMusician] музыкантов при завершении. [NEWLINE] +2 ед. [ICON_PRODUCTION] производства за каждый прилегающий центр коммерции или гавань.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CVS_TAINO_UP_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный таино проект, который даёт [ICON_Faith] веру, равную 15% от [ICON_PRODUCTION] производства, вложенного в него. При завершении даёт очки [ICON_GreatPerson] великих людей для великих [ICON_GreatWriter] писателей, [ICON_GreatArtist] художников и [ICON_GreatMusician] музыкантов.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CVS_TAINO_UU_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный разведывательный юнит Таино. Заменяет воина и сохраняет полученные разведывательные [ICON_PROMOTION] повышения при улучшении. При уничтожении вражеского юнита получает [ICON_FAITH] веру, равную половине [ICON_STRENGTH] боевой мощи побеждённого юнита. +1 к перемещению и обзору.</Text>
+		</Replace>
+
+		<Row Tag="LOC_BBG_TAINO_THEATRE_CULTURE" Language="ru_RU">
+			<Text>+2 ед. [ICON_CULTURE] культуры от батея.</Text>
+		</Row>
+		<Row Tag="LOC_BBG_PRODUCTION_TAINO_HARBOR" Language="ru_RU">
+			<Text>+2 ед. [ICON_PRODUCTION] производства от гавани.</Text>
+		</Row>
+		<Row Tag="LOC_BBG_PRODUCTION_TAINO_COMMERCIAL_HUB" Language="ru_RU">
+			<Text>+2 ед. [ICON_PRODUCTION] производства от коммерческого центра.</Text>
+		</Row>
+
 
         <!-- == TEOTIHUACAN Теотиуакан ==-->
         <Replace Tag="LOC_CIVILIZATION_LIME_TEOTIHUACAN_NAME" Language="ru_RU">
@@ -5416,6 +5534,52 @@
         <Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="ru_RU">
             <Text>Даёт две рок-группы. Можно построить только на побережье рядом с сушей и гаванью.</Text>
         </Replace>
+        
+        <!-- BBG expanded wonders-->
+        <!-- Porcelaine tower - фарфоровая башня -->
+        <Row Tag="LOC_BUILDING_PORCELAIN_TOWER_NAME" Language="ru_RU">
+            <Text>Фарфоровая башня</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_PORCELAIN_TOWER_DESCRIPTION" Language="ru_RU">
+            <Text>Даёт 3 копии редкого ресурса [ICON_RESOURCE_PORCELAIN] фарфора, каждая из которых дает +6 к [ICON_AMENITIES] довольству. Должна быть построена на плоской клетке лугов, равнин или тундры.</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_PORCELAIN_TOWER_QUOTE" Language="ru_RU">
+            <Text>"Посреди равнины стоит высокая колокольня или башня из фарфора, которая далеко превосходит все прочие произведения китайского мастерства по стоимости и искусству; тем самым китайцы показали миру редкое мастерство своих художников прежних эпох." - Йоханнес Ньёхоф</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+            <Text>Построенная династией Мин в XV веке, Фарфоровая башня Нанкина была одним из самых выдающихся архитектурных достижений в истории Китая. Башня имела около 30 метров в диаметре и достигала высоты 79 метров.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+            <Text>Внешняя часть здания была построена из белых фарфоровых кирпичей, которые сверкали как зеркала на солнце. Ночью башня была украшена более чем 100 лампами, развешенными сверху донизу. Башня стояла в центре Нанкина до 1854 года, когда была разрушена во время восстания тайпинов.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+            <Text></Text>
+        </Row>
+        <Row Tag="LOC_RESOURCE_PORCELAIN_NAME" Language="ru_RU">
+            <Text>Фарфор</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+            <Text>Фарфор — это керамический материал, получаемый путём обжига материалов, обычно включающих каолин, при температурах от 1200 до 1400 °C. Прочность, твёрдость и полупрозрачность фарфора по сравнению с другими видами керамики обусловлены остеклованием и образованием минерала муллита при этих высоких температурах. Хотя определения различаются, фарфор обычно делят на три основные категории: твёрдый, мягкий и костяной. Принадлежность изделия к категории зависит от состава массы и условий обжига.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+            <Text>Фарфор постепенно развивался в Китае и окончательно сформировался (в зависимости от определения) примерно 2000–1200 лет назад, затем распространился в другие страны Восточной Азии, а позже в Европу и остальной мир. Его производство сложнее, чем у фаянса и каменной керамики, и он традиционно считается наиболее престижным видом керамики благодаря своей прочности, изяществу и белизне. Он хорошо сочетается с глазурями и красками и позволяет создавать широкий спектр декоративных изделий, от посуды до фигурок. Также он широко используется в технике и промышленности.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+            <Text>Европейское название «porcelain» происходит от староитальянского porcellana (каури-раковина) из-за сходства с её поверхностью. В англоязычных странах фарфор также называют china, так как он впервые был известен по китайским импортным изделиям. К фарфору относят такие свойства, как низкая проницаемость и эластичность; высокая прочность, твёрдость, белизна, прозрачность и звонкость; а также высокая устойчивость к химическому воздействию и термическим перепадам.</Text>
+        </Row>
+        <!-- Arecibo Observatory - Обсерватория Аресибо -->
+        <Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_NAME" Language="ru_RU">
+			<Text>Обсерватория Аресибо</Text>
+		</Replace>
+		<Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_DESCRIPTION" Language="ru_RU">
+			<Text>Горные клетки дают дополнительный стандартный бонус к соседству для районов «Кампус» во всех городах. Даёт 1 случайную технологию. Даёт ускорение случайной технологии за каждый завершённый проект космической гонки.[NEWLINE][NEWLINE]Должна быть построена на клетке тропического леса.</Text>
+		</Replace>
+        <Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_QUOTE" Language="ru_RU">
+			<Text>"Когда Аресибо не слушает что-то другое, он слышит голос творения."[NEWLINE]– Тед Чан</Text>
+		</Replace>		
+        <Replace Tag="LOC_ARECIBO_MOUNTAINS_SCIENCE" Language="ru_RU">
+			<Text>+{1_num} [ICON_Science] науки от соседней горной клетки {1_Num : plural 1?клетка; other?клетки;}. (Обсерватория Аресибо)</Text>
+		</Replace>
 
 
         <!-- === CITY-STATES - ГОРОДА-ГОСУДАРСТВА === -->
