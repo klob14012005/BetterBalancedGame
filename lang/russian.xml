@@ -174,14 +174,46 @@
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_DESCRIPTION" Language="ru_RU">
 			<Text>[ICON_Governor] Назначенные в города губернаторы приносят +1 ед. [ICON_InfluencePerTurn] влияния за ход и дают +20% к [ICON_Production] производству районов в своём городе. Специализированные районы дают +1 ед. [ICON_Housing] жилья, если район этого типа уже существует в [ICON_Capital] столице.</Text>
 		</Replace>
-
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_DESCRIPTION" Language="ru_RU">
-			<Text>Получайте уникального Великого дипломата при строительстве зданий правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
+			<Text>Вы получаете уникального Великого дипломата при строительстве зданий правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
 		</Replace>
-
 		<Replace Tag="LOC_UNIT_MER_GRENZER_DESCRIPTION" Language="ru_RU">
 			<Text>Уникальный австрийский юнит индустриальной эпохи, заменяющий рейнджера. Обладает усиленной [ICON_Ranged] дальнобойной атакой. Получает +5 ед. [ICON_Strength] боевой мощи в пределах 3 клеток от границ дружественной территории. Имеет зону контроля.</Text>
 		</Replace>
+        
+        <!-- Unique Unit Grenzer - Гренцер -->
+        <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_GRENZER_NAME" Language="ru_RU">
+			<Text>Гренцер</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_GRENZER_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный наземный юнит</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_GRENZER_NAME" Language="ru_RU">
+			<Text>Гренцер</Text>
+		</Row>
+        <Row Tag="LOC_UNIT_MER_GRENZER_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный австрийский юнит индустриальной эпохи. Обладает повышенной повышенной [ICON_Ranged] дальнобойной мощью (65 против 60). Получает +5 ед. [ICON_Strength] боевой мощи в пределах 3 клеток от границ дружественной территории. Имеет зону контроля.</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_MER_GRENZER_NEAR_TERRITORY_DESC" Language="ru_RU">
+			<Text>+5 ед. [ICON_Strength] боевой мощи за нахождение рядом с дружественной территорией.</Text>
+		</Row>
+
+        <!-- Unique building Coffee House - Кофейный дом -->
+         <Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_MER_COFFEE_HOUSE_NAME" Language="ru_RU">
+			<Text>Кофейный дом</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_MER_COFFEE_HOUSE_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное здание</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MER_COFFEE_HOUSE_NAME" Language="ru_RU">
+			<Text>Кофейный дом</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MER_COFFEE_HOUSE_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное австрийское развлекательное здание, заменяющее зоопарк. Более дешёвое в строительстве (290 против 360) и доступно раньше после изучения социального института «Просвещение». Районы в этом городе дают +1 ед. [ICON_Science] науки и +1 ед. [ICON_Culture] культуры. Даёт +2 ед. [ICON_Amenities] довольства каждому городу в пределах 6 клеток от этого развлекательного комплекса. Имеет 3 слота для шедевров  любого типа. Тематический бонус: удваивает эффект при размещении Великих произведений любого типа от разных [ICON_GreatPerson] великих людей.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_THEMINGBONUS_COFFEEHOUSE" Language="ru_RU">
+			<Text>Тематический бонус: удвоение доходов от шедевров при размещении объектов любого типа от разных великих людей.</Text>
+		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_CLASS_AUSTRIAN_DIPLOMAT_NAME" Language="ru_RU">
 			<Text>Великий дипломат</Text>
@@ -1941,6 +1973,436 @@
         </Replace>
 
         <!-- === PEDIA, GEO, DIPLO EXPANCION - описание, дипломатия === -->
+
+        <!-- Austria - Австрия -->
+        <!-- Cities, Citizens, mountains -->
+        		<Row Tag="LOC_CIVILIZATION_MER_AUSTRIA_NAME" Language="ru_RU">
+			<Text>Австрия</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_AUSTRIA_DESCRIPTION" Language="ru_RU">
+			<Text>Австрия</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_AUSTRIA_DESCRIPTION_JFD_CIVILIZATION" Language="ru_RU">
+			<Text>Австрийская цивилизация</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_AUSTRIA_ADJECTIVE" Language="ru_RU">
+			<Text>Австрийская</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_1" Language="ru_RU">
+			<Text>Вена</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_2" Language="ru_RU">
+			<Text>Грац</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_3" Language="ru_RU">
+			<Text>Зальцбург</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_4" Language="ru_RU">
+			<Text>Инсбрук</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_5" Language="ru_RU">
+			<Text>Линц</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_6" Language="ru_RU">
+			<Text>Клагенфурт</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_7" Language="ru_RU">
+			<Text>Санкт-Пёльтен</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_8" Language="ru_RU">
+			<Text>Кремс</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_9" Language="ru_RU">
+			<Text>Лиенц</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_10" Language="ru_RU">
+			<Text>Винер-Нойштадт</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_11" Language="ru_RU">
+			<Text>Мельк</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_12" Language="ru_RU">
+			<Text>Фельдкирх</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_13" Language="ru_RU">
+			<Text>Филлах</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_14" Language="ru_RU">
+			<Text>Брегенц</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_15" Language="ru_RU">
+			<Text>Штайр</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_16" Language="ru_RU">
+			<Text>Швац</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_17" Language="ru_RU">
+			<Text>Айзенштадт</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_18" Language="ru_RU">
+			<Text>Вельс</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_19" Language="ru_RU">
+			<Text>Санкт-Файт-ан-дер-Глан</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_20" Language="ru_RU">
+			<Text>Юденбург</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_21" Language="ru_RU">
+			<Text>Гурк</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_22" Language="ru_RU">
+			<Text>Клостернойбург</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_23" Language="ru_RU">
+			<Text>Гмунден</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_24" Language="ru_RU">
+			<Text>Леобен</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_25" Language="ru_RU">
+			<Text>Кицбюэль</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_26" Language="ru_RU">
+			<Text>Энс</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_27" Language="ru_RU">
+			<Text>Дорнбирн</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_28" Language="ru_RU">
+			<Text>Фризах</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_29" Language="ru_RU">
+			<Text>Глоггниц</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_30" Language="ru_RU">
+			<Text>Брук-ан-дер-Лайта</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_31" Language="ru_RU">
+			<Text>Лаксенбург</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_32" Language="ru_RU">
+			<Text>Шпитталь-ан-дер-Драу</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_33" Language="ru_RU">
+			<Text>Зекау</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_34" Language="ru_RU">
+			<Text>Маттерсбург</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_35" Language="ru_RU">
+			<Text>Вольфсберг</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_36" Language="ru_RU">
+			<Text>Фрайштадт</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_AUSTRIA_37" Language="ru_RU">
+			<Text>Бад-Гаштайн</Text>
+		</Row>
+
+		<!--Citizens-->
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_1" Language="ru_RU">
+			<Text>Лукас</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_2" Language="ru_RU">
+			<Text>Тобиас</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_3" Language="ru_RU">
+			<Text>Мориц</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_4" Language="ru_RU">
+			<Text>Егер</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_5" Language="ru_RU">
+			<Text>Эрвин</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_6" Language="ru_RU">
+			<Text>Зигмунд</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_7" Language="ru_RU">
+			<Text>Себастьян</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_8" Language="ru_RU">
+			<Text>Людвиг</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_9" Language="ru_RU">
+			<Text>Вольфганг</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MALE_10" Language="ru_RU">
+			<Text>Аберле</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_FEMALE_1" Language="ru_RU">
+			<Text>Анна</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_FEMALE_2" Language="ru_RU">
+			<Text>Карли</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_FEMALE_3" Language="ru_RU">
+			<Text>Яника</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_FEMALE_4" Language="ru_RU">
+			<Text>Лаура</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_FEMALE_5" Language="ru_RU">
+			<Text>Карла</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_FEMALE_6" Language="ru_RU">
+			<Text>Тереза</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_FEMALE_7" Language="ru_RU">
+			<Text>Вивека</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_FEMALE_8" Language="ru_RU">
+			<Text>Софи</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_FEMALE_9" Language="ru_RU">
+			<Text>Лиза</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_FEMALE_10" Language="ru_RU">
+			<Text>Фарахильде</Text>
+		</Row>
+
+		<!--Citizens Modern-->
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_1" Language="ru_RU">
+			<Text>Лукас</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_2" Language="ru_RU">
+			<Text>Тобиас</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_3" Language="ru_RU">
+			<Text>Мориц</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_4" Language="ru_RU">
+			<Text>Егер</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_5" Language="ru_RU">
+			<Text>Эрвин</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_6" Language="ru_RU">
+			<Text>Зигмунд</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_7" Language="ru_RU">
+			<Text>Себастьян</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_8" Language="ru_RU">
+			<Text>Людвиг</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_9" Language="ru_RU">
+			<Text>Вольфганг</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_MALE_10" Language="ru_RU">
+			<Text>Аберле</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_FEMALE_1" Language="ru_RU">
+			<Text>Анна</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_FEMALE_2" Language="ru_RU">
+			<Text>Карли</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_FEMALE_3" Language="ru_RU">
+			<Text>Яника</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_FEMALE_4" Language="ru_RU">
+			<Text>Лаура</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_FEMALE_5" Language="ru_RU">
+			<Text>Карла</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_FEMALE_6" Language="ru_RU">
+			<Text>Тереза</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_FEMALE_7" Language="ru_RU">
+			<Text>Вивека</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_FEMALE_8" Language="ru_RU">
+			<Text>Софи</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_FEMALE_9" Language="ru_RU">
+			<Text>Лиза</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_AUSTRIA_MODERN_FEMALE_10" Language="ru_RU">
+			<Text>Фарахильде</Text>
+		</Row>
+		<!--Terrain Names-->
+		<Row Tag="LOC_NAMED_VOLCANO_AUSTRIA_NAME" Language="ru_RU">
+			<Text>Ригерсбург</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_AUSTRIA_1_NAME" Language="ru_RU">
+			<Text>Циллертальские Альпы</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_AUSTRIA_2_NAME" Language="ru_RU">
+			<Text>Высокий Тауэрн</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_AUSTRIA_3_NAME" Language="ru_RU">
+			<Text>Эцтальские Альпы</Text>
+		</Row>
+
+        <!--Pedia-->
+		<Row Tag="LOC_CIVINFO_MER_AUSTRIA_LOCATION" Language="ru_RU">
+			<Text>Австрия</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_AUSTRIA_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Австрия — немецкоязычная страна в Центральной Европе, известная горными деревнями, барочной архитектурой, имперской историей и суровым альпийским ландшафтом. Вена, столица на Дунае, является домом для дворцов Шёнбрунн и Хофбург. Среди её жителей были Моцарт, Штраус и Фрейд. Другие известные регионы страны включают северный Богемский лес, озеро Траунзе и виноградники на восточных холмах.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_AUSTRIA_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Австрия находилась под властью династии Габсбургов и Габсбургов-Лотарингских (Haus Österreich) с 1273 по 1918 год. В 1808 году, когда император Франц II распустил Священную Римскую империю, Австрия стала Австрийской империей и также входила в Германский союз до Австро-прусской войны 1866 года. В 1867 году Австрия образовала двойную монархию с Венгрией — Австро-Венгерскую империю (1867–1918). После её распада по окончании Первой мировой войны в 1918 году Австрия была сокращена до основных, преимущественно немецкоязычных территорий и получила название Республика Немецкая Австрия. Однако союз и название были запрещены союзниками по Версальскому договору. Это привело к созданию Первой Австрийской Республики (1918–1933).</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_AUSTRIA_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>После Первой республики австрофашизм пытался сохранить независимость Австрии от Германского рейха. Энгельберт Дольфус признавал, что большинство австрийцев — немцы по культуре и происхождению, но стремился сохранить независимость страны. В 1938 году уроженец Австрии Адольф Гитлер присоединил Австрию к Германскому рейху в ходе аншлюса, который был поддержан значительной частью австрийского населения. Спустя десять лет после Второй мировой войны Австрия вновь стала независимой республикой — Второй республикой в 1955 году.</Text>
+		</Row>
+
+        <!--DOM-->
+        <Row Tag="LOC_LOADING_INFO_LEADER_MER_MARIA_THERESA" Language="ru_RU">
+            <Text>Да благословит и сохранит вас Бог, Мария Терезия, госпожа Венской марки и императрица Австрии. Ваш долг и надежда заключались в объединении обширных земель коронных владений в единую нацию, с единым видением и верой в собственное величие. Через дипломатию, мудрое управление и покровительство высоким искусствам ваша страна будет процветать, но меч должен служить Австрии так же, как и перо. Ваша борьба за надежду начинается, моя госпожа. И начинается она сегодня.</Text>
+        </Row>
+
+        <!--Agenda-->
+        <Row Tag="LOC_AGENDA_MER_THERESA_AGENDA_NAME" Language="ru_RU">
+            <Text>Государственная церковь</Text>
+        </Row>
+        <Row Tag="LOC_AGENDA_MER_THERESA_AGENDA_DESCRIPTION" Language="ru_RU">
+            <Text>Любит цивилизации, которые разделяют её правительство и религию, и ненавидит те, у которых иное правительство и религия.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_KUDOS_LEADER_MER_MARIA_THERESA_REASON_RELIGION" Language="ru_RU">
+            <Text>(Вы разделяете правительство и религию)</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_MODIFIER_MER_MARIA_THERESA_THERESA_AGENDA_SAME_REL_GOV" Language="ru_RU">
+            <Text>Мария Терезия одобряет ваше общее правительство и религию.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_WARNING_LEADER_MER_MARIA_THERESA_REASON_NO_RELIGION" Language="ru_RU">
+            <Text>(Вы не разделяете правительство и религию)</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_MODIFIER_MER_MARIA_THERESA_THERESA_AGENDA_DIFF_REL_GOV" Language="ru_RU">
+            <Text>Мария Терезия не одобряет ваше правительство и религию.</Text>
+        </Row>
+
+        <!--Civilopedia-->
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_TITLE" Language="ru_RU">
+            <Text>Мария Терезия</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_SUBTITLE" Language="ru_RU">
+            <Text>Императрица Священной Римской империи, эрцгерцогиня Австрии, королева Венгрии и Хорватии</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_QUOTE" Language="ru_RU">
+            <Text>Только я одна во всех этих испытаниях сохраняла наибольшее мужество, чтобы с детской верой и частой молитвой призывать Божью помощь.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+            <Text>Мария Терезия Вальбурга Амалия Кристина была единственной женщиной-правительницей владений Габсбургов и последней представительницей династии Габсбургов. Она была правительницей Австрии, Венгрии, Хорватии, Богемии, Трансильвании, Мантуи, Милана, Лодомерии и Галиции, Австрийских Нидерландов и Пармы. По браку она была герцогиней Лотарингии, великой герцогиней Тосканы и императрицей Священной Римской империи.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+            <Text>Она начала своё 40-летнее правление после смерти отца, императора Карла VI, в октябре 1740 года. Карл VI обеспечил её право наследования Прагматической санкцией 1713 года и всю жизнь добивался её признания. После его смерти Саксония, Пруссия, Бавария и Франция оспорили санкцию, которую ранее признали. Фридрих II Прусский, ставший её главным соперником, немедленно вторгся и захватил богатую провинцию Силезию в ходе войны за австрийское наследство. Несмотря на потерю Силезии и некоторых территорий в Италии, Мария Терезия смогла удержать большую часть владений Габсбургов. Позже она безуспешно пыталась вернуть Силезию в ходе Семилетней войны.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+            <Text>Мария Терезия и её супруг Франц I, император Священной Римской империи, имели одиннадцать дочерей и пять сыновей, среди которых были будущие императоры Иосиф II и Леопольд II. Из шестнадцати детей до взрослого возраста дожили десять. Хотя ожидалось, что она передаст власть Францу и Иосифу, она оставалась абсолютной правительницей, руководившей империей с советниками. Она критиковала многие решения Иосифа. Мария Терезия умела управлять своим публичным образом и вызывать у подданных одновременно уважение и привязанность.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_CAPSULE_BODY" Language="ru_RU">
+            <Text>Австрия сосредоточена на развитии городов и дипломатии с городами-государствами.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_DETAILED_BODY" Language="ru_RU">
+            <Text>Мария Терезия и её Австрия сосредоточены на развитии городов и столицы для получения бонусов.</Text>
+        </Row>
+
+        <!--Diplomacy-->
+        <!--FIRST MEET-->
+        <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Эрцгерцогиня Австрии приветствует ваше величество... Ох, давайте быстрее покончим с этим! У меня обед в четыре часа.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Приезжайте в наш прекрасный город, здесь есть на что посмотреть.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Я с радостью приеду. Я слишком давно не покидала дворец.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Нам следует обменяться информацией.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_GREETING_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Я слушаю.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Благодарю, это будет весьма интересно.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Я сейчас не хочу принимать гостей.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Я отправила делегацию с лучшим кофе и штруделем. Надеюсь, вам понравится.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Это приемлемо.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Я не могу согласиться.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Общие границы позволят нашим народам развиваться вместе и принесут пользу нашим культурам.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>С радостью принимаю! Наша дружба пойдёт на пользу нашим государствам.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Я не могу дружить с кем-то столь низким.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Дружба принесёт пользу всем нашим народам.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Полагаю, это к лучшему.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Что?!</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Никто не скажет, что я несправедлива. Давайте достигнем соглашения!</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Поздравляю вас с мудрыми решениями. Вы умеете править.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Ваша вера и методы правления глупы, а народ слепо следует за вами.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Вы что, ищете войны? Уберите войска!</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Я согласна.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Не будьте идиотом.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Пардон? Вы серьёзно?!</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Вашей империи нужен правитель, способный принимать более сильные решения. Вы не такой.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_MER_MARIA_THERESA_THERESA_AGENDA_DIFF_REL_GOV" Language="ru_RU">
+            <Text>(У вас иное правительство и/или религия)</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Какой же вы глупец! Вы будете быстро и жалко уничтожены.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Жаль, что до этого дошло. Но вы сами этого хотели.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Надеюсь, вы довольны собой. Все эти пустые угрозы — и ничего за ними.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Ни за что!</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Как же это всё утомительно.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Мир жалок! В нём нет ни красоты, ни мудрости. Я почти рада уйти.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="ru_RU">
+            <Text>Мир продолжит существовать без вас — и станет лучше.</Text>
+        </Row>
 
         <!-- Phoenicia (Ahiram) -->
         <!-- Agenda -->
