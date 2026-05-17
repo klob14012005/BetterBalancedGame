@@ -3856,7 +3856,7 @@
 		<Replace Tag="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION" Language="fr_FR">
       		<Text>Merveille de la Renaissance.[NEWLINE][NEWLINE]Capacité de [ICON_TRADEROUTE] routes commerciales +2.[NEWLINE]Octroie 2 [ICON_TRADEROUTE] Négociants.[NEWLINE][NEWLINE][ICON_GOLD] Or +2 pour vos [ICON_TRADEROUTE] routes commerciales depuis cette ville pour chaque ressource bonus se trouvant dans un rayon de trois cases autour de la ville et dans son territoire.[NEWLINE][NEWLINE]Doit être construite sur une case adjacente à une Plateforme commerciale dotée d'un marché et adjacente à une ressource de [ICON_RESOURCE_CATTLE] Bétail.</Text>
     	</Replace>
-		<Replace Tag="LOC_BUILDING_PORCELAIN_TOWER_NAME"> <!-- BBG expanded -->
+		<Replace Tag="LOC_BUILDING_PORCELAIN_TOWER_NAME" Language="fr_FR"> <!-- BBG expanded -->
             <Text>Tour de Porcelaine</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_PORCELAIN_TOWER_DESCRIPTION" Language="fr_FR"> <!-- BBG expanded -->
