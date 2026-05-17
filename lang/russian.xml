@@ -168,6 +168,19 @@
         </Replace>
         
         <!-- AUSTRIA - Австрия-->
+        <Replace Tag="LOC_LEADER_MER_MARIA_THERESA_NAME" Language="ru_RU">
+		    <Text>Мария Тереза</Text>
+        </Replace>
+        <!--Traits-->
+        <Replace Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_NAME" Language="ru_RU">
+            <Text>Терезианские реформы</Text>
+        </Replace>
+        <Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_NAME" Language="ru_RU">
+            <Text>Коронные земли</Text>
+        </Replace>
+        <Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_DESCRIPTION" Language="ru_RU">
+            <Text>Получает уникального великого человека — Великого Дипломата — при строительстве зданий правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
+        </Replace>
         <Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CReplaceNLANDS_NAME" Language="ru_RU">
 			<Text>Дипломатический брак</Text>
 		</Replace>
@@ -216,19 +229,19 @@
 		</Replace>
 
 		<Replace Tag="LOC_GREAT_PERSON_CLASS_AUSTRIAN_DIPLOMAT_NAME" Language="ru_RU">
-			<Text>Великий дипломат</Text>
+			<Text>Великий Дипломат</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_NAME" Language="ru_RU">
-			<Text>Великий дипломат</Text>
+			<Text>Великий Дипломат</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_DESCRIPTION" Language="ru_RU">
 			<Text>Уникальный для Австрии великий человек, получаемый при постройке зданий в правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
 		</Replace>
         <Replace Tag="LOC_GREAT_PERSON_CLASS_AUSTRIAN_DIPLOMAT_NAME" Language="ru_RU">
-			<Text>Великий дипломат</Text>
+			<Text>Великий Дипломат</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_NAME" Language="ru_RU">
-			<Text>Великий дипломат</Text>
+			<Text>Великий Дипломат</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_DESCRIPTION" Language="ru_RU">
 			<Text>Уникальный для Австрии великий человек, получаемый при постройке зданий в правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
@@ -879,7 +892,7 @@
 
 		<!--Traits-->
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE" Language="ru_RU">
-			<Text>Gothorum Romanorumque</Text>
+			<Text>Король Готов и Римлян</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE_DESCRIPTION" Language="ru_RU">
 			<Text>+50% [ICON_Production] к производству районов в завоёванных городах, уменьшается на 10% за каждый уже существующий в городе специализированный район. Получает уникальный юнит Милитонд при изучении Обработки железа.</Text>
