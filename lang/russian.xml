@@ -168,6 +168,19 @@
         </Replace>
         
         <!-- AUSTRIA - Австрия-->
+        <Replace Tag="LOC_LEADER_MER_MARIA_THERESA_NAME" Language="ru_RU">
+		    <Text>Мария Тереза</Text>
+        </Replace>
+        <!--Traits-->
+        <Replace Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_NAME" Language="ru_RU">
+            <Text>Терезианские реформы</Text>
+        </Replace>
+        <Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_NAME" Language="ru_RU">
+            <Text>Коронные земли</Text>
+        </Replace>
+        <Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_DESCRIPTION" Language="ru_RU">
+            <Text>Получает уникального великого человека — Великого Дипломата — при строительстве зданий правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
+        </Replace>
         <Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CReplaceNLANDS_NAME" Language="ru_RU">
 			<Text>Дипломатический брак</Text>
 		</Replace>
@@ -216,19 +229,19 @@
 		</Replace>
 
 		<Replace Tag="LOC_GREAT_PERSON_CLASS_AUSTRIAN_DIPLOMAT_NAME" Language="ru_RU">
-			<Text>Великий дипломат</Text>
+			<Text>Великий Дипломат</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_NAME" Language="ru_RU">
-			<Text>Великий дипломат</Text>
+			<Text>Великий Дипломат</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_DESCRIPTION" Language="ru_RU">
 			<Text>Уникальный для Австрии великий человек, получаемый при постройке зданий в правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
 		</Replace>
         <Replace Tag="LOC_GREAT_PERSON_CLASS_AUSTRIAN_DIPLOMAT_NAME" Language="ru_RU">
-			<Text>Великий дипломат</Text>
+			<Text>Великий Дипломат</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_NAME" Language="ru_RU">
-			<Text>Великий дипломат</Text>
+			<Text>Великий Дипломат</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_DESCRIPTION" Language="ru_RU">
 			<Text>Уникальный для Австрии великий человек, получаемый при постройке зданий в правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
@@ -879,7 +892,7 @@
 
 		<!--Traits-->
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE" Language="ru_RU">
-			<Text>Gothorum Romanorumque</Text>
+			<Text>Король Готов и Римлян</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE_DESCRIPTION" Language="ru_RU">
 			<Text>+50% [ICON_Production] к производству районов в завоёванных городах, уменьшается на 10% за каждый уже существующий в городе специализированный район. Получает уникальный юнит Милитонд при изучении Обработки железа.</Text>
@@ -1517,9 +1530,31 @@
 
         <!-- == POLAND Польша == -->
         <!-- Stanislav II - Станислав II -->
+         <Replace Tag="LOC_LEADER_JFD_STANISLAW_NAME" Language="ru_RU">
+			<Text>Станислав II</Text>
+		</Replace>
+		<!--Agenda-->
+		<Replace Tag="LOC_AGENDA_JFD_THURSDAY_DINNERS_NAME" Language="ru_RU">
+			<Text>Обеды по четвергам</Text>
+		</Replace>
+        <Replace Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_NAME" Language="ru_RU">
+			<Text>Национальная комиссия по образованию</Text>
+		</Replace>
          <Replace Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_DESCRIPTION" Language="ru_RU">
 			<Text>Военные лагеря и здания в нем дают дополнительный доход соседним улучшенным клеткам и ресурсам (не складывается): [NEWLINE][icon_bullet] Военный лагерь: +1 [ICON_FOOD] еды [NEWLINE][icon_bullet] Казармы и конюшня: +1 [ICON_Culture] культуры [NEWLINE][icon_bullet] Оружейная: +1 [ICON_SCIENCE] науки [NEWLINE][icon_bullet] Военная академия: +1 [ICON_PRODUCTION] производства.[NEWLINE][NEWLINE]Игра начинается с ускорением технологии «Обработка бронзы».[NEWLINE]Получает уникальный юнит Улан при изучении технологии «Литьё».</Text>
 		</Replace>
+        <!-- Unique Unit Ulhan - Улан -->
+        <!--UHLAN-->
+		<Replace Tag="LOC_UNIT_JFD_UHLAN_NAME" Language="ru_RU">
+			<Text>Улан</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JFD_UHLAN_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный польский юнит эпохи Возрождения, заменяющий кавалерию, если лидером является Станислав II. Получает дополнительный боевой бонус при атаке с фланга.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JFD_UHLAN_FLANKING_BONUS_DESCRIPTION" Language="ru_RU">
+			<Text>{1_Amount} боевой мощи при атаке с фланга</Text>
+		</Replace>
+
         <!-- Jadwiga - Ядвига -->
         <!-- = civilization ability = -->
         <Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_LIBERTY_DESCRIPTION" Language="ru_RU"><!-- government icon -->
@@ -1820,17 +1855,59 @@
 
         <!-- TAINO - Таино -->
         <!-- Anacaona - Анакаона -->
+         		<Replace Tag="LOC_CIVILIZATION_CVS_TAINO_NAME" Language="ru_RU">
+			<Text>Таино</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CVS_TAINO_DESCRIPTION" Language="ru_RU">
+			<Text>Цивилизация Таино</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CVS_TAINO_ADJECTIVE" Language="ru_RU">
+			<Text>Таино</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_CVS_TAINO_UA_NAME" Language="ru_RU">
+			<Text>Гуатиао</Text>
+		</Replace>
         <Replace Tag="LOC_TRAIT_CIVILIZATION_CVS_TAINO_UA_DESCRIPTION" Language="ru_RU">
 			<Text>Политические курсы, дающие очки великих людей, дают +3 ед. [ICON_FOOD] пищи за ход в городах с районом, соответствующим типу Великого человека. Каждый дипломатичесикй курс даёт +1 ед. [ICON_AMENITIES] довольства в городе с батеем.</Text>
 		</Replace>
+        <!-- Leader -->
+        <Replace Tag="LOC_LEADER_CVS_ANACAONA_NAME" Language="ru_RU">
+			<Text>Анакаона</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_CVS_ANACAONA_UA_NAME" Language="ru_RU">
+			<Text>Золотой цветок</Text>
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CVS_ANACAONA_UA_DESCRIPTION" Language="ru_RU">
 			<Text>После открытия политической философии получает слот правительства в зависимости от выбранного устремления века:[NEWLINE][icon_bullet]Слот военной политики, если выбрано устремление: Барабаны войны, К оружию или Война роботов.[NEWLINE][icon_bullet]Экономический слот, если выбрано устремление: Вольнодумство, Реформа денежного обращения, или Небо и звезды.[NEWLINE][icon_bullet]Дипломатический слот, если выбрано устремление: Перо, кисть и голос, Здесь живут драконы, Под охраной лжи. [NEWLINE][icon_bullet]Уникальный политический слот, если выбрано устремление: Монументальность, Пульс паровой машины, Жаль что тебя здесь нет.[NEWLINE]+5% [ICON_GOLD] золота в счастливых городах, +10% в восторженных городах и +15% в эйфоричных городах.</Text>
+		</Replace>
+        <!-- Unique district-->
+         <Replace Tag="LOC_DISTRICT_CVS_TAINO_UI_NAME" Language="ru_RU">
+			<Text>Батей</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CVS_TAINO_UP_NAME" Language="ru_RU">
+			<Text>Церемония Арейто</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CVS_TAINO_UP_SHORTNAME" Language="ru_RU">
+			<Text>Церемония Арейто</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CVS_TAINO_UP_DUMMY_NAME" Language="ru_RU">
+			<Text>Церемония Арейто</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CVS_TAINO_UP_DUMMY_DESCRIPTION" Language="ru_RU">
+			<Text>В этом городе началась церемония Арейто.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CVS_TAINO_UI_DESCRIPTION" Language="ru_RU">
 			<Text>Уникальная замена развлекательного комплекса для Таино. Здания внутри этого района дают +1 ед. [ICON_AMENITIES] довольства. Позволяет городу запускать городской проект «Церемония Арейто», который даёт [ICON_FAITH] веру во время выполнения и очки [ICON_GREATPERSON] великих людей для великих [ICON_GreatWriter] писателей, [ICON_GreatArtist] художников и [ICON_GreatMusician] музыкантов при завершении. [NEWLINE] +2 ед. [ICON_PRODUCTION] производства за каждый прилегающий центр коммерции или гавань.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_CVS_TAINO_UP_DESCRIPTION" Language="ru_RU">
-			<Text>Уникальный таино проект, который даёт [ICON_Faith] веру, равную 15% от [ICON_PRODUCTION] производства, вложенного в него. При завершении даёт очки [ICON_GreatPerson] великих людей для великих [ICON_GreatWriter] писателей, [ICON_GreatArtist] художников и [ICON_GreatMusician] музыкантов.</Text>
+			<Text>Уникальный для Таино проект, который даёт [ICON_Faith] веру, равную 15% от [ICON_PRODUCTION] производства, вложенного в него. При завершении даёт очки [ICON_GreatPerson] великих людей для великих [ICON_GreatWriter] писателей, [ICON_GreatArtist] художников и [ICON_GreatMusician] музыкантов.</Text>
+		</Replace>
+        <!-- Unique Unit -->
+        <Replace Tag="LOC_UNIT_CVS_TAINO_UU_NAME" Language="ru_RU">
+			<Text>Макана</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CVS_TAINO_UU_DESCRIPTION" Language="ru_RU">
+			<Text>При уничтожении вражеского юнита получает [ICON_Faith] веру, равную половине [ICON_Strength] боевой мощи побеждённого юнита.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CVS_TAINO_UU_DESCRIPTION" Language="ru_RU">
 			<Text>Уникальный разведывательный юнит Таино. Заменяет воина и сохраняет полученные разведывательные [ICON_PROMOTION] повышения при улучшении. При уничтожении вражеского юнита получает [ICON_FAITH] веру, равную половине [ICON_STRENGTH] боевой мощи побеждённого юнита. +1 к перемещению и обзору.</Text>
@@ -1846,6 +1923,20 @@
 			<Text>+2 ед. [ICON_PRODUCTION] производства от коммерческого центра.</Text>
 		</Replace>
 
+        <!-- Unique Improvement -->
+		<Replace Tag="LOC_IMPROVEMENT_CVS_ANACAONA_UI_NAME" Language="ru_RU">
+			<Text>Конуко</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CVS_ANACAONA_UI_DESCRIPTION" Language="ru_RU">
+			<Text>Открывает строителям возможность возводить «Конуко» — уникальное улучшение Таино.[NEWLINE][NEWLINE]Удваивает базовый доход  клетки. Даёт дополнительно +1 ед. [ICON_CULTURE] культуры, а с развитием открываются дополнительные бонусы. Может быть построено только рядом с бонусным или редким ресурсом и не может быть построено на холмах, пустыне или снегу.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJ_CVS_ANACAONA_UI_GOLD_RESOURCES" Language="ru_RU">
+			<Text>+{1_num} ед. [ICON_GOLD] золота от соседних редких {1_Num : plural 1?ресурса; other?ресурсов;}.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ADJ_CVS_ANACAONA_UI_CULTURE_RESOURCES" Language="ru_RU">
+			<Text>+{1_num} ед. [ICON_CULTURE] культуры от соседних бонусных {1_Num : plural 1?ресурса; other?ресурсов;}.</Text>
+		</Replace>
 
         <!-- == TEOTIHUACAN Теотиуакан ==-->
         <Replace Tag="LOC_CIVILIZATION_LIME_TEOTIHUACAN_NAME" Language="ru_RU">
@@ -4060,6 +4151,39 @@
 			<Text>В последнее время Теотиуакан оказался под угрозой из-за разрастания Мехико. К счастью, полицейские рейды остановили застройку, и археологи продолжают раскопки, стремясь разгадать непостижимые тайны Места рождения богов.</Text>
 		</Replace>
 		-->
+        <!-- Poland Stanislav II -->
+        <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_SUBTITLE" Language="ru_RU">
+			<Text>Король польский и великий князь литовский</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_QUOTE" Language="ru_RU">
+			<Text>Чтобы стать уверенным, нужно начать сомневаться.</Text>
+		</Replace>
+        <Replace Tag="LOC_AGENDA_JFD_THURSDAY_DINNERS_DESCRIPTION" Language="ru_RU">
+			<Text>Любит цивилизации с высоким уровнем [ICON_CULTURE] культуры. Старается привлекать много великих людей и симпатизирует тем, кто делает то же самое. Не любит цивилизации, игнорирующие привлечение великих людей.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_JFD_STANISLAW_REASON_LEADS_PATRONAGE" Language="ru_RU">
+			<Text>(Вы привлекаете множество великих людей.)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_THURSDAY_DINNERS_LEADS_PATRONAGE" Language="ru_RU">
+			<Text>Станислав впечатлен вашим патронажем</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_JFD_STANISLAW_REASON_LEADS_CULTURE" Language="ru_RU">
+			<Text>(У вас богатая культура.)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_THURSDAY_DINNERS_LEADS_CULTURE" Language="ru_RU">
+			<Text>Станислав рад вашей богатой и изысканной культуре</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_JFD_STANISLAW_REASON_LAGS_PATRONAGE" Language="ru_RU">
+			<Text>(Вы привлекаете мало великих людей.)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_THURSDAY_DINNERS_LAGS_PATRONAGE" Language="ru_RU">
+			<Text>Станислав разочарован тем, что вы не покровительствуете талантам</Text>
+		</Replace>
+		<!--DOM-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JFD_STANISLAW" Language="ru_RU">
+			<Text>Благородные люди Содружества избрали вас, Станислав из дома Понятовских, своим королем. На ваши плечи ложится задача поиска равновесия между золотой вольностью и народным просвещением. Окружите себя светилами науки и культуры, и тогда потомки запомнят вас Августом.</Text>
+		</Replace>
+
 
         <!-- Olimpias Macedonia -->
         <!-- Agenda-->
@@ -4237,6 +4361,364 @@
         <Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_JFD_OLYMPIAS_ANY" Language="ru_RU">
             <Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JFD_OLYMPIAS_ANY]</Text>
         </Replace>
+        
+        <!-- Taino - Таино -->
+        <!-- Geography -->
+        <Replace Tag="LOC_NAMED_MOUNTAIN_GUANIGUANICO" Language="ru_RU">
+		    <Text>Гуанигуанико</Text>
+        </Replace>
+        <Replace Tag="LOC_NAMED_MOUNTAIN_BAORUCO" Language="ru_RU">
+            <Text>Баоруко</Text>
+        </Replace>
+
+        <Replace Tag="LOC_NAMED_RIVER_ARTIBONITE" Language="ru_RU">
+            <Text>Артибонит</Text>
+        </Replace>
+        <Replace Tag="LOC_NAMED_RIVER_THOA" Language="ru_RU">
+            <Text>Тоа</Text>
+        </Replace>
+        <Replace Tag="LOC_NAMED_RIVER_YAQUE" Language="ru_RU">
+            <Text>Яке</Text>
+        </Replace>
+        <Replace Tag="LOC_NAMED_RIVER_YUNA" Language="ru_RU">
+            <Text>Юна</Text>
+        </Replace>
+        <Replace Tag="LOC_NAMED_RIVER_OZAMA" Language="ru_RU">
+            <Text>Осама</Text>
+        </Replace>
+
+        <Replace Tag="LOC_CITY_NAME_YAGUANA" Language="ru_RU">
+            <Text>Ягуана</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_GUARICO" Language="ru_RU">
+            <Text>Гуарико</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_MAGUA" Language="ru_RU">
+            <Text>Магуа</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_MAGUANA" Language="ru_RU">
+            <Text>Магуана</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_HIGUEY" Language="ru_RU">
+            <Text>Игуэй</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_YAUCO" Language="ru_RU">
+            <Text>Яуко</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_GUAYNIA" Language="ru_RU">
+            <Text>Гуайния</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TOA" Language="ru_RU">
+            <Text>Тоа</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_ARASIBO" Language="ru_RU">
+            <Text>Арасибо</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_AYMAMON" Language="ru_RU">
+            <Text>Аймамон</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_CAYNIABON" Language="ru_RU">
+            <Text>Кайниабон</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TURABO" Language="ru_RU">
+            <Text>Турабо</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SEBUCO" Language="ru_RU">
+            <Text>Себуко</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_GUAYANEY" Language="ru_RU">
+            <Text>Гуайаней</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_GUAYAMA" Language="ru_RU">
+            <Text>Гуаяма</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_OTOAO" Language="ru_RU">
+            <Text>Отоао</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_MACAO" Language="ru_RU">
+            <Text>Макао</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_GUAJATACA" Language="ru_RU">
+            <Text>Гуахатака</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_BAYAMON" Language="ru_RU">
+            <Text>Баямон</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_GUAYNABO" Language="ru_RU">
+            <Text>Гуайнабо</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_YAGUECAS" Language="ru_RU">
+            <Text>Ягуэкас</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_DAGUAO" Language="ru_RU">
+            <Text>Дагуао</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_JAYMANIO" Language="ru_RU">
+            <Text>Хайманио</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_COABEY" Language="ru_RU">
+            <Text>Коабей</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_CAYEY" Language="ru_RU">
+            <Text>Кайей</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_JATIBONICU" Language="ru_RU">
+            <Text>Хатибонику</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_BIEKE" Language="ru_RU">
+            <Text>Бьеке</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_ABEYNO" Language="ru_RU">
+            <Text>Абейно</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_HOROMICO" Language="ru_RU">
+            <Text>Оромико</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_MAYGUEZ" Language="ru_RU">
+            <Text>Майгуэс</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_BARACOA" Language="ru_RU">
+            <Text>Баракоа</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_CAMAGUEY" Language="ru_RU">
+            <Text>Камагуэй</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_YABUCOA" Language="ru_RU">
+            <Text>Ябукоа</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_HAYUYA" Language="ru_RU">
+            <Text>Хаюя</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_CAMUY" Language="ru_RU">
+            <Text>Камуй</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_BAYAMO" Language="ru_RU">
+            <Text>Баямо</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_AMONA" Language="ru_RU">
+            <Text>Амона</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_GONAIBO" Language="ru_RU">
+            <Text>Гонаибо</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_GUANTANAMO" Language="ru_RU">
+            <Text>Гуантанамо</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_ABAWANA" Language="ru_RU">
+            <Text>Абавана</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_GUANABO" Language="ru_RU">
+            <Text>Гуанабо</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_YAQUIMEL" Language="ru_RU">
+            <Text>Якимель</Text>
+        </Replace>
+
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_MALE_1" Language="ru_RU">
+            <Text>Амейро</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_MALE_2" Language="ru_RU">
+            <Text>Аймако</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_MALE_3" Language="ru_RU">
+            <Text>Комерио</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_MALE_4" Language="ru_RU">
+            <Text>Кахайя</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_MALE_5" Language="ru_RU">
+            <Text>Кайман</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_MALE_6" Language="ru_RU">
+            <Text>Каката</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_MALE_7" Language="ru_RU">
+            <Text>Гуэй</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_MALE_8" Language="ru_RU">
+            <Text>Карая</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_MALE_9" Language="ru_RU">
+            <Text>Аканорекс</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_MALE_10" Language="ru_RU">
+            <Text>Махагуа</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_FEMALE_1" Language="ru_RU">
+            <Text>Анани</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_FEMALE_2" Language="ru_RU">
+            <Text>Гуама</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_FEMALE_3" Language="ru_RU">
+            <Text>Лирен</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_FEMALE_4" Language="ru_RU">
+            <Text>Ябиси</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_FEMALE_5" Language="ru_RU">
+            <Text>Колибри</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_FEMALE_6" Language="ru_RU">
+            <Text>Тонина</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_FEMALE_7" Language="ru_RU">
+            <Text>Нимита</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_FEMALE_8" Language="ru_RU">
+            <Text>Тинима</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_FEMALE_9" Language="ru_RU">
+            <Text>Касигуая</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_CVS_TAINO_FEMALE_10" Language="ru_RU">
+            <Text>Юиса</Text>
+        </Replace>
+
+        <Replace Tag="LOC_CIVINFO_CVS_TAINO_LOCATION" Language="ru_RU">
+            <Text>Карибский бассейн</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVINFO_CVS_TAINO_SIZE" Language="ru_RU">
+            <Text>ок. 200 000 км²</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVINFO_CVS_TAINO_POPULATION" Language="ru_RU">
+            <Text>600 000 — 1 миллион (оценка)</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVINFO_CVS_TAINO_CAPITAL" Language="ru_RU">
+            <Text>Различные племенные столицы</Text>
+        </Replace>
+
+        <!-- Agenda Pedia Diplo-->
+        <Replace Tag="LOC_AGENDA_CVS_ANACAONA_NAME" Language="ru_RU">
+            <Text>Датиао</Text>
+        </Replace>
+        <Replace Tag="LOC_AGENDA_CVS_ANACAONA_DESCRIPTION" Language="ru_RU">
+            <Text>Стремится поддерживать мир и уважает цивилизации, поступающие так же. Очень не любит цивилизации, атакующие города-государства.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_KUDO_LEADER_CVS_ANACAONA_REASON_ANY" Language="ru_RU">
+            <Text>(Вы поддерживаете мир.)</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_MODIFIER_CVS_ANACAONA_HAPPY" Language="ru_RU">
+            <Text>Анакаона довольна тем, что вы поддерживаете мир.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_WARNING_LEADER_CVS_ANACAONA_REASON_ANY" Language="ru_RU">
+            <Text>(Вы ведёте войны на её родном континенте или атаковали город-государство.)</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_MODIFIER_CVS_ANACAONA_UNHAPPY" Language="ru_RU">
+            <Text>Анакаону тревожит ваша агрессия против городов-государств.</Text>
+        </Replace>
+        <Replace Tag="LOC_LOADING_INFO_LEADER_CVS_ANACAONA" Language="ru_RU">
+            <Text>Мудрейшие из правителей знают, что война — лишь провал дипломатии, Анакаона, благородная касика народа таино. Знание земли позволит твоему народу вкушать плоды Матери-Земли, но ещё более ценны дары союзов с малыми державами. Привлекай их внимание гостеприимством арейто. Удерживай его добротой.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Приветствую, путник. Я Анакаона, касика народа таино. Из каких земель ты прибыл?</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>У таино принято устраивать великий пир и проводить арейто для гостей. Я хотела бы пригласить тебя разделить с нами трапезу.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Для меня это будет честью. Благодарю.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Давайте насладимся гостеприимством друг друга и обменяемся сведениями о наших столицах. Что скажешь?</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_GREETING_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Здравствуй, друг. Чем я могу помочь?</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Для меня будет удовольствием принять ваших делегатов. Я позабочусь, чтобы их пребывание у нас было тёплым и запоминающимся.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Нет, прошу прощения. Давайте сперва узнаем друг друга получше.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Я отправила вам дары из касаби и табака. Надеюсь, к моим делегатам отнесутся с тем же уважением, какое вы оказали мне.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Ну конечно, посещайте нас в любое время.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Ради безопасности моего народа я вынуждена отказаться.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Как мы сможем учиться друг у друга, если будем проводить границы на земле? Давайте откроем наши границы друг для друга.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Разумеется. Мой друг — друг моего народа.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Пожалуй, ещё слишком рано для официального объявления дружбы. Дайте этому время.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Я восхищаюсь тем, как вы правите своим народом. Позвольте мне протянуть вам руку дружбы.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Благодарю тебя, друг.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Что ж. Без обид.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Ты стал одним из тех, кому я больше всего доверяю в этом мире. Что скажешь насчёт союза между нашими народами?</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Ты должен гордиться своими достижениями. Я вижу великое будущее для тебя и твоего народа.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Как долго ещё мир должен терпеть твои безрассудные поступки? Прошу, пересмотри путь, по которому идёшь.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Мы — народ гостеприимства и доброты, но не станем терпеть пустые угрозы. Уберите свои войска от моих границ.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Думаю, мы можем договориться об этом.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Какая жалость.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Я не знаю причин этому, но знаю, что мне не обязательно о них заботиться.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Если бы ты хоть на миг оставил свою глупость, возможно, увидел бы, сколько прекрасного есть в этом мире. (Осуждает вас)</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Печально, что до этого дошло. Но знай — я не сдамся без боя.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Подумай, насколько отвратительны твои поступки, если даже народ таино требует войны. Это редкий момент, но необходимый.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Да, думаю, это будет в интересах нас обоих.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Нет. Мир больше не может терпеть ваши поступки, и вас необходимо остановить.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Неужели ты не видишь, что в жизни есть нечто большее, чем боль и страдания? Ради наших народов давай заключим перемирие.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Увы, боги не ответили на мой зов. Ты можешь уносить жизни, словно ураган, но помни: порой даже бабочка способна изменить направление ветра. Возмездие настигнет тебя.</Text>
+        </Replace>
+        <Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_CVS_ANACAONA_ANY" Language="ru_RU">
+            <Text>Увы, боги не ответили на мой зов. Ты можешь уносить жизни, словно ураган, но помни: порой даже бабочка способна изменить направление ветра. Возмездие настигнет тебя.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_ANACAONA_QUOTE" Language="ru_RU">
+            <Text>Стремись не к тому, что пленяет взгляд, а к тому, что захватывает сердце.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_ANACAONA_TITLE" Language="ru_RU">
+            <Text>Анакаона</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_ANACAONA_SUBTITLE" Language="ru_RU">
+            <Text>Касика народа таино</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_ANACAONA_CHAPTER_CAPSULE_BODY" Language="ru_RU">
+            <Text>Гибкая в выборе пути к победе, Анакаона делает ставку на дипломатию с городами-государствами.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_ANACAONA_CHAPTER_DETAILED_BODY" Language="ru_RU">
+            <Text>На ранних этапах таино должны использовать своих быстрых воинов макана, чтобы как можно скорее встретить больше городов-государств. Батей и его уникальный проект «Церемония Арейто» позволят получать [ICON_Envoy] послов и становиться сюзереном как можно большего числа городов-государств, извлекая выгоду из удвоенных бонусов типов. Под предводительством Анакаоны таино получают уникальную возможность удваивать базовые доходы клеток с помощью улучшения «Конуко», что позволяет быстрее развивать города. Благодаря способности покупать [ICON_GreatPerson] великих людей на 25% дешевле за [ICON_Faith] веру, Анакаона сможет успешно адаптироваться к любому типу победы.</Text>
+        </Replace>
+
 
         <!-- THULE -->
         <Replace Tag="LOC_AGENDA_LIME_THULE_DAVE_ALWAYS_ROAMING_NAME" Language="ru_RU">
