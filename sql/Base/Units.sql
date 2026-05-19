@@ -255,7 +255,7 @@ UPDATE ModifierArguments SET Value=5 WHERE ModifierId='EMBOLON_BONUS_VS_NAVAL';
 UPDATE ModifierArguments SET Value=5 WHERE ModifierId='LINE_OF_BATTLE_BONUS_VS_NAVAL';
 
 -- 02/07/24 Recon Units get +1 sight (except scouts/oki)
-UPDATE Units SET BaseSightRange=BaseSightRange+1 WHERE PromotionClass='PROMOTION_CLASS_RECON' AND UnitType NOT IN ('UNIT_SCOUT', 'UNIT_CREE_OKIHTCITAW');
+UPDATE Units SET BaseSightRange=BaseSightRange+1 WHERE PromotionClass='PROMOTION_CLASS_RECON' AND UnitType NOT IN ('UNIT_SCOUT', 'UNIT_CREE_OKIHTCITAW', 'UNIT_CVS_TAINO_UU');
 
 
 -- 30/11/24 Ancient unit gets -5 agaisnt city center
