@@ -2495,13 +2495,13 @@
 	    <!-- == MILITARISTIC == -->
 	    <!-- = Granada - Grenade = -->
 	    <Replace Tag="LOC_CIVILIZATION_GRANADA_BONUS" Language="ko_KR"> <!-- kr add -->
-	        <Text>건설자가 알카사르 시설을 건설할 수 있습니다.[NEWLINE][NEWLINE]알카사르가 [Icon_Production] 생산력 +1, [ICON_Culture] 문화 +2를 제공합니다. 알카사르에 인접한 주둔지마다 알카사르가 [ICON_Culture] 문화 +1을 획득합니다. 점유 유닛의 시야가 +1 증가하며, [ICON_Strength] 방어력 +4를 획득하고, 자동으로 2턴의 방어 태세를 얻습니다. 다른 알카사르 옆에 지을 수 없습니다.</Text>
+	        <Text>건설자가 알카사르 시설을 건설할 수 있습니다.[NEWLINE][NEWLINE]알카사르가 [Icon_Production] 생산력 +1, [ICON_Culture] 문화 +2를 제공합니다. 알카사르에 인접한 주둔지마다 알카사르가 [ICON_Culture] 문화 +1을 획득합니다. 점유 유닛의 시야가 +1 증가하며, [ICON_Strength] 방어력 +4를 획득하고, 자동으로 방어 태세를 얻습니다. 다른 알카사르 옆에 지을 수 없습니다.</Text>
 	    </Replace>
 	    <Replace Tag="LOC_CIVILIZATION_GRANADA_BONUS_XP2" Language="ko_KR">
-	        <Text>건설자가 알카사르 시설을 건설할 수 있습니다.[NEWLINE][NEWLINE]알카사르가 [Icon_Production] 생산력 +1, [ICON_Culture] 문화 +2를 제공합니다. 알카사르에 인접한 주둔지마다 알카사르가 [ICON_Culture] 문화 +1을 획득합니다. 타일 매력도의 50%만큼 [ICON_SCIENCE] 과학을 제공합니다. 점유 유닛의 시야가 +1 증가하며, [ICON_Strength] 방어력 +4를 획득하고, 자동으로 2턴의 방어 태세를 얻습니다. 비행을 연구하면 [ICON_TOURISM] 관광을 제공합니다. 다른 알카사르 옆에 지을 수 없습니다.</Text>
+	        <Text>건설자가 알카사르 시설을 건설할 수 있습니다.[NEWLINE][NEWLINE]알카사르가 [Icon_Production] 생산력 +1, [ICON_Culture] 문화 +2를 제공합니다. 알카사르에 인접한 주둔지마다 알카사르가 [ICON_Culture] 문화 +1을 획득합니다. 타일 매력도의 50%만큼 [ICON_SCIENCE] 과학을 제공합니다. 점유 유닛의 시야가 +1 증가하며, [ICON_Strength] 방어력 +4를 획득하고, 자동으로 방어 태세를 얻습니다. 비행을 연구하면 [ICON_TOURISM] 관광을 제공합니다. 다른 알카사르 옆에 지을 수 없습니다.</Text>
 	    </Replace>
 	    <Replace Tag="LOC_LEADER_TRAIT_GRANADA_EXPANSION2_DESCRIPTION" Language="ko_KR">
-	        <Text>건설자가 알카사르 시설을 건설할 수 있습니다.[NEWLINE][NEWLINE]알카사르가 [Icon_Production] 생산력 +1, [ICON_Culture] 문화 +2를 제공합니다. 알카사르에 인접한 주둔지마다 알카사르가 [ICON_Culture] 문화 +1을 획득합니다. 타일 매력도의 50%만큼 [ICON_SCIENCE] 과학을 제공합니다. 점유 유닛의 시야가 +1 증가하며, [ICON_Strength] 방어력 +4를 획득하고, 자동으로 2턴의 방어 태세를 얻습니다. 비행을 연구하면 [ICON_TOURISM] 관광을 제공합니다. 다른 알카사르 옆에 지을 수 없습니다.</Text>
+	        <Text>건설자가 알카사르 시설을 건설할 수 있습니다.[NEWLINE][NEWLINE]알카사르가 [Icon_Production] 생산력 +1, [ICON_Culture] 문화 +2를 제공합니다. 알카사르에 인접한 주둔지마다 알카사르가 [ICON_Culture] 문화 +1을 획득합니다. 타일 매력도의 50%만큼 [ICON_SCIENCE] 과학을 제공합니다. 점유 유닛의 시야가 +1 증가하며, [ICON_Strength] 방어력 +4를 획득하고, 자동으로 방어 태세를 얻습니다. 비행을 연구하면 [ICON_TOURISM] 관광을 제공합니다. 다른 알카사르 옆에 지을 수 없습니다.</Text>
 	    </Replace>
 	    <Replace Tag="LOC_BBG_ALCAZAR_CULTURE_ENCAMPMENT" Language="ko_KR">
 	        <Text>인접한 주둔지 특수지구에서 [ICON_Culture] 문화 +{1_num}.</Text>
