@@ -4497,7 +4497,7 @@
             <Text>키키크톡톡</Text>
         </Replace>
         <Replace Tag="LOC_CITY_NAME_LIME_THULE_4" Language="ko_KR">
-            <Text>가나유프</Text>
+            <Text>구가나유프</Text>
         </Replace>
         <Replace Tag="LOC_CITY_NAME_LIME_THULE_5" Language="ko_KR">
             <Text>쿠가나유프</Text>
@@ -4599,7 +4599,7 @@
             <Text>티베트 문명</Text>
         </Replace>
         <Replace Tag="LOC_LEADER_SUK_TRISONG_DETSEN_NAME" Language="ko_KR">
-            <Text>트리 데첸</Text>
+            <Text>트리송 데첸</Text>
         </Replace>
         <!-- = Civilization ability -->
         <Replace Tag="LOC_TRAIT_CIVILIZATION_SUK_DHARMA_KINGS_NAME_XP2" Language="ko_KR">
@@ -4689,7 +4689,7 @@
         </Replace>
 
         <Replace Tag="LOC_CITY_NAME_SUK_TIBET_LHASA" Language="ko_KR">
-            <Text>라</Text>
+            <Text>라싸</Text>
         </Replace>
         <Replace Tag="LOC_CITY_NAME_SUK_TIBET_ZHIKATSE" Language="ko_KR">
             <Text>즈캇세</Text>
