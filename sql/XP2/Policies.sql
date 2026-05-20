@@ -73,3 +73,6 @@ INSERT INTO PolicyModifiers(PolicyType, ModifierId) VALUES
 INSERT INTO TypeTags (Type, Tag) VALUES
     ('ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY', 'CLASS_AIR_FIGHTER'),
     ('ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY', 'CLASS_AIR_BOMBER');
+
+-- 15/05/26 POLICY_REVELATION never obsolete and never disabled (+2 prophet points for anacoana)
+DELETE FROM ObsoletePolicies  WHERE PolicyType='POLICY_REVELATION';
