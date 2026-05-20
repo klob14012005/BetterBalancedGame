@@ -1751,7 +1751,7 @@
 			<Text>Projet unique aux Taïnos, disponible dans le Batey. Convertir 15% de la [ICON_PRODUCTION] en [ICON_FAITH] Foi. Octroie des points [ICON_GREATWRITER] d'Écrivain illustre, [ICON_GREATARTIST] d'Artiste illustre et de [ICON_GREATMUSICIAN] Musicien illustre à sa complétion..</Text>
 		</Replace>
 		<!-- = Unique improvement - Aménagement unique = -->
-		<Replace Tag="LOC_IMPROVEMENT_CVS_ANACAONA_UI_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_IMPROVEMENT_CVS_ANACAONA_UI_DESCRIPTION" Language="fr_FR">
 			<Text>Aménagement exclusif aux Taïnos.[NEWLINE][NEWLINE]Rendements de base de la case (hors ressources et caractéristiques de terrain) doublés.[NEWLINE][NEWLINE][ICON_CULTURE] Culture +1.[NEWLINE][ICON_CULTURE] Culture +1 aux [COLOR:212,115,212,255]Foires Médiévales[ENDCOLOR].[NEWLINE][ICON_CULTURE] Culture +1 à l'[COLOR:212,115,212,255]Histoire Naturelle[ENDCOLOR].[NEWLINE][NEWLINE]Doit être placé sur une case adjacente à une ressource bonus ou de luxe. Ne peut pas être placé sur une case de collines, de désert ou de neige.</Text>
 		</Replace>
 
