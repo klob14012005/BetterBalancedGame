@@ -1417,7 +1417,7 @@
 			<Text>Commission de l'éducation nationale</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_DESCRIPTION" Language="fr_FR">
-			<Text>Les cases de ressources et/ou aménagées reçoivent des rendements supplémentaires si elles sont adjacentes à un Campement et ses bâtiments :[NEWLINE] • Campement : [ICON_FOOD] nourriture +1.[NEWLINE] • Caserne/Écurie : [ICON_CULTURE] Culture +1.[NEWLINE] • Armurerie : [ICON_SCIENCE] Science +1.[NEWLINE] • Académie militaire : [ICON_PRODUCTION] Production +1.[NEWLINE][NEWLINE]Commencez la partie avec un [ICON_TECHBOOSTED] Eurêka pour le [COLOR_FLOAT_SCIENCE]Travail du Bronze[ENDCOLOR].</Text>
+			<Text>Les cases de ressources et/ou aménagées reçoivent des rendements supplémentaires si elles sont adjacentes à un Campement et ses bâtiments :[NEWLINE] • Campement : [ICON_FOOD] nourriture +1.[NEWLINE] • Caserne/Écurie : [ICON_CULTURE] Culture +1.[NEWLINE] • Armurerie : [ICON_SCIENCE] Science +1.[NEWLINE] • École militaire : [ICON_PRODUCTION] Production +1.[NEWLINE][NEWLINE]Commencez la partie avec un [ICON_TECHBOOSTED] Eurêka pour le [COLOR_FLOAT_SCIENCE]Travail du Bronze[ENDCOLOR].</Text>
 		</Replace>
 		<!-- = Unique unit (Winged hussar) - Unité unique (Hussard ailé) = -->
 		<Replace Tag="LOC_UNIT_POLISH_HUSSAR_EXPANSION2_DESCRIPTION" Language="fr_FR">
