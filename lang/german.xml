@@ -756,7 +756,7 @@
 			<Text>Militōnd</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MER_MILITOND_DESCRIPTION" Language="de_DE">
-			<Text>Diese Nahkampf-[ICON_UNIT] Einheit der Klassik ist einzigartig für die Goten, wird nach Erforschung der Technologie "Eisenverarbeitung" freigeschaltet, ersetzt den "Schwertkämpfer", gewährt dessen Boni und zusätzlich:[NEWLINE][NEWLINE]• +5 [ICON_STRENGTH] Kampfstärke gegen verteidigungsfähige [ICON_DISTRICT] Bezirke (die [ICON_STRENGTH] Kampfstärke besitzen) und [ICON_UNIT] Einheiten in [ICON_DISTRICT] Bezirken.[NEWLINE]• Erhält eine kostenlose [ICON_PROMOTION] Beförderung nach der Rekrutierung.[NEWLINE][NEWLINE]Benötigt kein [ICON_RESOURCE_IRON] Eisen.</Text>
+			<Text>Diese Nahkampf-[ICON_UNIT] Einheit der Klassik ist einzigartig für die Goten, wird nach Erforschung der Technologie "Eisenverarbeitung" freigeschaltet, ersetzt den "Schwertkämpfer", gewährt dessen Boni und zusätzlich:[NEWLINE][NEWLINE]• +5 [ICON_STRENGTH] Kampfstärke gegen verteidigungsfähige [ICON_DISTRICT] Bezirke (die [ICON_STRENGTH] Kampfstärke besitzen) und [ICON_UNIT] Einheiten in [ICON_DISTRICT] Bezirken.[NEWLINE]• Erhält eine kostenlose [ICON_PROMOTION] Beförderung nach der Rekrutierung.</Text>
 		</Replace>
 		<!-- = Unique unit - Einzigartige Einheit (Gadrauht) (BBG-EXP)= -->
 		<Replace Tag="LOC_UNIT_MER_GADRAUHT_NAME" Language="de_DE">
@@ -1432,7 +1432,7 @@
 			<Text>Kommission für nationale Bildung</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_DESCRIPTION" Language="de_DE">
-			<Text>Ressourcen-Felder und verbesserte Felder erhalten zusätzliche Erträge bei Angrenzung an folgende Felder:[NEWLINE]• +1 [ICON_FOOD] Nahrung durch das [ICON_DISTRICT_ENCAMPMENT] Lager-Bezirk.[NEWLINE]• +1 [ICON_CULTURE] Kultur durch die "Kaserne" oder den "Stall".[NEWLINE]• +1 [ICON_SCIENCE] Wissenschaft durch die "Waffenkammer".[NEWLINE]• +1 [ICON_PRODUCTION] Produktion durch die "Militärakademie".[NEWLINE][NEWLINE]Beginnt des Spiel mit dem [ICON_TechBoosted] Heureka für die Technologie "Bronzeverarbeitung".[NEWLINE][NEWLINE]Kann die einzigartige [ICON_UNIT] Einheit "Ulan", nach Erforschung der Technologie "Militärwissenschaft" rekrutieren.</Text>
+			<Text>Ressourcen-Felder und verbesserte Felder erhalten zusätzliche Erträge bei Angrenzung an folgende Felder:[NEWLINE]• +1 [ICON_FOOD] Nahrung durch das [ICON_DISTRICT_ENCAMPMENT] Lager-Bezirk.[NEWLINE]• +1 [ICON_CULTURE] Kultur durch die "Kaserne" oder den "Stall".[NEWLINE]• +1 [ICON_SCIENCE] Wissenschaft durch die "Waffenkammer".[NEWLINE]• +1 [ICON_PRODUCTION] Produktion durch die "Militärakademie".[NEWLINE][NEWLINE]Kann die einzigartige [ICON_UNIT] Einheit "Ulan", nach Erforschung der Technologie "Militärwissenschaft" rekrutieren.</Text>
 		</Replace>
 		<!-- = Unique unit - Einzigartige Einheit (Flügelhusar) = -->
 		<Replace Tag="LOC_UNIT_POLISH_HUSSAR_EXPANSION2_DESCRIPTION" Language="de_DE">

@@ -185,7 +185,7 @@
 			<Text>Дипломатический брак</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_DESCRIPTION" Language="ru_RU">
-			<Text>[ICON_Governor] Назначенные в города губернаторы приносят +1 ед. [ICON_InfluencePerTurn] влияния за ход и дают +20% к [ICON_Production] производству районов в своём городе. Специализированные районы дают +1 ед. [ICON_Housing] жилья, если район этого типа уже существует в [ICON_Capital] столице.</Text>
+			<Text>[ICON_Governor] Назначенные в города губернаторы приносят +1 ед. [ICON_InfluencePerTurn] влияния за ход и дают +20% к [ICON_Production] производству районов и гражданских юнитов в своём городе. Специализированные районы дают +1 ед. [ICON_Housing] жилья, если район этого типа уже существует в [ICON_Capital] столице.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CReplaceNLANDS_DESCRIPTION" Language="ru_RU">
 			<Text>Вы получаете уникального Великого дипломата при строительстве зданий правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
@@ -887,12 +887,15 @@
 			<Text>При основании или первом захвате города все готские города в пределах 6 клеток получают +1 ед. [ICON_Citizen] населения, если в них есть хотя бы 1 свободная единица [ICON_Housing] жилья.[NEWLINE][ICON_BULLET]Привязка: отсутствует.</Text>
 		</Replace>
 
+        <Replace Tag="LOC_GOTHIC_MIGRATION_POP_GAIN" Language="en_US">
+            <Text>Город получает +{1: number #,###.#} [ICON_Citizen] единицу населения!</Text>
+        </Replace>
 		<!--Traits-->
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE" Language="ru_RU">
 			<Text>Король Готов и Римлян</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE_DESCRIPTION" Language="ru_RU">
-			<Text>+50% [ICON_Production] к производству районов в завоёванных городах, уменьшается на 10% за каждый уже существующий в городе специализированный район. Получает уникальный юнит Милитонд при изучении Обработки железа.</Text>
+			<Text>Все некавалерийские наземные боевые юниты в пределах 6 клеток от Хлайва получают +1 [icon_movement] ОП.</Text>
 		</Replace>
         <Replace Tag="LOC_TRAIT_CIVILIZATION_MER_GOTHIC_MIGRATION_NAME" Language="ru_RU">
 			<Text>Готское переселение</Text>
@@ -921,7 +924,7 @@
 			<Text>+5 [ICON_Strength] к боевой мощи в готических районах.</Text>
 		</Replace>
         <Replace Tag="LOC_UNIT_MER_MILITOND_DESCRIPTION" Language="ru_RU">
-			<Text>Заменяет мечника.[NEWLINE]Не требует железа. Получает бесплатное [ICON_Promotion] повышение при постройке, покупке или улучшении из более раннего юнита. Получает +5 ед. [ICON_Strength] боевой мощи при сражении в районах.</Text>
+			<Text>Заменяет мечника.[NEWLINE]Получает бесплатное [ICON_Promotion] повышение при постройке, покупке или улучшении из более раннего юнита. Получает +5 ед. [ICON_Strength] боевой мощи при сражении в районах.</Text>
 		</Replace>
 
         <Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_GADRAUHT_NAME" Language="ru_RU">
@@ -931,7 +934,7 @@
 			<Text>Уникальный наземный юнит</Text>
 		</Replace>
         <Replace Tag="LOC_UNIT_MER_GADRAUHT_DESCRIPTION" Language="ru_RU">
-			<Text>Заменяет пикинёра.[NEWLINE]Обладает более высокой боевой мощью (+3 ед. [ICON_Strength]) и значительно дешевле в производстве. Победы в бою приносят [ICON_Culture] культуру, равную 50% от базовой боевой мощи побеждённого юнита. Можно производить только в городах с [ICON_Citizen] населением 2 и более. При создании уменьшает [ICON_Citizen] население города на 1.</Text>
+            <Text>Заменяет пикинёра.[NEWLINE]Обладает более высокой боевой мощью (+5 ед. [ICON_Strength]) и значительно дешевле в производстве. Победы в бою приносят [ICON_Culture] культуру, равную 50% от базовой боевой мощи побеждённого юнита. Можно производить только в городах с [ICON_Citizen] населением 2 и более. При создании уменьшает [ICON_Citizen] население города на 1, если в городе отсутствует Храм. Получает бесплатное повышение.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MER_GADRAUHT_NAME" Language="ru_RU">
 			<Text>Гадраухт</Text>
@@ -1125,7 +1128,7 @@
         </Replace>
         <!-- = leader ability (Mvemba a Nzinga) - Мвемба а нзинга (дед)= -->
         <Replace Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_DESCRIPTION" Language="ru_RU">
-            <Text>Не может создавать священные места, получать [ICON_GreatProphet] Великих пророков или создавать религию. Построив мбанзу или театральную площадь, каждый раз получает апостола (доминирующей религии этого города).[NEWLINE]Каждый житель доминирующей религии приносит +1 [ICON_GOLD] золота и + 0.2 [ICON_Culture] культуры.[NEWLINE][NEWLINE]Все наземные боевые юниты и [ICON_GreatGeneral] Великие генералы игнорируют штраф за перемещение [ICON_Movement] по лесам и тропическим лесам после исследования технологии или социального института античности. [NEWLINE][NEWLINE] +50% очков [ICON_GREATGENERAL] великого генерала в городах с Мбанзой. Военный лагерь дает +1 [ICON_PRODUCTION] производства соседним лесам и тропическим лесам. Мбанза дает +1 [Icon_Food] пищи соседним с военным лагерем лесам и тропическим лесам.</Text>
+            <Text>Не может создавать священные места, получать [ICON_GreatProphet] Великих пророков или создавать религию. Построив мбанзу или театральную площадь, каждый раз получает апостола (доминирующей религии этого города).[NEWLINE]Каждый житель доминирующей религии приносит +1 [ICON_GOLD] золота и + 0.2 [ICON_Culture] культуры.[NEWLINE][NEWLINE]Все наземные боевые юниты и [ICON_GreatGeneral] Великие генералы игнорируют штраф за перемещение [ICON_Movement] по лесам и тропическим лесам после исследования технологии или социального института античности. [NEWLINE][NEWLINE] Казармы и конюшни приносят +50% очков [ICON_GREATGENERAL] великого генерала. Военный лагерь дает +1 [ICON_PRODUCTION] производства соседним лесам и тропическим лесам. Мбанза дает +1 [Icon_Food] пищи соседним с военным лагерем лесам и тропическим лесам.</Text>
         </Replace>
         <Replace Tag="LOC_BBG_IGNORE_WOODS_ABILITY_DESCRIPTION" Language="ru_RU">
             <Text>Игнорирует штраф за [ICON_Movement] перемещение по лесам и тропическим лесам. (Мвемба А Нзинга).</Text>
@@ -1541,7 +1544,7 @@
 			<Text>Национальная комиссия по образованию</Text>
 		</Replace>
          <Replace Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_DESCRIPTION" Language="ru_RU">
-			<Text>Военные лагеря и здания в нем дают дополнительный доход соседним улучшенным клеткам и ресурсам (не суммируется от двух военных лагерей): [NEWLINE][icon_bullet] Военный лагерь: +1 [ICON_FOOD] пищи; [NEWLINE][icon_bullet] Казармы и конюшня: +1 [ICON_Culture] культуры; [NEWLINE][icon_bullet] Оружейная: +1 [ICON_SCIENCE] науки; [NEWLINE][icon_bullet] Военная академия: +1 [ICON_PRODUCTION] производства.[NEWLINE][NEWLINE]Игра начинается с ускорением технологии «Обработка бронзы».[NEWLINE]Получает уникальный юнит Улан при изучении технологии «Литьё».</Text>
+			<Text>Военные лагеря и здания в нем дают дополнительный доход соседним улучшенным клеткам и ресурсам (не суммируется от двух военных лагерей для одной клетки): [NEWLINE][icon_bullet] Военный лагерь: +1 [ICON_FOOD] пищи; [NEWLINE][icon_bullet] Казармы и конюшня: +1 [ICON_Culture] культуры; [NEWLINE][icon_bullet] Оружейная: +1 [ICON_SCIENCE] науки; [NEWLINE][icon_bullet] Военная академия: +1 [ICON_PRODUCTION] производства.[NEWLINE][NEWLINE]Получает уникальный юнит Улан при изучении технологии «Литьё».</Text>
 		</Replace>
         <!-- Unique Unit Ulhan - Улан -->
         <!--UHLAN-->
