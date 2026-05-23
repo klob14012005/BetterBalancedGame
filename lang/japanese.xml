@@ -5625,10 +5625,6 @@
       <Text>エリザヴェータ</Text>
     </Row>
     <Row Tag="LOC_AGENDA_MER_ROMAN_GOTH_NAME" Language="ja_JP">
-      <Text>エリザヴェータ</Text>
-    </Row>
-    
-    <Row Tag="LOC_AGENDA_MER_ROMAN_GOTH_NAME" Language="ja_JP">
       <Text>ロマニタス</Text>
     </Row>
     <Row Tag="LOC_AGENDA_MER_ROMAN_GOTH_DESCRIPTION" Language="ja_JP">
