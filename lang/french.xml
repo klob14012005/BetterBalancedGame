@@ -187,7 +187,7 @@
 			<Text>Café</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MER_COFFEE_HOUSE_DESCRIPTION" Language="fr_FR">
-			<Text>Bâtiment exclusif à l'Autriche, remplaçant le Zoo, débloqué aux [COLOR:212,115,212,255]Lumières[ENDCOLOR]. [ICON_SCIENCE] Science +1 et [ICON_CULTURE] Culture +1 pour chaque [ICON_DISTRICT] quartier spécialisé. [ICON_AMENITIES] Activités +2 pour les villes dans un rayon de 6 cases. Bonus [ICON_THEMEBONUS_ACTIVE] thématique quand les chefs-d'œuvre proviennent de [ICON_GREATPERSON] Personnages illustres différents.</Text>
+			<Text>Bâtiment exclusif à l'Autriche, remplaçant le Zoo, débloqué aux [COLOR:212,115,212,255]Lumières[ENDCOLOR]. [ICON_SCIENCE] Science +1 et [ICON_CULTURE] Culture +1 pour chaque [ICON_DISTRICT] quartier spécialisé de la ville. [ICON_AMENITIES] Activités +2 pour les villes dans un rayon de 6 cases. Bonus [ICON_THEMEBONUS_ACTIVE] thématique quand les chefs-d'œuvre proviennent de [ICON_GREATPERSON] Personnages illustres différents.</Text>
 		</Replace>
 
 		<!-- == AZTECS - AZTÈQUES == -->
@@ -1428,7 +1428,7 @@
 			<Text>Uhlan</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JFD_UHLAN_DESCRIPTION" Language="fr_FR">
-			<Text>Unité de cavalerie légère de la Renaissance exclusive à Stanislas II, remplaçant la Cavalerie.[NEWLINE][NEWLINE][ICON_MOVEMENT] PM de base +1.[NEWLINE][NEWLINE]Bonus de contournement doublé.</Text>
+			<Text>Unité de cavalerie légère de la Renaissance exclusive à Stanislas II, remplaçant la Cavalerie.[NEWLINE][NEWLINE]Bonus de contournement doublé.</Text>
 		</Replace>
 		<!-- = Unique building - Bâtiment unique = -->
 		<Replace Tag="LOC_BUILDING_SUKIENNICE_EXPANSION1_DESCRIPTION" Language="fr_FR">

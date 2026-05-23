@@ -5860,10 +5860,6 @@
       <Text>最高のキジのローストと風味豊かな酒の贈り物を携えた使節を、あなたの首都へと派遣しました。楽しんでいただけると信じております。</Text>
     </Row>
     <!--OPEN BORDERS-->
-    <!--AI accepts from human-->
-    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="ja_JP">
-      <Text>セイムも私も同意します。</Text>
-    </Row>
     <!--AI rejects from human-->
     <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="ja_JP">
       <Text>この協定を批准するためのセイムの許可を得られていません。</Text>
@@ -6047,9 +6043,6 @@
     </Row>
     <Row Tag="LOC_NAMED_RIVER_THOA" Language="ja_JP">
       <Text>トア</Text>
-    </Row>
-    <Row Tag="LOC_NAMED_RIVER_YAQUE" Language="ja_JP">
-      <Text>ヤケ</Text>
     </Row>
     <Row Tag="LOC_NAMED_RIVER_YAQUE" Language="ja_JP">
       <Text>ヤケ</Text>
@@ -6631,34 +6624,34 @@
       <Text>隣接する山岳タイルから 科学力 [ICON_Science] +{1_num}。（アレシボ天文台）</Text>
     </Replace>
 
-    <Row Tag="LOC_BUILDING_PORCELAIN_TOWER_NAME">
+    <Row Tag="LOC_BUILDING_PORCELAIN_TOWER_NAME" Language="ja_JP">
       <Text>南京の陶塔</Text>
     </Row>
-    <Row Tag="LOC_BUILDING_PORCELAIN_TOWER_DESCRIPTION">
+    <Row Tag="LOC_BUILDING_PORCELAIN_TOWER_DESCRIPTION" Language="ja_JP">
       <Text>それぞれ快適性 [ICON_Amenities] +6 をもたらす高級資源「磁器」 [ICON_RESOURCE_PORCELAIN] を3個獲得する。都心に隣接する、平坦な草原、平原、またはツンドラタイルに建設する必要がある。</Text>
     </Row>
-    <Row Tag="LOC_BUILDING_PORCELAIN_TOWER_QUOTE">
+    <Row Tag="LOC_BUILDING_PORCELAIN_TOWER_QUOTE" Language="ja_JP">
       <Text>「平原の中央に、磁器で作られた高い尖塔、すなわち塔が立っている。これは費用と技術の双方において、中国人の他のあらゆる職人技を遥かに凌駕している。これによって中国人は、かつての時代の芸術家たちの稀な独創性を世界に知らしめたのだ。」― ヨハネス・ニウホフ</Text>
     </Row>
-    <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_1">
+    <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
       <Text>15世紀に明朝によって建設された南京の陶磁器の塔は、中国の歴史において最も並外れた建築的偉業の一つであった。この塔は直径約30メートル（97フィート）、高さは79メートル（260フィート）に達した。</Text>
     </Row>
-    <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_2">
+    <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
       <Text>建物の外装は白い磁器のレンガで造られており、太陽の光を浴びて鏡のように輝いていた。夜になると、塔の上から下まで100個以上の灯籠が吊るされた。この塔は1854年に太平天国の乱で破壊されるまで、南京の中心部にそびえ立っていた。</Text>
     </Row>
-    <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_3">
+    <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
       <Text>それが南京の陶塔である。</Text>
     </Row>
-    <Row Tag="LOC_RESOURCE_PORCELAIN_NAME">
+    <Row Tag="LOC_RESOURCE_PORCELAIN_NAME" Language="ja_JP">
       <Text>磁器</Text>
     </Row>
-    <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_1">
+    <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
       <Text>磁器は、一般にカオリン（高嶺土）を含む原料を窯の中で1,200〜1,400°C（2,200〜2,600°F）の温度で加熱することによって作られるセラミック材料である。他の種類の陶器と比較したときの磁器の靭性、強度、および透光性は、主にこれらの高温下でのガラス化と、素地内部における鉱物ムライトの形成に起因する。定義は様々であるが、磁器は大きく分けて硬質磁器、軟質磁器、ボーンチャイナの3つの主要なカテゴリーに分類することができる。製品がどのカテゴリーに属するかは、磁器製品の素地を作るために使用される胎土（ペースト）の組成と、焼成条件によって決まる。</Text>
     </Row>
-    <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_2">
+    <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
       <Text>磁器は中国で緩やかに進化し、（使用する定義によるが）約2,000〜1,200年前のある時点で最終的に完成した。その後、他の東アジア諸国へ、そして最終的にはヨーロッパや世界の他の地域へとゆっくり広がっていった。その製造工程は、陶器の他の2つの主要なタイプである土器や炻器（せっき）よりも要求が厳しく、その繊細さ、強度、および白い色から、通常は最も格調高いタイプの陶磁器と見なされてきた。意図した通りに釉薬や絵の具とよく馴染み、成形もしやすいため、食器、容器、フィギュア（人形）において非常に幅広い装飾表現が可能である。また、技術や産業の分野でも多くの用途を持っている。</Text>
     </Row>
-    <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_3">
+    <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
       <Text>ヨーロッパでの名称、英語の「porcelain」は、貝殻の表面に似ていることから、古いイタリア語の「porcellana（タカラガイ）」に由来している。また、一部の英語圏の国では、中国からの輸入品として初めて目にしたことから、磁器のことを「china」または「fine china」とも呼ぶ。磁器に関連する特性としては、低い透水性と弾性、優れた強度、硬度、靭性、白さ、透光性、共鳴性、そして化学的侵食や熱衝撃に対する高い耐性が挙げられる。</Text>
     </Row>
     
