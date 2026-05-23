@@ -5336,7 +5336,7 @@
       <Text>ゴート族とローマ人の王</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE_DESCRIPTION" Language="ja_JP">
-      <Text>占領した都市での区域に対する 生産力 [ICON_Production] +50%。この効果はその都市にすでに存在する専門区域1つにつき10%減少する。技術「鉄器」を研究すると固有ユニット「ミリトン」が解禁される。</Text>
+      <Text>フライヴから6タイル以内の騎兵以外の陸上戦闘ユニットの移動力 [ICON_Movement] +1。</Text>
     </Row>
     <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_MILITOND_NAME" Language="ja_JP">
       <Text>ミリトン</Text>
@@ -5348,7 +5348,7 @@
       <Text>ミリトン</Text>
     </Row>
     <Row Tag="LOC_UNIT_MER_MILITOND_DESCRIPTION" Language="ja_JP">
-      <Text>剣士を代替するゴート固有の近接戦闘ユニット。[NEWLINE]鉄 [ICON_Resource_Iron] を必要としない。無償 の昇進 [ICON_Promotion] を持つ。区域、および区域の上にいるユニットに対して戦闘力 [ICON_Strength] +5。</Text>
+      <Text>剣士を代替するゴート固有の近接戦闘ユニット。無償 の昇進 [ICON_Promotion] を持つ。区域、および区域の上にいるユニットに対して戦闘力 [ICON_Strength] +5。</Text>
     </Row>
     <Row Tag="LOC_MODIFIER_MER_MILITOND_PROMOTION_NAME" Language="ja_JP">
       <Text>ローマの遺産</Text>
@@ -5381,7 +5381,7 @@
       <Text>ガドラウト</Text>
     </Row>
     <Row Tag="LOC_UNIT_MER_GADRAUHT_DESCRIPTION" Language="ja_JP">
-      <Text>長槍兵を代替するゴート固有の対騎兵ユニット。[NEWLINE]戦闘力がより高く（戦闘力 [ICON_Strength] +3）、生産コストが大幅に低い。戦闘で勝利すると、倒したユニットの基本戦闘力 [ICON_Strength] の50%に等しい文化力 [ICON_Culture] を獲得する。人口 [ICON_Citizen] が2以上の都市でのみ生産可能。生産時、その都市の 人口 [ICON_Citizen] -1。</Text>
+      <Text>長槍兵を代替するゴート固有の対騎兵ユニット。[NEWLINE]戦闘力がより高く（戦闘力 [ICON_Strength] +5）、生産コストが低い。戦闘で勝利すると、倒したユニットの基本戦闘力 [ICON_Strength] の50%に等しい文化力 [ICON_Culture] を獲得する。人口 [ICON_Citizen] が2以上の都市でのみ生産可能。神殿が建設されていない都市で生産すると、その都市の 人口 [ICON_Citizen] -1。無償の昇進を持つ。</Text>
     </Row>
     <Row Tag="LOC_MODIFIER_MER_GADRAUHT_CULTURE_VICTORY_NAME" Language="ja_JP">
       <Text>ドラウティノン</Text>
@@ -5742,7 +5742,7 @@
     <!-- POLAND -->
     <!-- New leader : Stanislaw -->
     <Row Tag="LOC_MOD_JFD_POLAND_STANISLAW_II_DESCRIPTION" Language="ja_JP">
-      <Text>------------------------------------[NEWLINE]指導者 -- スタニスワフ2世[NEWLINE][NEWLINE]能力 - 国民教育委員会[NEWLINE]資源および改善されたタイルは、兵営とその建造物に隣接している場合にボーナス産出量を得る（重複不可）：[NEWLINE]- 区域：食料 [ICON_FOOD] +1 [NEWLINE]- 兵舎と厩舎：文化力 [ICON_Culture] +1 [NEWLINE]- 武器庫：科学力 [ICON_SCIENCE] +1 [NEWLINE]- 士官学校：生産力 [ICON_PRODUCTION] +1。[NEWLINE][NEWLINE]技術「青銅器」のブーストを得た状態でゲームを開始する。技術「鋳造」を研究すると、固有ユニット「ウーラン」が解禁される。[NEWLINE][NEWLINE]ユニット -- ウーラン[NEWLINE]スタニスワフ2世が指導者の時、騎兵に代わるポーランド固有のルネサンス時代のユニット。挟撃時に戦闘ボーナスを獲得する。[NEWLINE][NEWLINE]アジェンダ -- 木曜の夕食会[NEWLINE]文化力 [ICON_CULTURE] の出力が高い文明を好む。できるだけ多くの偉人を登用しようとし、同様にする文明を尊重する。偉人の登用を怠る文明を嫌う。</Text>
+      <Text>------------------------------------[NEWLINE]指導者 -- スタニスワフ2世[NEWLINE][NEWLINE]能力 - 国民教育委員会[NEWLINE]資源および改善されたタイルは、兵営とその建造物に隣接している場合にボーナス産出量を得る（重複不可）：[NEWLINE]- 区域：食料 [ICON_FOOD] +1 [NEWLINE]- 兵舎と厩舎：文化力 [ICON_Culture] +1 [NEWLINE]- 武器庫：科学力 [ICON_SCIENCE] +1 [NEWLINE]- 士官学校：生産力 [ICON_PRODUCTION] +1。[NEWLINE]技術「鋳造」を研究すると、固有ユニット「ウーラン」が解禁される。[NEWLINE][NEWLINE]ユニット -- ウーラン[NEWLINE]スタニスワフ2世が指導者の時、騎兵に代わるポーランド固有のルネサンス時代のユニット。挟撃時に戦闘ボーナスを獲得する。[NEWLINE][NEWLINE]アジェンダ -- 木曜の夕食会[NEWLINE]文化力 [ICON_CULTURE] の出力が高い文明を好む。できるだけ多くの偉人を登用しようとし、同様にする文明を尊重する。偉人の登用を怠る文明を嫌う。</Text>
     </Row>
     <!--LEADER-->
     <Row Tag="LOC_LEADER_JFD_STANISLAW_NAME" Language="ja_JP">
@@ -5753,7 +5753,7 @@
       <Text>国民教育委員会</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_DESCRIPTION" Language="ja_JP">
-      <Text>資源および改善されたタイルは、兵営とその建造物に隣接している場合にボーナス産出量を得る（重複不可）：[NEWLINE]- 区域：食料 [ICON_FOOD] +1 [NEWLINE]- 兵舎と厩舎：文化力 [ICON_Culture] +1 [NEWLINE]- 武器庫：科学力 [ICON_SCIENCE] +1 [NEWLINE]- 士官学校：生産力 [ICON_PRODUCTION] +1。[NEWLINE][NEWLINE]技術「青銅器」のブーストを得た状態でゲームを開始する。技術「鋳造」を研究すると、固有ユニット「ウーラン」が解禁される。</Text>
+      <Text>資源および改善されたタイルは、兵営とその建造物に隣接している場合にボーナス産出量を得る（重複不可）：[NEWLINE]- 区域：食料 [ICON_FOOD] +1 [NEWLINE]- 兵舎と厩舎：文化力 [ICON_Culture] +1 [NEWLINE]- 武器庫：科学力 [ICON_SCIENCE] +1 [NEWLINE]- 士官学校：生産力 [ICON_PRODUCTION] +1。[NEWLINE]技術「鋳造」を研究すると、固有ユニット「ウーラン」が解禁される。</Text>
     </Row>
     <!--Agenda-->
     <Row Tag="LOC_AGENDA_JFD_THURSDAY_DINNERS_NAME" Language="ja_JP">
@@ -5969,13 +5969,13 @@
       <Text>ウーラン</Text>
     </Row>
     <Row Tag="LOC_UNIT_JFD_UHLAN_DESCRIPTION" Language="ja_JP">
-      <Text>スタニスワフ2世が指導者の時、騎兵に代わるポーランド固有のルネサンス時代のユニット。挟撃時に戦闘ボーナスを獲得する。</Text>
+      <Text>スタニスワフ2世が指導者の時に利用可能な、騎兵を代替するポーランド固有のルネサンス時代のユニット。側面攻撃時に戦闘ボーナスを獲得する。</Text>
     </Row>
     <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JFD_UHLAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
       <Text>ウーランは、槍、サーベル、ピストルで武装したポーランドの軽騎兵ユニットであり、18〜19世紀のロシア、プロイセン、オーストリアの軍隊に頻繁に加わりました。リトアニアのタタール人入植者の子孫であり、最初のウーラン連隊は1700年代初頭にポーランド・リトアニア共和国によって創設されました。迅速であり、それまでの騎馬戦で主流だった重苦しい鎧に邪魔されることのないウーランは、偵察、小競り合い、あるいは正面突撃を行うことができるその汎用性とスピードによって、瞬く間に人気を集めました。現在、ウーランの儀礼連隊がポーランド軍に維持されています。</Text>
     </Row>
     <Row Tag="LOC_ABILITY_JFD_UHLAN_FLANKING_BONUS_DESCRIPTION" Language="ja_JP">
-      <Text>挟撃時に戦闘力 +{1_Amount}</Text>
+      <Text>側面攻撃時に戦闘力 +{1_Amount}</Text>
     </Row>
 
     
@@ -6621,7 +6621,7 @@
     </Replace>
 
     <Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_DESCRIPTION" Language="ja_JP">
-      <Text>すべての都市において、山岳タイルがキャンパス区域に通常の隣接ボーナスを追加でもたらす。ランダムに選ばれた技術を1つ獲得する。宇宙開発競争プロジェクトを完了するたびに、ランダムな技術へのひらめきを獲得する。[NEWLINE][NEWLINE]熱帯雨林の上に建設する必要がある。</Text>
+      <Text>すべての都市において、山岳タイルがキャンパス区域に隣接ボーナス+1を追加でもたらす。ランダムに選ばれた技術を1つ獲得する。宇宙開発競争プロジェクトを完了するたびに、ランダムな技術へのひらめきを獲得する。[NEWLINE][NEWLINE]熱帯雨林の上に建設する必要がある。</Text>
     </Replace>
 
     <Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_QUOTE" Language="ja_JP">
@@ -6647,7 +6647,7 @@
       <Text>建物の外装は白い磁器のレンガで造られており、太陽の光を浴びて鏡のように輝いていた。夜になると、塔の上から下まで100個以上の灯籠が吊るされた。この塔は1854年に太平天国の乱で破壊されるまで、南京の中心部にそびえ立っていた。</Text>
     </Row>
     <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_3">
-      <Text></Text>
+      <Text>それが南京の陶塔である。</Text>
     </Row>
     <Row Tag="LOC_RESOURCE_PORCELAIN_NAME">
       <Text>磁器</Text>
