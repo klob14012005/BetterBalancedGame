@@ -75,7 +75,7 @@ INSERT INTO TypeTags (Type, Tag) VALUES ('UNIT_GREAT_DIPLOMAT', 'CLASS_LANDCIVIL
 INSERT INTO GreatPersonClasses  (GreatPersonClassType, Name, UnitType, DistrictType, AvailableInTimeline, GenerateDuplicateIndividuals, IconString, ActionIcon, PseudoYieldType)    
 VALUES ('GREAT_PERSON_CLASS_AUSTRIAN_DIPLOMAT', 'LOC_GREAT_PERSON_CLASS_AUSTRIAN_DIPLOMAT_NAME', 'UNIT_GREAT_DIPLOMAT', 'DISTRICT_CITY_CENTER', 1, 0, '[ICON_GreatMerchant]', 'ICON_UNITOPERATION_MERCHANT_ACTION', 'PSEUDOYIELD_GPP_DIPLOMAT');
 
-UPDATE Eras SET GreatPersonBaseCost='1000000' WHERE EraType='ERA_FUTURE';
+-- UPDATE Eras SET GreatPersonBaseCost='1000000' WHERE EraType='ERA_FUTURE';
 
 INSERT INTO GreatPersonIndividuals(GreatPersonIndividualType, Name, GreatPersonClassType, EraType, Gender, ActionCharges, ActionRequiresOwnedTile, ActionRequiresSuzerainTerritory)
 VALUES 
