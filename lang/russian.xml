@@ -895,7 +895,7 @@
 			<Text>Король Готов и Римлян</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE_DESCRIPTION" Language="ru_RU">
-			<Text>+50% [ICON_Production] к производству районов в завоёванных городах, уменьшается на 10% за каждый уже существующий в городе специализированный район. Получает уникальный юнит Милитонд при изучении Обработки железа.</Text>
+			<Text>Все некавалерийские наземные боевые юниты в пределах 6 клеток от Хлайва получают +1 [icon_movement] ОП.</Text>
 		</Replace>
         <Replace Tag="LOC_TRAIT_CIVILIZATION_MER_GOTHIC_MIGRATION_NAME" Language="ru_RU">
 			<Text>Готское переселение</Text>
@@ -924,7 +924,7 @@
 			<Text>+5 [ICON_Strength] к боевой мощи в готических районах.</Text>
 		</Replace>
         <Replace Tag="LOC_UNIT_MER_MILITOND_DESCRIPTION" Language="ru_RU">
-			<Text>Заменяет мечника.[NEWLINE]Не требует железа. Получает бесплатное [ICON_Promotion] повышение при постройке, покупке или улучшении из более раннего юнита. Получает +5 ед. [ICON_Strength] боевой мощи при сражении в районах.</Text>
+			<Text>Заменяет мечника.[NEWLINE]Получает бесплатное [ICON_Promotion] повышение при постройке, покупке или улучшении из более раннего юнита. Получает +5 ед. [ICON_Strength] боевой мощи при сражении в районах.</Text>
 		</Replace>
 
         <Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_GADRAUHT_NAME" Language="ru_RU">
@@ -934,7 +934,7 @@
 			<Text>Уникальный наземный юнит</Text>
 		</Replace>
         <Replace Tag="LOC_UNIT_MER_GADRAUHT_DESCRIPTION" Language="ru_RU">
-			<Text>Заменяет пикинёра.[NEWLINE]Обладает более высокой боевой мощью (+3 ед. [ICON_Strength]) и значительно дешевле в производстве. Победы в бою приносят [ICON_Culture] культуру, равную 50% от базовой боевой мощи побеждённого юнита. Можно производить только в городах с [ICON_Citizen] населением 2 и более. При создании уменьшает [ICON_Citizen] население города на 1.</Text>
+			<Text>Заменяет пикинёра.[NEWLINE]Обладает более высокой боевой мощью (+5 ед. [ICON_Strength]) и значительно дешевле в производстве. Победы в бою приносят [ICON_Culture] культуру, равную 50% от базовой боевой мощи побеждённого юнита. Можно производить только в городах с [ICON_Citizen] населением 2 и более. При создании уменьшает [ICON_Citizen] население города на 1, если в городе отсутствует Храм.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MER_GADRAUHT_NAME" Language="ru_RU">
 			<Text>Гадраухт</Text>
@@ -1544,7 +1544,7 @@
 			<Text>Национальная комиссия по образованию</Text>
 		</Replace>
          <Replace Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_DESCRIPTION" Language="ru_RU">
-			<Text>Военные лагеря и здания в нем дают дополнительный доход соседним улучшенным клеткам и ресурсам (не суммируется от двух военных лагерей): [NEWLINE][icon_bullet] Военный лагерь: +1 [ICON_FOOD] пищи; [NEWLINE][icon_bullet] Казармы и конюшня: +1 [ICON_Culture] культуры; [NEWLINE][icon_bullet] Оружейная: +1 [ICON_SCIENCE] науки; [NEWLINE][icon_bullet] Военная академия: +1 [ICON_PRODUCTION] производства.[NEWLINE][NEWLINE]Игра начинается с ускорением технологии «Обработка бронзы».[NEWLINE]Получает уникальный юнит Улан при изучении технологии «Литьё».</Text>
+			<Text>Военные лагеря и здания в нем дают дополнительный доход соседним улучшенным клеткам и ресурсам (не суммируется от двух военных лагерей для одной клетки): [NEWLINE][icon_bullet] Военный лагерь: +1 [ICON_FOOD] пищи; [NEWLINE][icon_bullet] Казармы и конюшня: +1 [ICON_Culture] культуры; [NEWLINE][icon_bullet] Оружейная: +1 [ICON_SCIENCE] науки; [NEWLINE][icon_bullet] Военная академия: +1 [ICON_PRODUCTION] производства.[NEWLINE][NEWLINE]Получает уникальный юнит Улан при изучении технологии «Литьё».</Text>
 		</Replace>
         <!-- Unique Unit Ulhan - Улан -->
         <!--UHLAN-->
