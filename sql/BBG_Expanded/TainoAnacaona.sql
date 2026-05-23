@@ -238,6 +238,9 @@ VALUES ('DISTRICT_CVS_TAINO_UI',	'BBG_PRODUCTION_TAINO_COMMERCIAL_HUB'),
 INSERT INTO Adjacency_YieldChanges(ID, Description, YieldType, YieldChange, AdjacentDistrict) VALUES
     ('BBG_PRODUCTION_TAINO_COMMERCIAL_HUB', 'LOC_BBG_PRODUCTION_TAINO_COMMERCIAL_HUB', 'YIELD_PRODUCTION', 2, 'DISTRICT_COMMERCIAL_HUB'),
     ('BBG_PRODUCTION_TAINO_HARBOR', 'LOC_BBG_PRODUCTION_TAINO_HARBOR', 'YIELD_PRODUCTION', 2, 'DISTRICT_HARBOR');
+-- Discount and cost need to be adjusted as a UD (copy from other UD)
+UPDATE Districts SET Cost = 30, CostProgressionParam1 = 35 WHERE Districts.DistrictType = 'DISTRICT_CVS_TAINO_UI';
+
 
 
 -- gives +2 to adjacent theatres as all entertainment complexes
@@ -249,6 +252,8 @@ INSERT INTO Adjacency_YieldChanges(ID, Description, YieldType, YieldChange, Adja
 
 -- UU : reduce cost to match the cost of a scout 
 UPDATE Units SET BaseSightRange=3, BaseMoves=3 WHERE UnitType='UNIT_CVS_TAINO_UU';
+
+
 -- do not disable scout for FFA (foreign trade boost)
 DELETE FROM Modifiers WHERE ModifierId='MODIFIER_CVS_TAINO_UU_DISABLE_SCOUT';
 
