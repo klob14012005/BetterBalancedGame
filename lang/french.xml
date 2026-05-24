@@ -735,6 +735,9 @@
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MER_GOTHIC_MIGRATION_NAME" Language="fr_FR">
 			<Text>Migration des Goths</Text>
 		</Replace>
+        <Replace Tag="LOC_GOTHIC_MIGRATION_POP_GAIN" Language="fr_FR">
+            <Text>Des Goths ont rejoint votre ville : +{1: number #,###.#} [ICON_Citizen] Citoyens!</Text>
+        </Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MER_GOTHIC_MIGRATION_DESCRIPTION" Language="fr_FR">
 			<Text>Fonder ou conquérir une ville pour la première fois octroie +1 [ICON_CITIZEN] Citoyens dans toutes vos villes dans un rayon de 6 cases avec au moins 1 [ICON_HOUSING] Habitation libre.</Text>
 		</Replace>

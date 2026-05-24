@@ -4603,6 +4603,9 @@
 		<Replace Tag="LOC_UNIT_MER_MILITOND_DESCRIPTION" Language="en_US">
 			<Text>Replaces the Swordsman.[NEWLINE]Free [ICON_Promotion] Promotion when trained, purchased, or upgraded from earlier unit. +5 [ICON_Strength] Strength against districts and units on districts.</Text>
 		</Replace>
+        <Replace Tag="LOC_GOTHIC_MIGRATION_POP_GAIN" Language="en_US">
+            <Text>Goths joined your city : +{1: number #,###.#} [ICON_Citizen] Citizen!</Text>
+        </Replace>
 
 		<Replace Tag="LOC_UNIT_MER_GADRAUHT_DESCRIPTION" Language="en_US">
 			<Text>Replaces the Pikeman.[NEWLINE]Higher Strength (+5 [ICON_Strength]) and cheaper to produce. Combat victories grant [ICON_Culture] Culture equal to 50% of defeated unit's base combat strength. Can only be trained in cities with a [ICON_Citizen] Population of 2 of more. -1 [ICON_Citizen] Population in the city when built if the city has no Temple.[NEWLINE]Gain a [ICON_PROMOTION] promotion.</Text>
