@@ -2179,7 +2179,7 @@
 		<Replace Tag="LOC_PROMOTION_GARRISON_DESCRIPTION" Language="de_DE">
 			<Text>+7 [ICON_STRENGTH] Kampfstärke in einem [ICON_DISTRICT] Bezirk oder einer "Festung" und beim Verteidigen gegen [ICON_UNIT] Einheiten, die von einem [ICON_DISTRICT] Bezirk oder einer "Festung" angreifen.</Text>
 		</Replace>
-		<!-- = Arow Storm - Pfeilhagel (L2) = -->
+		<!-- = Arrow Storm - Pfeilhagel (L2) = -->
 		<Replace Tag="LOC_PROMOTION_ARROW_STORM_DESCRIPTION" Language="de_DE">
 			<Text>+7 [ICON_RANGED] Fernkampfstärke beim Angriff.</Text>
 		</Replace>
@@ -4109,7 +4109,7 @@
             <Text>Porzellanturm</Text>
         </Replace>
 		<Replace Tag="LOC_BUILDING_PORCELAIN_TOWER_DESCRIPTION" Language="de_DE">
-			<Text>Ein [ICON_DISTRICT_WONDER] Weltwunder der Renaissance:[NEWLINE][NEWLINE]• Du erhältst 3 Exemplare [ICON_RESOURCE_PORCELAIN] Porzellan, eine exklusive Luxusressource, die 6 [ICON_AMENITIES] Annehmlichkeit bietet.[NEWLINE][NEWLINE]Muss auf einem flachen Ebenen-,Grasland, oder Tundrafeld, angrenzend an ein [ICON_DISTRICT_CITY_CENTER] Stadtzentrum errichtet werden.</Text>
+			<Text>Dieses [ICON_DISTRICT_WONDER] Weltwunder der Renaissance wird nach Erforschung der Technologie "Schießpulver" freigeschaltet:[NEWLINE][NEWLINE]• +3 [ICON_SCIENCE] Wissenschaft.[NEWLINE]• +3 [ICON_HOUSING] Wohnraum.[NEWLINE]• +2 [ICON_GREATSCIENTIST] Großer Wissenschaftler-Punkte pro [ICON_TURN] Runde.[NEWLINE]• Gewährt 3 Exemplare [ICON_RESOURCE_PORCELAIN] Porzellan, eine exklusive Luxusressource, die +6 [ICON_AMENITIES] Annehmlichkeit bietet.[NEWLINE]• +1000 [ICON_TOURISM] Tourismus durch Rockkonzerte.[NEWLINE][NEWLINE]Muss auf einem flachen Ebenen-,Grasland, oder Tundrafeld, angrenzend an ein [ICON_DISTRICT_CITY_CENTER] Stadtzentrum errichtet werden.[NEWLINE][NEWLINE]Grundkosten:[NEWLINE]460 [ICON_PRODUCTION] Produktion (Online-Geschwindigkeit).</Text>
 		</Replace>
 		<!-- = Verbotene Stadt = -->
 		<Replace Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" Language="de_DE">
@@ -4243,14 +4243,14 @@
 		</Replace>
 		<!-- = Amundsen-Scott-Südpolstation = -->
 		<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_DESCRIPTION" Language="de_DE">
-			<Text>Dieses [ICON_DISTRICT_WONDER] Weltwunder des Atomzeitalters wird nach Erforschung der Ausrichtung "Schneller Einsatz" freigeschaltet:[NEWLINE][NEWLINE]• +5 [ICON_GREATSCIENTIST] Großer Wissenschaftler-Punkte pro [ICON_TURN] Runde.[NEWLINE]• +10% [ICON_PRODUCTION] Produktion und +20% [ICON_SCIENCE] Wissenschaft in allen [ICON_DISTRICT_CITY_CENTER] Städten deines Reiches.[NEWLINE]• Wird erhöht auf +20% [ICON_PRODUCTION] Produktion und +40% [ICON_SCIENCE] Wissenschaft in jenen [ICON_DISTRICT_CITY_CENTER] Städten erhöht, in denen es 5 Tundra- oder Tundrahügelfelder im Besitz und im Umkreis von 3 Feldern dieser [ICON_DISTRICT_CITY_CENTER] Städte gibt.[NEWLINE]• +1000 [ICON_TOURISM] Tourismus durch Rockkonzerte.[NEWLINE][NEWLINE]Muss auf einem Tundra-, Tundrahügel-, Schnee- oder Schneehügelfeld, angrenzend an einen [ICON_DISTRICT_CAMPUS] Campus-Bezirk mit einem "Forschungslabor" gebaut werden.[NEWLINE][NEWLINE]Grundkosten:[NEWLINE]870 [ICON_PRODUCTION] Produktion (Online-Geschwindigkeit).</Text>
+			<Text>Dieses [ICON_DISTRICT_WONDER] Weltwunder des Atomzeitalters wird nach Erforschung der Ausrichtung "Schneller Einsatz" freigeschaltet:[NEWLINE][NEWLINE]• +5 [ICON_GREATSCIENTIST] Großer Wissenschaftler-Punkte pro [ICON_TURN] Runde.[NEWLINE]• +10% [ICON_PRODUCTION] Produktion und +20% [ICON_SCIENCE] Wissenschaft in allen [ICON_DISTRICT_CITY_CENTER] Städten deines Reiches.[NEWLINE]• Wird erhöht auf +20% [ICON_PRODUCTION] Produktion und +40% [ICON_SCIENCE] Wissenschaft in jenen [ICON_DISTRICT_CITY_CENTER] Städten erhöht, in denen es 5 Tundra- oder Tundrahügelfelder im Besitz und im Umkreis von 3 Feldern dieser [ICON_DISTRICT_CITY_CENTER] Städte gibt.[NEWLINE]• +1000 [ICON_TOURISM] Tourismus durch Rockkonzerte.[NEWLINE][NEWLINE]Muss auf einem Tundra-, Tundrahügel-, Schnee- oder Schneehügelfeld, angrenzend an einen [ICON_DISTRICT_CAMPUS] Campus-Bezirk mit einem "Forschungslabor" gebaut werden.[NEWLINE][NEWLINE]Grundkosten:[NEWLINE]810 [ICON_PRODUCTION] Produktion (Online-Geschwindigkeit).</Text>
 		</Replace>
 		<!-- = Radioteleskop von Arecibo (BBG-EXP)= -->
 		<Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_NAME" Language="de_DE">
 			<Text>Radioteleskop von Arecibo</Text>
 		</Replace>
 		<Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_DESCRIPTION" Language="de_DE">
-			<Text>Ein [ICON_DISTRICT_WONDER] Weltwunder des Atomzeitalters:[NEWLINE][NEWLINE]• [ICON_DISTRICT_CAMPUS] Campus-Bezirke erhalten von Bergfeldern einen großen statt eines normalen Nachbarschaftsbonus.[NEWLINE]• Gewährt für jedes abgeschlossene Weltraumrennen-Projekt einen [ICON_TECHBOOSTED] Heureka.[NEWLINE][NEWLINE]Muss auf einem Regenwaldfeld errichtet werden.</Text>
+			<Text>Dieses [ICON_DISTRICT_WONDER] Weltwunder des Atomzeitalters wird nach Erforschung der Ausrichtung "Weltraumrennen" freigeschaltet:[NEWLINE][NEWLINE]• +4 [ICON_SCIENCE] Wissenschaft.[NEWLINE]• +2 [ICON_GREATSCIENTIST] Großer Wissenschaftler-Punkte pro [ICON_TURN] Runde.[NEWLINE]• [ICON_DISTRICT_CAMPUS] Campus-Bezirke erhalten von Bergfeldern einen Großer-Nachbarschaftsbonus statt eines Standart-Nachbarschaftsbonus.[NEWLINE]• Gewährt für jedes abgeschlossene "Weltraumrennen-Projekt" ein [ICON_TECHBOOSTED] Heureka.[NEWLINE]• +1000 [ICON_TOURISM] Tourismus durch Rockkonzerte.[NEWLINE][NEWLINE]Muss auf einem Regenwaldfeld errichtet werden.[NEWLINE][NEWLINE]Grundkosten:[NEWLINE]810 [ICON_PRODUCTION] Produktion (Online-Geschwindigkeit).</Text>
 		</Replace>	
 		<Replace Tag="LOC_ARECIBO_MOUNTAINS_SCIENCE" Language="de_DE">
 			<Text>Angrenzende Bergfelder: +{1_num} [ICON_SCIENCE] Wissenschaft (Radioteleskop von Arecibo).</Text>
