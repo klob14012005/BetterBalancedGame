@@ -169,7 +169,7 @@
         
         <!-- AUSTRIA - Австрия-->
         <Replace Tag="LOC_LEADER_MER_MARIA_THERESA_NAME" Language="ru_RU">
-		    <Text>Мария Тереза</Text>
+		    <Text>Мария Терезия</Text>
         </Replace>
         <!--Traits-->
         <Replace Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_NAME" Language="ru_RU">
@@ -185,7 +185,7 @@
 			<Text>Дипломатический брак</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_DESCRIPTION" Language="ru_RU">
-			<Text>[ICON_Governor] Назначенные в города губернаторы приносят +1 ед. [ICON_InfluencePerTurn] влияния за ход и дают +20% к [ICON_Production] производству районов и гражданских юнитов в своём городе. Специализированные районы дают +1 ед. [ICON_Housing] жилья, если район этого типа уже существует в [ICON_Capital] столице.</Text>
+			<Text>[ICON_Governor] Назначенные в города губернаторы приносят +1 ед. [ICON_InfluencePerTurn] влияния за ход и дают +10% к [ICON_Production] производству районов и гражданских юнитов в своём городе (бонус повышается на 5% за каждого назначенного губернатора в вашей империи). Специализированные районы дают +1 ед. [ICON_Housing] жилья, если район этого типа уже существует в [ICON_Capital] столице.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CReplaceNLANDS_DESCRIPTION" Language="ru_RU">
 			<Text>Вы получаете уникального Великого дипломата при строительстве зданий правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
@@ -222,7 +222,7 @@
 			<Text>Кофейный дом</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MER_COFFEE_HOUSE_DESCRIPTION" Language="ru_RU">
-			<Text>Уникальное австрийское здание в развлекательном комплексе, заменяющее зоопарк. Более дешёвое в строительстве (290 против 360) и доступно раньше после изучения социального института «Просвещение». Районы в этом городе дают +1 ед. [ICON_Science] науки и +1 ед. [ICON_Culture] культуры. Даёт +2 ед. [ICON_Amenities] довольства каждому городу в пределах 6 клеток от этого развлекательного комплекса. Имеет 3 ячейки для шедевров  любого типа. Тематический бонус: удваивает эффект при размещении Великих произведений любого типа от разных [ICON_GreatPerson] великих людей.</Text>
+			<Text>Уникальное австрийское здание, заменяющее зоопарк. Более дешёвое в строительстве и доступно раньше после изучения социального института «Просвещение». Районы в этом городе дают +1 ед. [ICON_Science] науки и +1 ед. [ICON_Culture] культуры. Даёт +2 ед. [ICON_Amenities] довольства каждому городу в пределах 6 клеток от этого развлекательного комплекса. Имеет 3 ячейки для шедевров  любого типа. Тематический бонус: удваивает эффект при размещении Великих произведений любого типа от разных [ICON_GreatPerson] великих людей.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_THEMINGBONUS_COFFEEHOUSE" Language="ru_RU">
 			<Text>Тематический бонус: удвоение доходов от шедевров при размещении объектов любого типа от разных великих людей.</Text>
@@ -242,9 +242,6 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_NAME" Language="ru_RU">
 			<Text>Великий Дипломат</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_DESCRIPTION" Language="ru_RU">
-			<Text>Уникальный для Австрии великий человек, получаемый при постройке зданий в правительственной площади. Дипломат может присоединить город-государство, сюзереном которого вы являетесь.</Text>
 		</Replace>
 
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_AUSTRIA_1_NAME" Language="ru_RU">
@@ -884,11 +881,11 @@
 			<Text>Готский</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MER_GOTHIC_MIGRATION_DESCRIPTION" Language="ru_RU">
-			<Text>При основании или первом захвате города все готские города в пределах 6 клеток получают +1 ед. [ICON_Citizen] населения, если в них есть хотя бы 1 свободная единица [ICON_Housing] жилья.[NEWLINE][ICON_BULLET]Привязка: отсутствует.</Text>
+			<Text>При основании или первом захвате города все готские города в пределах 6 клеток получают +1 ед. [ICON_Citizen] населения, если в них есть хотя бы 2 свободных единиц [ICON_Housing] жилья.[NEWLINE][ICON_BULLET]Привязка: отсутствует.</Text>
 		</Replace>
 
         <Replace Tag="LOC_GOTHIC_MIGRATION_POP_GAIN" Language="ru_RU">
-            <Text>Город получает +{1: number #,###.#} [ICON_Citizen] единицу населения!</Text>
+            <Text>Город получает +{1: number #,###.#} [ICON_Citizen] ед. населения!</Text>
         </Replace>
 		<!--Traits-->
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE" Language="ru_RU">
@@ -1913,7 +1910,7 @@
 			<Text>При уничтожении вражеского юнита получает [ICON_Faith] веру, равную половине [ICON_Strength] боевой мощи побеждённого юнита.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CVS_TAINO_UU_DESCRIPTION" Language="ru_RU">
-			<Text>Уникальный разведывательный юнит Таино. Заменяет воина и сохраняет полученные разведывательные [ICON_PROMOTION] повышения при улучшении. При уничтожении вражеского юнита получает [ICON_FAITH] веру, равную половине [ICON_STRENGTH] боевой мощи побеждённого юнита. +1 к перемещению и обзору.</Text>
+			<Text>Уникальный разведывательный юнит Таино. Заменяет воина и сохраняет полученные разведывательные [ICON_PROMOTION] повышения при улучшении. При уничтожении вражеского юнита получает [ICON_FAITH] веру, равную половине [ICON_STRENGTH] боевой мощи побеждённого юнита. +5 к [ICON_Strength] боевой мощи против юнитов с более высокой базовой боевой мощью. +1 к [ICON_Movement] перемещению и обзору.</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BBG_TAINO_THEATRE_CULTURE" Language="ru_RU">
