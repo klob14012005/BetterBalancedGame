@@ -4615,7 +4615,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE_DESCRIPTION" Language="en_US">
-			<Text>[ICON_MOVEMENT] PM +1 for non cavalry land military units in a 6 tiles radius from a Hlaiw.</Text>
+			<Text>+1 [ICON_MOVEMENT] Movement for non cavalry land military units in a 6 tiles radius from a Hlaiw.</Text>
 		</Replace>
 
 		<!-- POLAND -->		
