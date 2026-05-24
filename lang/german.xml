@@ -174,21 +174,24 @@
 			<Text>Die Theresianischen Reformen</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_DESCRIPTION" Language="de_DE">
-			<Text>+1 [ICON_INFLUENCEPERTURN] Einfluss-Punkte pro [ICON_TURN] Runde und +20% [ICON_PRODUCTION] Produktion für den Bau von [ICON_DISTRICT] Bezirken in [ICON_DISTRICT_CITY_CENTER] Städten mit einem etablierten [ICON_GOVERNOR] Gouverneur.[NEWLINE][NEWLINE]+1 [ICON_HOUSING] Wohnraum für [ICON_DISTRICT] jene Spezial-Bezirke in deinen Städten, die bereits in deiner [ICON_CAPITAL] Hauptstadt gebaut wurden.</Text>
+			<Text>+1 [ICON_INFLUENCEPERTURN] Einfluss-Punkte pro [ICON_TURN] Runde und +20% [ICON_PRODUCTION] Produktion für den Bau von [ICON_DISTRICT] Bezirken in [ICON_DISTRICT_CITY_CENTER] Städten mit einem etablierten [ICON_GOVERNOR] Gouverneur.[NEWLINE][NEWLINE]+1 [ICON_HOUSING] Wohnraum für [ICON_DISTRICT] jene Spezial-Bezirke in deinen [ICON_DISTRICT_CITY_CENTER] Städten, die bereits in deiner [ICON_CAPITAL] Hauptstadt gebaut wurden.</Text>
 		</Replace>
         <!-- = Unique unit - Einzigartige Einheit (Grenzer) (BBG-EXP)= --> 
         <Replace Tag="LOC_UNIT_MER_GRENZER_NAME" Language="de_DE">
 			<Text>Grenzer</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MER_GRENZER_DESCRIPTION" Language="de_DE">
-			<Text>Diese Aufklärungs-[ICON_UNIT] Einheit des Industriezeitalters ist einzigartig für Österreich, wird nach Erforschung der Technologie "Drall" freigeschaltet, ersetzt den "Ranger", gewährt dessen Boni und zusätzlich:[NEWLINE][NEWLINE]• +5 Grund-[ICON_STRENGTH] Fernkampfstärke.[NEWLINE]• +5 [ICON_STRENGTH] Kampfstärke in einem Umkreis von 3 Feldern um ein verbündetes Gebiet.[NEWLINE]• Erzeugt eine Kontrollzone.</Text>
+			<Text>Diese Aufklärungs-[ICON_UNIT] Einheit des Industriezeitalters ist einzigartig für Österreich, wird nach Erforschung der Technologie "Drall" freigeschaltet, ersetzt den "Ranger", gewährt dessen Boni und zusätzlich:[NEWLINE][NEWLINE]• +5 Grund-[ICON_Ranged] Fernkampfstärke.[NEWLINE]• +5 [ICON_STRENGTH] Kampfstärke innerhalb von 3 Feldern an den Grenzen deines Reiches.[NEWLINE]• Erzeugt eine Kontrollzone.</Text>
 		</Replace>
         <!-- = Unique unit - Einzigartige Einheit (Großer Diplomat) (BBG-EXP)= --> 
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_AUSTRIAN_DIPLOMAT_NAME" Language="de_DE">
+			<Text>Großer Diplomat</Text>
+		</Replace>
         <Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_NAME" Language="de_DE">
 			<Text>Großer Diplomat</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GREAT_DIPLOMAT_DESCRIPTION" Language="de_DE">
-			<Text>Diese [ICON_GREATPERSON] Große Persönlichkeit ist einzigartig für Österreich und kann einmalig einen deiner Vasallen-Stadtstaaten annektieren.</Text>
+			<Text>Diese [ICON_GREATPERSON] Große Persönlichkeit ist einzigartig für Österreich und kann einmalig einen deiner Vasallen-Stadtstaaten annektieren.[NEWLINE]Erhalte jedesmal einen "Großen Diplomaten", wenn ein [ICON_BUILDINGS] Gebäude im [ICON_DISTRICT_GOVERNMENT] Regierungsplatz-Bezirk gebaut wurde.</Text>
 		</Replace>
         <!-- = Unique building - Einzigartiges Gebäude (Kaffeehaus) (BBG-EXP)= -->
         <Replace Tag="LOC_BUILDING_MER_COFFEE_HOUSE_NAME" Language="de_DE">
@@ -749,21 +752,21 @@
 			<Text>Gothorum Romanorumque</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE_DESCRIPTION" Language="de_DE">
-			<Text>+50% [ICON_PRODUCTION] Produktion für [ICON_DISTRICT] Bezirke in eroberten [ICON_DISTRICT_CITY_CENTER] Städten (-10% pro erbautem [ICON_DISTRICT] Spezial-Bezirk).</Text>
+			<Text>+1 [ICON_MOVEMENT] Bewegung für alle Land-[ICON_UNIT] Einheiten, außer Kavallerie-[ICON_UNIT] Einheiten, im Umkreis von 6 Feldern um einen "Hlaiw".</Text>
 		</Replace>
 		<!-- = Unique unit - Einzigartige Einheit (Militōnd) (BBG-EXP)= -->
 		<Replace Tag="LOC_UNIT_MER_MILITOND_NAME" Language="de_DE">
 			<Text>Militōnd</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MER_MILITOND_DESCRIPTION" Language="de_DE">
-			<Text>Diese Nahkampf-[ICON_UNIT] Einheit der Klassik ist einzigartig für die Goten, wird nach Erforschung der Technologie "Eisenverarbeitung" freigeschaltet, ersetzt den "Schwertkämpfer", gewährt dessen Boni und zusätzlich:[NEWLINE][NEWLINE]• +5 [ICON_STRENGTH] Kampfstärke gegen verteidigungsfähige [ICON_DISTRICT] Bezirke (die [ICON_STRENGTH] Kampfstärke besitzen) und [ICON_UNIT] Einheiten in [ICON_DISTRICT] Bezirken.[NEWLINE]• Erhält eine kostenlose [ICON_PROMOTION] Beförderung nach der Rekrutierung.</Text>
+			<Text>Diese Nahkampf-[ICON_UNIT] Einheit der Klassik ist einzigartig für die Goten, wird nach Erforschung der Technologie "Eisenverarbeitung" freigeschaltet, ersetzt den "Schwertkämpfer", gewährt dessen Boni und zusätzlich:[NEWLINE][NEWLINE]• +5 [ICON_STRENGTH] Kampfstärke gegen verteidigungsfähige [ICON_DISTRICT] Bezirke (die [ICON_STRENGTH] Kampfstärke besitzen) und [ICON_UNIT] Einheiten in [ICON_DISTRICT] Bezirken.[NEWLINE]• Erhält eine kostenlose [ICON_PROMOTION] Beförderung nach der Rekrutierung, dem Kauf oder der Verbesserung einer früheren [ICON_UNIT] Einheit.</Text>
 		</Replace>
 		<!-- = Unique unit - Einzigartige Einheit (Gadrauht) (BBG-EXP)= -->
 		<Replace Tag="LOC_UNIT_MER_GADRAUHT_NAME" Language="de_DE">
 			<Text>Gadrauht</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MER_GADRAUHT_DESCRIPTION" Language="de_DE">
-			<Text>Diese Kavallerie-Abwehr-[ICON_UNIT] Einheit des Mittelalters ist einzigartig für die Goten, wird nach Erforschung der Technologie "MilitärTaktik" freigeschaltet, ersetzt den "Pikenier", gewährt dessen Boni und zusätzlich:[NEWLINE][NEWLINE]• +3 Grund-[ICON_STRENGTH] Kampfstärke.[NEWLINE]• Das Vernichten von [ICON_UNIT] Einheiten gewährt [ICON_CULTURE] Kultur entsprechend 50% der Grund-[ICON_STRENGTH] Kampfstärke der besiegten [ICON_UNIT] Einheit (Online-Geschwindigkeit).[NEWLINE]• Um einen "Gadrauht" rekrutieren zu können, muss eine [ICON_DISTRICT_CITY_CENTER] Stadt mindestens 2 [ICON_CITIZEN] Bürger haben.[NEWLINE]• Wenn eine [ICON_DISTRICT_CITY_CENTER] Stadt einen "Gadrauht" rekrutiert, verliert sie einen [ICON_CITIZEN] Bürger.</Text>
+			<Text>Diese Kavallerie-Abwehr-[ICON_UNIT] Einheit des Mittelalters ist einzigartig für die Goten, wird nach Erforschung der Technologie "MilitärTaktik" freigeschaltet, ersetzt den "Pikenier", gewährt dessen Boni und zusätzlich:[NEWLINE][NEWLINE]• +5 Grund-[ICON_STRENGTH] Kampfstärke.[NEWLINE]• Das Vernichten von [ICON_UNIT] Einheiten gewährt [ICON_CULTURE] Kultur entsprechend 50% der Grund-[ICON_STRENGTH] Kampfstärke der besiegten [ICON_UNIT] Einheit (Online-Geschwindigkeit).[NEWLINE]• Um einen "Gadrauht" rekrutieren zu können, muss eine [ICON_DISTRICT_CITY_CENTER] Stadt mindestens 2 [ICON_CITIZEN] Bürger haben.[NEWLINE]• Wenn eine [ICON_DISTRICT_CITY_CENTER] Stadt einen "Gadrauht" rekrutiert, verliert sie einen [ICON_CITIZEN] Bürger, wenn sie keinen "Tempel" hat.[NEWLINE][NEWLINE]Verringerte [ICON_PRODUCTION] [ICON_GOLD] Grundkosten.</Text>
 		</Replace>
 		<!-- = Unique building - Einzigartiges Gebäude (Hlaiw) (BBG-EXP)= -->
 		<Replace Tag="LOC_BUILDING_MER_HLAIW_NAME" Language="de_DE">
@@ -1432,7 +1435,7 @@
 			<Text>Kommission für nationale Bildung</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_DESCRIPTION" Language="de_DE">
-			<Text>Ressourcen-Felder und verbesserte Felder erhalten zusätzliche Erträge bei Angrenzung an folgende Felder:[NEWLINE]• +1 [ICON_FOOD] Nahrung durch das [ICON_DISTRICT_ENCAMPMENT] Lager-Bezirk.[NEWLINE]• +1 [ICON_CULTURE] Kultur durch die "Kaserne" oder den "Stall".[NEWLINE]• +1 [ICON_SCIENCE] Wissenschaft durch die "Waffenkammer".[NEWLINE]• +1 [ICON_PRODUCTION] Produktion durch die "Militärakademie".[NEWLINE][NEWLINE]Kann die einzigartige [ICON_UNIT] Einheit "Ulan", nach Erforschung der Technologie "Militärwissenschaft" rekrutieren.</Text>
+			<Text>Ressourcen-Felder und verbesserte Felder erhalten zusätzliche Erträge bei Angrenzung an folgende Felder:[NEWLINE]• +1 [ICON_FOOD] Nahrung durch das [ICON_DISTRICT_ENCAMPMENT] Lager-Bezirk.[NEWLINE]• +1 [ICON_CULTURE] Kultur durch die "Kaserne" oder den "Stall".[NEWLINE]• +1 [ICON_SCIENCE] Wissenschaft durch die "Waffenkammer".[NEWLINE]• +1 [ICON_PRODUCTION] Produktion durch die "Militärakademie".[NEWLINE][NEWLINE]Kann die einzigartige [ICON_UNIT] Einheit "Ulan", nach Erforschung der Technologie "Metallguss" rekrutieren.</Text>
 		</Replace>
 		<!-- = Unique unit - Einzigartige Einheit (Flügelhusar) = -->
 		<Replace Tag="LOC_UNIT_POLISH_HUSSAR_EXPANSION2_DESCRIPTION" Language="de_DE">
@@ -1443,7 +1446,7 @@
 			<Text>Ulan</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JFD_UHLAN_DESCRIPTION" Language="de_DE">
-			<Text>Diese Leichte-Kavallerie-[ICON_UNIT] Einheit der Renaissance ist einzigartig für Stanislas II von Polen, wird nach Erforschung der Technologie "Militärwissenschaft" freigeschaltet, ersetzt die "Kavallerie", gewährt deren Boni und zusätzlich:[NEWLINE][NEWLINE]• +1 [ICON_MOVEMENT] Bewegung.[NEWLINE]• Doppelter Flankierbonus.</Text>
+			<Text>Diese Leichte-Kavallerie-[ICON_UNIT] Einheit der Renaissance ist einzigartig für Stanislas II von Polen, wird nach Erforschung der Technologie "Metallguss" freigeschaltet, ersetzt die "Kavallerie", gewährt deren Boni und zusätzlich:[NEWLINE][NEWLINE]• +1 [ICON_MOVEMENT] Bewegung.[NEWLINE]• Doppelter Flankierbonus.</Text>
 		</Replace>
 		<!-- = Unique building - Einzigartiges Gebäude (Sukiennice) = -->
 		<Replace Tag="LOC_BUILDING_SUKIENNICE_EXPANSION1_DESCRIPTION" Language="de_DE">
@@ -1733,7 +1736,7 @@
 			<Text>Guatiao</Text>
 		</Replace>
         <Replace Tag="LOC_TRAIT_CIVILIZATION_CVS_TAINO_UA_DESCRIPTION" Language="de_DE">
-			<Text>Politik-Karten für [ICON_GreatPerson] Große Persönlichkeiten sorgen in [ICON_DISTRICT_CITY_CENTER] Städten mit einem [ICON_DISTRICT] Bezirk, der dem jeweiligen Typ der [ICON_GreatPerson] Großen Persönlichkeit entspricht, für +3 [ICON_FOOD] Nahrung pro (ICON_TURN] Runde. Diplomatische Politik-Karten sorgen in [ICON_DISTRICT_CITY_CENTER] Städten mit einem [ICON_DISTRICT_ENTERTAINMENT] "Batéy"-Bezirk für +1 [ICON_AMENITIES] Annehmlichkeit.</Text>
+			<Text>Politik-Karten für [ICON_GreatPerson] Große Persönlichkeiten sorgen in [ICON_DISTRICT_CITY_CENTER] Städten mit einem [ICON_DISTRICT] Bezirk, der dem jeweiligen Typ der [ICON_GreatPerson] Großen Persönlichkeit entspricht, für +3 [ICON_FOOD] Nahrung pro [ICON_TURN] Runde.[NEWLINE][NEWLINE]Diplomatische Politik-Karten sorgen in [ICON_DISTRICT_CITY_CENTER] Städten mit einem [ICON_DISTRICT_ENTERTAINMENT] "Batéy"-Bezirk für +1 [ICON_AMENITIES] Annehmlichkeit.</Text>
 		</Replace>
 		<!-- = Leader ability - Führerfähigkeit (Anacaona - Goldene Blume) (BBG-EXP) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_CVS_ANACAONA_NAME" Language="de_DE">
@@ -1749,12 +1752,12 @@
 		<Replace Tag="LOC_UNIT_CVS_TAINO_UU_DESCRIPTION" Language="de_DE">
 			<Text>Diese Aufklärungs-[ICON_UNIT] Einheit der Antike ist einzigartig für Taíno, ab der ersten [ICON_TURN] Runde rekrutierbar, ersetzt den "Krieger", gewährt dessen Boni und zusätzlich:[NEWLINE][NEWLINE]• +1 [ICON_MOVEMENT] Bewegung.[NEWLINE]• +1 [ICON_VisSecret] Sicht.[NEWLINE]• Behält nach der Verbesserung seine Aufklärungs-[ICON_PROMOTION] Beförderungen.[NEWLINE]• Das Vernichten von [ICON_UNIT] Einheiten gewährt [ICON_FAITH] Glauben entsprechend 50% der Grund-[ICON_STRENGTH] Kampfstärke der besiegten [ICON_UNIT] Einheit (Online-Geschwindigkeit).</Text>
 		</Replace>
-		<!-- = Unique district - Einzigartiger Bezirk (Batey) (BBG-EXP) = -->
+		<!-- = Unique district - Einzigartiger Bezirk (Batéy) (BBG-EXP) = -->
 		<Replace Tag="LOC_DISTRICT_CVS_TAINO_UI_NAME" Language="de_DE">
-			<Text>Batey</Text>
+			<Text>Batéy</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CVS_TAINO_UI_DESCRIPTION" Language="de_DE">
-			<Text>Dieser [ICON_DISTRICT_ENTERTAINMENT] "Batey"-Bezirk der Klassik ist einzigartig für Taíno, wird nach Erforschung der Ausrichtung "Spiele und Erholung" freigeschaltet, ersetzt den [ICON_DISTRICT_ENTERTAINMENT] Unterhaltungskomplex-Bezirk, gewährt dessen Boni und zusätzlich:[NEWLINE][NEWLINE]• +1 [ICON_AMENITIES] Annehmlichkeit für jedes [ICON_BUILDINGS] Gebäude im [ICON_DISTRICT_ENTERTAINMENT] "Batey"-Bezirk.[NEWLINE]• +2 [ICON_PRODUCTION] Produktion für angrenzende [ICON_DISTRICT_COMMERCIAL_HUB] Handelszentrum-Bezirke und [ICON_DISTRICT_HARBOR] Hafen-Bezirke.[NEWLINE]• Schaltet das "Areyto"-Projekt frei, das während der Durchführung 15% der [ICON_PRODUCTION] Produktion in [ICON_FAITH] Glauben umwandelt, sowie [ICON_GreatPerson] Große Persönlichkeits-Punkte von [ICON_GREATWRITER] Großer Schriftsteller, [ICON_GREATARTIST] Großer Künstler und [ICON_GREATMUSICIAN] Großer Musiker nach Abschluss des Projekts gewährt.</Text>
+			<Text>Dieser [ICON_DISTRICT_ENTERTAINMENT] "Batéy"-Bezirk der Klassik ist einzigartig für Taíno, wird nach Erforschung der Ausrichtung "Spiele und Erholung" freigeschaltet, ersetzt den [ICON_DISTRICT_ENTERTAINMENT] Unterhaltungskomplex-Bezirk, gewährt dessen Boni und zusätzlich:[NEWLINE][NEWLINE]• +1 [ICON_AMENITIES] Annehmlichkeit für jedes [ICON_BUILDINGS] Gebäude im [ICON_DISTRICT_ENTERTAINMENT] "Batéy"-Bezirk.[NEWLINE]• +2 [ICON_PRODUCTION] Produktion für angrenzende [ICON_DISTRICT_COMMERCIAL_HUB] Handelszentrum-Bezirke und [ICON_DISTRICT_HARBOR] Hafen-Bezirke.[NEWLINE]• Schaltet das "Areyto"-Projekt frei, das während der Durchführung 15% der [ICON_PRODUCTION] Produktion in [ICON_FAITH] Glauben umwandelt, sowie [ICON_GreatPerson] Große Persönlichkeits-Punkte von [ICON_GREATWRITER] Großer Schriftsteller, [ICON_GREATARTIST] Großer Künstler und [ICON_GREATMUSICIAN] Großer Musiker nach Abschluss des Projekts gewährt.</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_PRODUCTION_TAINO_HARBOR" Language="de_DE">
 			<Text>Angrenzende [ICON_DISTRICT_HARBOR] Hafen-Bezirke: +{1_num} [ICON_PRODUCTION] Produktion.</Text>
@@ -1763,13 +1766,13 @@
 			<Text>Angrenzende [ICON_DISTRICT_COMMERCIAL_HUB] Handelszentrum-Bezirke: +{1_num} [ICON_PRODUCTION] Produktion.</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_TAINO_THEATRE_CULTURE" Language="de_DE">
-			<Text>Angrenzende [ICON_DISTRICT_ENTERTAINMENT] "Batey"-Bezirke: +{1_num} [ICON_CULTURE] Kultur.</Text>
+			<Text>Angrenzende [ICON_DISTRICT_ENTERTAINMENT] "Batéy"-Bezirke: +{1_num} [ICON_CULTURE] Kultur.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_CVS_TAINO_UP_NAME" Language="de_DE">
 			<Text>Areyto</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_CVS_TAINO_UP_DESCRIPTION" Language="de_DE">
-			<Text>Das einzigartiges "Areyto"-Projekt der Taíno, ist nur im [ICON_DISTRICT_ENTERTAINMENT] "Batey"-Bezirk verfügbar und wandelt während der Durchführung 15% der [ICON_PRODUCTION] Produktion in [ICON_FAITH] Glauben um und gewährt [ICON_GreatPerson] Große Persönlichkeits-Punkte von [ICON_GREATWRITER] Großer Schriftsteller, [ICON_GREATARTIST] Großer Künstler und [ICON_GREATMUSICIAN] Großer Musiker nach Abschluss des Projekts.</Text>
+			<Text>Das einzigartiges "Areyto"-Projekt der Taíno, ist nur im [ICON_DISTRICT_ENTERTAINMENT] "Batéy"-Bezirk verfügbar und wandelt während der Durchführung 15% der [ICON_PRODUCTION] Produktion in [ICON_FAITH] Glauben um und gewährt [ICON_GreatPerson] Große Persönlichkeits-Punkte von [ICON_GREATWRITER] Großer Schriftsteller, [ICON_GREATARTIST] Großer Künstler und [ICON_GREATMUSICIAN] Großer Musiker nach Abschluss des Projekts.</Text>
 		</Replace>
 		<!-- = Unique improvement - Einzigartige Verbesserung (Conuco) (BBG-EXP) = -->
 		<Replace Tag="LOC_IMPROVEMENT_CVS_ANACAONA_UI_NAME" Language="de_DE">
@@ -4076,7 +4079,7 @@
             <Text>Porzellanturm</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_PORCELAIN_TOWER_DESCRIPTION" Language="de_DE">
-            <Text>Ein [ICON_DISTRICT_WONDER] Weltwunder der Renaissance:[NEWLINE][NEWLINE]• Du erhältst 3 Einheiten [ICON_RESOURCE_PORCELAIN] Porzellan, eine exklusive Luxusressource, die 6 [ICON_AMENITIES] Annehmlichkeit bietet.[NEWLINE][NEWLINE]Muss auf einem flachen Ebenen-,Grasland, oder Tundrafeld, angrenzend an ein [ICON_DISTRICT_CITY_CENTER] Stadtzentrum errichtet werden.</Text>
+            <Text>Ein [ICON_DISTRICT_WONDER] Weltwunder der Renaissance:[NEWLINE][NEWLINE]• Du erhältst 3 Exemplare [ICON_RESOURCE_PORCELAIN] Porzellan, eine exklusive Luxusressource, die 6 [ICON_AMENITIES] Annehmlichkeit bietet.[NEWLINE][NEWLINE]Muss auf einem flachen Ebenen-,Grasland, oder Tundrafeld, angrenzend an ein [ICON_DISTRICT_CITY_CENTER] Stadtzentrum errichtet werden.</Text>
         </Replace>
 		<!-- = Verbotene Stadt = -->
 		<Replace Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" Language="de_DE">
