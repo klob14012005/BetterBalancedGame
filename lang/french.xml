@@ -739,7 +739,7 @@
             <Text>Des Goths ont rejoint votre ville : +{1: number #,###.#} [ICON_Citizen] Citoyens!</Text>
         </Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MER_GOTHIC_MIGRATION_DESCRIPTION" Language="fr_FR">
-			<Text>Fonder ou conquérir une ville pour la première fois octroie +1 [ICON_CITIZEN] Citoyens dans toutes vos villes dans un rayon de 6 cases avec au moins 1 [ICON_HOUSING] Habitation libre.</Text>
+			<Text>Fonder ou conquérir une ville pour la première fois octroie +1 [ICON_CITIZEN] Citoyens dans toutes vos villes dans un rayon de 6 cases avec au moins 2 [ICON_HOUSING] Habitations libres.</Text>
 		</Replace>
 		<!-- = Leader - Dirigeant = --> <!-- BBG expanded -->
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE" Language="fr_FR">
@@ -1729,7 +1729,7 @@
 			<Text>Macana</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CVS_TAINO_UU_DESCRIPTION" Language="fr_FR">
-			<Text>Unité unique de reconnaissance de l'ère antique exclusive aux Taïnos, remplaçant le Guerrier.[NEWLINE][NEWLINE][ICON_MOVEMENT] PM +1 et Vision +1.[NEWLINE][NEWLINE]Garde ses [ICON_PROMOTION] promotions de reconnaissance à l'amélioration.[NEWLINE][NEWLINE]Tuer une unité rapporte 50% de sa [ICON_STRENGTH] Puissance de combat de base en [ICON_FAITH] Foi (vitesse en ligne).</Text>
+			<Text>Unité unique de reconnaissance de l'ère antique exclusive aux Taïnos, remplaçant le Guerrier.[NEWLINE][NEWLINE][ICON_MOVEMENT] PM +1 et Vision +1.[NEWLINE][ICON_STRENGTH] Puissance de base -5. [ICON_STRENGTH] Puissance de combat +5 contre les unités militaires plus puissantes.[NEWLINE][NEWLINE]Garde ses [ICON_PROMOTION] promotions de reconnaissance à l'amélioration.[NEWLINE][NEWLINE]Tuer une unité rapporte 50% de sa [ICON_STRENGTH] Puissance de combat de base en [ICON_FAITH] Foi (vitesse en ligne).</Text>
 		</Replace>
 		<!-- = Unique district - Quartier unique = --> <!-- BBG expanded -->
 		<Replace Tag="LOC_DISTRICT_CVS_TAINO_UI_NAME" Language="fr_FR">
