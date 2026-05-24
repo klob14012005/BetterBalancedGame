@@ -55,6 +55,10 @@ DELETE FROM Modifiers WHERE ModifierId IN ('MODIFIER_MER_THEODORIC_DISTRICT_BONU
 INSERT INTO Unit_BuildingPrereqs (Unit, PrereqBuilding) VALUES
 ('UNIT_WARRIOR_MONK', 'BUILDING_MER_HLAIW');
 
+-- UB correctly gives 0.25 not 0.5 per pop
+UPDATE ModifierArguments SET Value = '0.25' WHERE ModifierId = 'MER_HLAIW_FAITH_PER_POP' AND Name = 'Amount';
+UPDATE ModifierArguments SET Value = '0.25' WHERE ModifierId = 'MER_HLAIW_CULTURE_PER_POP' AND Name = 'Amount';
+
 -- new UB effect : gives +1 movement for land non cav military units in a 6 tiles radius
 INSERT INTO Requirements (RequirementId, RequirementType) VALUES
 ('BBG_REQUIREMENT_UNIT_IS_NON_CAVALRY_MET', 'REQUIREMENT_REQUIREMENTSET_IS_MET');

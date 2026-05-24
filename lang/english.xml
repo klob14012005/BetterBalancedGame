@@ -4540,7 +4540,7 @@
 			<Text>Diplomatic Marriage</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_DESCRIPTION" Language="en_US">
-			<Text>Established [ICON_Governor] Governors provide : [NEWLINE][ICON_BULLET]+1 [ICON_InfluencePerTurn] Influence point per turn[NEWLINE][ICON_BULLET]+10% [ICON_Production] Production towards districts and civilian units[NEWLINE][ICON_BULLET]5% additional [ICON_Production] Production toward districts and civilian units for each governor you have established.[NEWLINE][NEWLINE]Specialty districts provide +1 [ICON_Housing] Housing when a District of that type already exists in the [ICON_Capital] Capital.</Text>
+			<Text>Established [ICON_Governor] Governors provides : [NEWLINE][ICON_BULLET]+1 [ICON_InfluencePerTurn] Influence point per turn[NEWLINE][ICON_BULLET]+20% [ICON_Production] Production towards districts[NEWLINE][ICON_BULLET]+20% [ICON_Production] Production towards units[NEWLINE][NEWLINE]Specialty districts provide +1 [ICON_Housing] Housing when a District of that type already exists in the [ICON_Capital] Capital.</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_DESCRIPTION" Language="en_US">
