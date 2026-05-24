@@ -881,7 +881,7 @@
 			<Text>Готский</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MER_GOTHIC_MIGRATION_DESCRIPTION" Language="ru_RU">
-			<Text>При основании или первом захвате города все готские города в пределах 6 клеток получают +1 ед. [ICON_Citizen] населения, если в них есть хотя бы 2 свободных единиц [ICON_Housing] жилья.[NEWLINE][ICON_BULLET]Привязка: отсутствует.</Text>
+			<Text>При основании или первом захвате города все готские города в пределах 6 клеток получают +1 ед. [ICON_Citizen] населения, если в них есть хотя бы 2 свободные единиц [ICON_Housing] жилья.[NEWLINE][ICON_BULLET]Привязка: отсутствует.</Text>
 		</Replace>
 
         <Replace Tag="LOC_GOTHIC_MIGRATION_POP_GAIN" Language="ru_RU">
