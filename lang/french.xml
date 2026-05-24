@@ -166,7 +166,7 @@
 			<Text>Theresian Reforms</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_DESCRIPTION" Language="fr_FR">
-			<Text>Points [ICON_INFLUENCEPERTURN] d'influence par tour +1 et [ICON_PRODUCTION] Production +20% pour les quartiers dans les villes possédant un [ICON_GOVERNOR] gouverneur.[NEWLINE][NEWLINE]Les quartiers spécialisés fournissent +1 [ICON_HOUSING] d'Habitations si un exemplaire est construit dans la [ICON_CAPITAL] Capitale.</Text>
+			<Text>Points [ICON_INFLUENCEPERTURN] d'influence par tour +1, [ICON_PRODUCTION] Production +20% pour les quartiers et les unités civiles dans les villes possédant un [ICON_GOVERNOR] gouverneur.[NEWLINE][NEWLINE]Les quartiers spécialisés fournissent +1 [ICON_HOUSING] d'Habitations si un exemplaire est construit dans la [ICON_CAPITAL] Capitale.</Text>
 		</Replace>
         <!-- = Unique unit - Unité unique = --> <!-- BBG expanded -->
         <Replace Tag="LOC_UNIT_MER_GRENZER_NAME" Language="fr_FR">
@@ -187,7 +187,7 @@
 			<Text>Café</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MER_COFFEE_HOUSE_DESCRIPTION" Language="fr_FR">
-			<Text>Bâtiment exclusif à l'Autriche, remplaçant le Zoo, débloqué aux [COLOR:212,115,212,255]Lumières[ENDCOLOR]. [ICON_SCIENCE] Science +1 et [ICON_CULTURE] Culture +1 pour chaque [ICON_DISTRICT] quartier spécialisé. [ICON_AMENITIES] Activités +2 pour les villes dans un rayon de 6 cases. Bonus [ICON_THEMEBONUS_ACTIVE] thématique quand les chefs-d'œuvre proviennent de [ICON_GREATPERSON] Personnages illustres différents.</Text>
+			<Text>Bâtiment exclusif à l'Autriche, remplaçant le Zoo, débloqué aux [COLOR:212,115,212,255]Lumières[ENDCOLOR]. [ICON_SCIENCE] Science +1 et [ICON_CULTURE] Culture +1 pour chaque [ICON_DISTRICT] quartier spécialisé de la ville. [ICON_AMENITIES] Activités +2 pour les villes dans un rayon de 6 cases. Bonus [ICON_THEMEBONUS_ACTIVE] thématique quand les chefs-d'œuvre proviennent de [ICON_GREATPERSON] Personnages illustres différents.</Text>
 		</Replace>
 
 		<!-- == AZTECS - AZTÈQUES == -->
@@ -743,21 +743,21 @@
 			<Text>Gothorum Romanorumque</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE_DESCRIPTION" Language="fr_FR">
-			<Text>[ICON_PRODUCTION] Production +50% pour les [ICON_DISTRICT] quartiers dans les villes conquises (-10% par [ICON_DISTRICT] quartier spécialisé construit).</Text>
+			<Text>[ICON_MOVEMENT] PM +1 pour les unités militaire terrestre hors cavalerie dans un rayon de 6 cases d'un Hlaiw.</Text>
 		</Replace>
 		<!-- = Unique unit - Unité unique = --> <!-- BBG expanded -->
 		<Replace Tag="LOC_UNIT_MER_MILITOND_NAME" Language="fr_FR">
 			<Text>Militōnd</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MER_MILITOND_DESCRIPTION" Language="fr_FR">
-			<Text>Unité de combat rapproché de l'ère classique exclusive à Théodoric le Grand, remplaçant le Spadassin.[NEWLINE][NEWLINE][ICON_STRENGTH] Puissance de combat +5 contre les quartiers et les unités dans un quartiers. Gagne une [ICON_PROMOTION] promotion gratuite.[NEWLINE]Ne nécessite pas de [ICON_RESOURCE_IRON] Fer.</Text>
+			<Text>Unité de combat rapproché de l'ère classique exclusive à Théodoric le Grand, remplaçant le Spadassin.[NEWLINE][NEWLINE][ICON_STRENGTH] Puissance de combat +5 contre les quartiers et les unités dans un quartiers. Gagne une [ICON_PROMOTION] promotion gratuite.</Text>
 		</Replace>
 		<!-- = Unique unit - Unité unique = --> <!-- BBG expanded -->
 		<Replace Tag="LOC_UNIT_MER_GADRAUHT_NAME" Language="fr_FR">
 			<Text>Gadrauht</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MER_GADRAUHT_DESCRIPTION" Language="fr_FR">
-			<Text>Unité d'anti-cavalerie de l'ère médiévale excluvie aux Goths, remplaçant le Piquier.[NEWLINE][NEWLINE][ICON_STRENGTH] Puissance de combat de base +3. Tuer une unité rapporte 50% de sa [ICON_STRENGTH] Puissance de combat de base en [ICON_CULTURE] Culture (vitesse en ligne). Pour former un Gadrauht, une ville doit avoir au moins 2 [ICON_CITIZEN] Citoyens. Former un Gadrauht fait perdre 1 [ICON_CITIZEN] Citoyen.</Text>
+			<Text>Unité d'anti-cavalerie de l'ère médiévale excluvie aux Goths, remplaçant le Piquier.[NEWLINE][NEWLINE][ICON_STRENGTH] Puissance de combat de base +5. Tuer une unité rapporte 50% de sa [ICON_STRENGTH] Puissance de combat de base en [ICON_CULTURE] Culture (vitesse en ligne). Pour former un Gadrauht, une ville doit avoir au moins 2 [ICON_CITIZEN] Citoyens. Former un Gadrauht fait perdre 1 [ICON_CITIZEN] Citoyen si la ville ne possède pas de Temple.[NEWLINE]Gagne une [ICON_PROMOTION] promotion gratuite.</Text>
 		</Replace>
 		<!-- = Unique building - Bâtiment unique = --> <!-- BBG expanded -->
 		<Replace Tag="LOC_BUILDING_MER_HLAIW_NAME" Language="fr_FR">
@@ -1417,7 +1417,7 @@
 			<Text>Commission de l'éducation nationale</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_DESCRIPTION" Language="fr_FR">
-			<Text>Les cases de ressources et/ou aménagées reçoivent des rendements supplémentaires si elles sont adjacentes à un Campement et ses bâtiments :[NEWLINE] • Campement : [ICON_FOOD] nourriture +1.[NEWLINE] • Caserne/Écurie : [ICON_CULTURE] Culture +1.[NEWLINE] • Armurerie : [ICON_SCIENCE] Science +1.[NEWLINE] • École militaire : [ICON_PRODUCTION] Production +1.[NEWLINE][NEWLINE]Commencez la partie avec un [ICON_TECHBOOSTED] Eurêka pour le [COLOR_FLOAT_SCIENCE]Travail du Bronze[ENDCOLOR].</Text>
+			<Text>Les cases de ressources et/ou aménagées reçoivent des rendements supplémentaires si elles sont adjacentes à un Campement et ses bâtiments :[NEWLINE] • Campement : [ICON_FOOD] nourriture +1.[NEWLINE] • Caserne/Écurie : [ICON_CULTURE] Culture +1.[NEWLINE] • Armurerie : [ICON_SCIENCE] Science +1.[NEWLINE] • École militaire : [ICON_PRODUCTION] Production +1.</Text>
 		</Replace>
 		<!-- = Unique unit (Winged hussar) - Unité unique (Hussard ailé) = -->
 		<Replace Tag="LOC_UNIT_POLISH_HUSSAR_EXPANSION2_DESCRIPTION" Language="fr_FR">
@@ -1428,7 +1428,7 @@
 			<Text>Uhlan</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JFD_UHLAN_DESCRIPTION" Language="fr_FR">
-			<Text>Unité de cavalerie légère de la Renaissance exclusive à Stanislas II, remplaçant la Cavalerie.[NEWLINE][NEWLINE][ICON_MOVEMENT] PM de base +1.[NEWLINE][NEWLINE]Bonus de contournement doublé.</Text>
+			<Text>Unité de cavalerie légère de la Renaissance exclusive à Stanislas II, remplaçant la Cavalerie.[NEWLINE][NEWLINE]Bonus de contournement doublé.</Text>
 		</Replace>
 		<!-- = Unique building - Bâtiment unique = -->
 		<Replace Tag="LOC_BUILDING_SUKIENNICE_EXPANSION1_DESCRIPTION" Language="fr_FR">
@@ -3972,7 +3972,7 @@
 			<Text>Radiotélescope d'Arecibo</Text>
 		</Replace>
 		<Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_DESCRIPTION" Language="fr_FR"> <!-- BBG expanded -->
-			<Text>Merveille de l'ère atomique.[NEWLINE][NEWLINE]Les Campus reçoivent un bonus de proximité majeur, plutôt que standard, de la part des cases de montagnes.[NEWLINE]Octroie un [ICON_TECHBOOSTED] Eurêka pour chaque projet de course à l'espace complété.[NEWLINE][NEWLINE]Doit être construit sur une case de forêt tropicale.</Text>
+			<Text>Merveille de l'ère atomique.[NEWLINE][NEWLINE]Les Campus reçoivent un bonus de proximité majeur, plutôt que standard, de la part des cases de montagnes.[NEWLINE]Octroie un [ICON_TECHBOOSTED] Eurêka pour chaque projet de course à l'espace complété.[NEWLINE]Octroie 1 technologie gratuite choisies au hasard à sa complétion.[NEWLINE][NEWLINE]Doit être construit sur une case de forêt tropicale.</Text>
 		</Replace>	
 		<Replace Tag="LOC_ARECIBO_MOUNTAINS_SCIENCE" Language="fr_FR"> <!-- BBG expanded -->
 			<Text>Case de montagnes adjacentes : [ICON_SCIENCE] Science +{1_num} (Radiotélescope d'Arecibo).</Text>
