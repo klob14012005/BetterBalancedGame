@@ -23,10 +23,10 @@ local tTraitPlayers = C15_GetValidTraitPlayers(sTrait)
 function BBG_Gothic_Pop(playerID, cityID)
     if tTraitPlayers[playerID] then
 
-        local iRadius = 6
+        local iRadius = 5
         local sGothPop = "LOC_GOTHIC_MIGRATION_POP_GAIN"
         
-        print ("BBG_Gothic_Pop working!")
+        -- print ("BBG_Gothic_Pop working!")
         local pPlayer = Players[playerID]
         local pPlayerCities = pPlayer:GetCities()
         local pCity = pPlayerCities:FindID(cityID)
@@ -37,7 +37,7 @@ function BBG_Gothic_Pop(playerID, cityID)
             local CityCheck = Game:GetProperty(playerID .. oX .. "_" .. oY)
 
             if CityCheck ~= nil then
-                print ("already migrated from this city")
+                -- print ("already migrated from this city")
             else
                 for i, otherCity in pPlayerCities:Members() do
                     if otherCity == pCity then

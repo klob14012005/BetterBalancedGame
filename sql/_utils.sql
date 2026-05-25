@@ -22,7 +22,7 @@ INSERT INTO Requirements(RequirementId , RequirementType)
     SELECT 'BBG_DISTRICT_IS_' || DistrictType || '_REQUIREMENT', 'REQUIREMENT_DISTRICT_TYPE_MATCHES' FROM Districts;
 INSERT INTO RequirementArguments(RequirementId , Name, Value)
     SELECT 'BBG_DISTRICT_IS_' || DistrictType || '_REQUIREMENT', 'DistrictType', DistrictType FROM Districts;
-    
+
 -- Create requirements for each technology
 INSERT INTO RequirementSets(RequirementSetId, RequirementSetType)
     SELECT 'BBG_UTILS_PLAYER_HAS_' || TechnologyType, 'REQUIREMENTSET_TEST_ALL' FROM Technologies;
