@@ -2,8 +2,8 @@
 -- =                       POLAND - STANISLAW                             =
 -- ========================================================================
 
--- adjust unit to fit cavalry in bbg (BaseMoves=5, Cost=310) 
-UPDATE Units SET BaseMoves=5, Cost=310 WHERE UnitType = 'UNIT_JFD_UHLAN';
+-- adjust unit to fit other unique cavalry in bbg (BaseMoves=5, Cost=310) 
+UPDATE Units SET BaseMoves=5, Cost=330 WHERE UnitType = 'UNIT_JFD_UHLAN';
 -- flanking bonus to 50% from 100%
 -- UPDATE ModifierArguments SET Value=50 WHERE ModifierId='JFD_UHLAN_FLANKING_BONUS' AND Name='Percent';
 
@@ -81,9 +81,9 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 ('TRAIT_LEADER_JFD_NATIONAL_EDUCATION', 'BBG_ENCAMPMENT_ADJACENT_PRODUCTION_MILITARY_ACADEMY');
 
 -- Start with Bronze Working Boost
-INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
-    ('BBG_FREE_BRONZE_WORKING_BOOST', 'MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST');					
-INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
-    ('BBG_FREE_BRONZE_WORKING_BOOST', 'TechType', 'TECH_BRONZE_WORKING');
-INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
-    ('TRAIT_LEADER_JFD_NATIONAL_EDUCATION', 'BBG_FREE_BRONZE_WORKING_BOOST');
+-- INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
+--     ('BBG_FREE_BRONZE_WORKING_BOOST', 'MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST');					
+-- INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+--     ('BBG_FREE_BRONZE_WORKING_BOOST', 'TechType', 'TECH_BRONZE_WORKING');
+-- INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
+--     ('TRAIT_LEADER_JFD_NATIONAL_EDUCATION', 'BBG_FREE_BRONZE_WORKING_BOOST');
